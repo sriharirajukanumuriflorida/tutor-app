@@ -3,7 +3,7 @@ FROM python:3.11-slim
 RUN apt-get update && apt-get install -y wget libgomp1
 
 # Install Piper
-RUN wget https://github.com/rhasspy/piper/releases/download/v1.2.0/piper_linux_x86_64.tar.gz \
+RUN wget https://github.com/rhasspy/piper/releases/download/2023.11.14-2/piper_linux_x86_64.tar.gz \
     && tar xf piper_linux_x86_64.tar.gz -C /usr/local/bin --strip-components=1 \
     && rm piper_linux_x86_64.tar.gz
 
