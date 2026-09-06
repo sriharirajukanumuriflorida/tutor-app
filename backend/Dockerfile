@@ -14,8 +14,7 @@ RUN mkdir -p /app/voices && \
     wget -O /app/voices/en_US-lessac-medium.onnx.json \
     https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx.json
 
-COPY . /app/backend
+COPY backend/ /app/backend
 WORKDIR /app/backend
-RUN pip install -r backend/requirements.txt
-
+RUN pip install -r requirements.txt
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
