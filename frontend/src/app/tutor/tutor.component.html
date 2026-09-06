@@ -1,0 +1,36 @@
+<div class="tutor-container">
+  <div class="avatar" [class.listening]="state === 'listening'" [class.speaking]="state === 'speaking'">
+    <div class="avatar-emoji">😊</div>
+  </div>
+
+  <div class="display-area">
+    <div class="display-text">{{ displayText }}</div>
+    <div class="user-text" *ngIf="userText">You said: {{ userText }}</div>
+  </div>
+
+  <div class="subject-pills" *ngIf="!subject">
+    <button class="pill math-pill" (click)="selectSubject('math')">
+      🧮 Math
+    </button>
+    <button class="pill english-pill" (click)="selectSubject('english')">
+      📚 English
+    </button>
+  </div>
+
+  <div class="subject-display" *ngIf="subject">
+    <div class="selected-subject">Learning: {{ subject }}</div>
+  </div>
+
+  <button class="mic-button" [class.active]="state === 'listening'" (click)="onMicClick()" [disabled]="state !== 'idle'">
+    <span class="mic-icon">🎤</span>
+  </button>
+
+  <div class="status-bar">
+    <span class="status" [ngSwitch]="state">
+      <span *ngSwitchCase="'listening'">Listening...</span>
+      <span *ngSwitchCase="'thinking'">Processing...</span>
+      <span *ngSwitchCase="'speaking'">Speaking...</span>
+      <span *ngSwitchDefault>Ready to talk</span>
+    </span>
+  </div>
+</div>

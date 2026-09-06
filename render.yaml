@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: tutor-app-api
+    runtime: docker
+    plan: free
+    dockerfile: ./backend/Dockerfile
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_KEY
+        sync: false
