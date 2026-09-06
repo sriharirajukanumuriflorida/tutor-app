@@ -5,7 +5,7 @@ client = Groq()
 
 def chat(messages: list[dict]) -> str:
     resp = client.chat.completions.create(
-        model="llama-3.1-8b-instant",
+        model="groq/compound-mini",
         messages=[{"role": "system", "content": SYSTEM_PROMPT}] + messages,
         max_tokens=200,
         temperature=0.7,
