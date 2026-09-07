@@ -1,14 +1,21 @@
 from google.cloud import texttospeech
 
-client = texttospeech.TextToSpeechClient()
+_client = None
+
+def _get_client():
+    global _client
+    if _client is None:
+        _client = texttospeech.TextToSpeechClient()
+    return _client
 
 def synthesize(text: str) -> bytes:
+    client = _get_client()
     # Wrap in SSML to support breaks and pauses
     ssml_text = f"<speak>{text}</speak>"
     synthesis_input = texttospeech.SynthesisInput(ssml=ssml_text)
     voice = texttospeech.VoiceSelectionParams(
         language_code="en-US",
-        name="en-US-Neural2-C",  # Friendly female voice, good for kids
+        name="en-US-Neural2-C",
         ssml_gender=texttospeech.SsmlVoiceGender.FEMALE,
     )
     audio_config = texttospeech.AudioConfig(
