@@ -49,7 +49,7 @@ export class TutorComponent implements OnInit, OnDestroy {
   }
 
   private startListening() {
-    console.log('[TUTOR] Starting to listen...');
+    console.log('[TUTOR] startListening() called at', new Date().toISOString());
     if (this.speechSubscription) {
       console.log('[TUTOR] Cleaning up previous speech subscription');
       this.speechSubscription.unsubscribe();
@@ -58,22 +58,25 @@ export class TutorComponent implements OnInit, OnDestroy {
     this.state = 'listening';
     this.userText = '';
     this.displayText = 'Listening...';
+    console.log('[TUTOR] State changed to: listening, UI should show "Listening..."');
 
     this.speechSubscription = this.speech.startListening().subscribe({
       next: (transcript: string) => {
-        console.log('[TUTOR] Got transcript:', transcript);
+        console.log('[TUTOR] next() - Got transcript:', transcript, 'at', new Date().toISOString());
         this.userText = transcript;
         this.onUserSpoke(transcript);
       },
       error: (err) => {
-        console.error('[TUTOR] Speech error:', err);
+        console.error('[TUTOR] error() - Speech error:', err, 'at', new Date().toISOString());
         this.state = 'idle';
         this.displayText = 'Sorry, I didn\'t catch that. Try again!';
+        this.cdr.detectChanges();
       },
       complete: () => {
-        console.log('[TUTOR] Speech subscription completed');
+        console.log('[TUTOR] complete() - Speech subscription completed at', new Date().toISOString());
       }
     });
+    console.log('[TUTOR] Speech subscription created');
   }
 
   private onUserSpoke(transcript: string) {
