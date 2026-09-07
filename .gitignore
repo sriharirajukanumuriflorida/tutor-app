@@ -10,3 +10,4 @@ __pycache__/
 *.wav
 .pytest_cache/
 venv/
+.venv/
