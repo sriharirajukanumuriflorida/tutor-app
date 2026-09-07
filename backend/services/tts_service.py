@@ -1,16 +1,21 @@
-import subprocess
-import tempfile
-import pathlib
+from google.cloud import texttospeech
 
-VOICE = "/app/voices/en_US-lessac-medium.onnx"
+client = texttospeech.TextToSpeechClient()
 
 def synthesize(text: str) -> bytes:
-    with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as f:
-        out = f.name
-    subprocess.run(
-        ["piper", "--model", VOICE, "--output_file", out],
-        input=text.encode(),
-        check=True,
-        capture_output=True,
+    # Wrap in SSML to support breaks and pauses
+    ssml_text = f"<speak>{text}</speak>"
+    synthesis_input = texttospeech.SynthesisInput(ssml=ssml_text)
+    voice = texttospeech.VoiceSelectionParams(
+        language_code="en-US",
+        name="en-US-Neural2-C",  # Friendly female voice, good for kids
+        ssml_gender=texttospeech.SsmlVoiceGender.FEMALE,
     )
-    return pathlib.Path(out).read_bytes()
+    audio_config = texttospeech.AudioConfig(
+        audio_encoding=texttospeech.AudioEncoding.LINEAR16,
+        sample_rate_hertz=22050,
+    )
+    response = client.synthesize_speech(
+        input=synthesis_input, voice=voice, audio_config=audio_config
+    )
+    return response.audio_content
