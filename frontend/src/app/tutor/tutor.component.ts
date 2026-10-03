@@ -62,7 +62,7 @@ export class TutorComponent implements OnInit, OnDestroy {
     this.recorder.start().then(() => {
       // auto-stop after 8s — enough for a child's answer
       this.recordingTimer = setTimeout(() => this.stopRecording(), 8000);
-    }).catch(err => {
+    }).catch((err: any) => {
       console.error('[TUTOR] Recording start error:', err);
       this.state = 'idle';
       this.displayText = 'Could not access microphone. Try typing instead!';
