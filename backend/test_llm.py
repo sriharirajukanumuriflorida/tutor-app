@@ -3,9 +3,9 @@ import os
 import sys
 from services.llm import chat
 
-# Test if GROQ_API_KEY is set
-if not os.environ.get("GROQ_API_KEY"):
-    print("ERROR: GROQ_API_KEY not set")
+# Test if LLM_API_KEY or ANTHROPIC_API_KEY is set
+if not os.environ.get("LLM_API_KEY") and not os.environ.get("ANTHROPIC_API_KEY"):
+    print("ERROR: LLM_API_KEY or ANTHROPIC_API_KEY not set")
     sys.exit(1)
 
 # Test a simple prompt

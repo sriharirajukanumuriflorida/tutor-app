@@ -1,13 +1,20 @@
-from groq import Groq
+import os
+from pathlib import Path
+from dotenv import load_dotenv
+import anthropic
 from prompt import SYSTEM_PROMPT
 
-client = Groq()
+load_dotenv(Path(__file__).parent.parent.parent / ".env", override=True)
+api_key = os.getenv("LLM_API_KEY", os.getenv("ANTHROPIC_API_KEY"))
+model = os.getenv("LLM_PROVIDER", "claude-haiku-4-5")
+
+client = anthropic.Anthropic(api_key=api_key)
 
 def chat(messages: list[dict]) -> str:
-    resp = client.chat.completions.create(
-        model="groq/compound-mini",
-        messages=[{"role": "system", "content": SYSTEM_PROMPT}] + messages,
+    resp = client.messages.create(
+        model=model,
         max_tokens=200,
-        temperature=0.7,
+        system=SYSTEM_PROMPT,
+        messages=messages,
     )
-    return resp.choices[0].message.content
+    return resp.content[0].text

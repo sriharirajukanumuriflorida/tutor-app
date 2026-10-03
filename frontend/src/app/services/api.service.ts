@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 @Injectable({ providedIn: 'root' })
 export class ApiService {
@@ -17,6 +18,14 @@ export class ApiService {
   tts(text: string): Observable<Blob> {
     console.log('[API] Calling /tts with text length:', text.length);
     return this.http.post(`${this.baseUrl}/tts`, { text }, { responseType: 'blob' });
+  }
+
+  transcribe(audioBlob: Blob): Observable<string> {
+    const form = new FormData();
+    form.append('audio', audioBlob, 'recording.wav');
+    return this.http.post<{ transcript: string }>(`${this.baseUrl}/transcribe`, form).pipe(
+      map(r => r.transcript)
+    );
   }
 
   getProgress(sessionId: string): Observable<any> {

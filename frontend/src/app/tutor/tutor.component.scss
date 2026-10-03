@@ -171,3 +171,50 @@
   padding: 5px 15px;
   border-radius: 20px;
 }
+
+.text-fallback {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  max-width: 340px;
+  margin-bottom: 16px;
+
+  input {
+    flex: 1;
+    padding: 12px 14px;
+    font-size: 16px; // 16px prevents iOS zoom-on-focus
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    outline: none;
+
+    &:focus { border-color: #FF6B6B; }
+    &:disabled { opacity: 0.6; }
+  }
+
+  button {
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #FF6B6B;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+
+    &:disabled { opacity: 0.5; cursor: not-allowed; }
+  }
+}
+
+.error-detail {
+  width: 100%;
+  max-width: 340px;
+  margin-bottom: 16px;
+  padding: 10px 14px;
+  font-family: monospace;
+  font-size: 13px;
+  color: #fff;
+  background: #C0392B;
+  border-radius: 10px;
+  word-break: break-word;
+  text-align: center;
+}

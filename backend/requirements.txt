@@ -1,7 +1,9 @@
 fastapi==0.104.1
 uvicorn==0.24.0
-groq==0.4.1
+anthropic
 supabase==2.4.2
 pydantic==2.5.0
 python-dotenv==1.0.0
 google-cloud-texttospeech==2.14.1
+google-cloud-speech
+python-multipart

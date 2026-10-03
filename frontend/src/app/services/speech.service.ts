@@ -52,7 +52,12 @@ export class SpeechService {
       recognition.onerror = (event: any) => {
         clearTimeout(timeout);
         console.error('[SPEECH] onerror - Error type:', event.error, 'at', new Date().toISOString());
-        observer.error(new Error(`Speech error: ${event.error}`));
+        // ponytail: no-speech means silence, not an error — complete so tutor resets quietly
+        if (event.error === 'no-speech') {
+          observer.complete();
+        } else {
+          observer.error(new Error(`Speech error: ${event.error}`));
+        }
       };
 
       recognition.onend = () => {

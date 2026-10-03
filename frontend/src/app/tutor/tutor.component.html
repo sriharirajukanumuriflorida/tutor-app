@@ -21,9 +21,25 @@
     <div class="selected-subject">Learning: {{ subject }}</div>
   </div>
 
-  <button class="mic-button" [class.active]="state === 'listening'" (click)="onMicClick()" [disabled]="state !== 'idle'">
-    <span class="mic-icon">🎤</span>
+  <button class="mic-button"
+          [class.active]="state === 'listening'"
+          (click)="onMicClick()"
+          [disabled]="state === 'thinking' || state === 'speaking'">
+    <span class="mic-icon">{{ state === 'listening' && !speechSupported ? '⏹️' : '🎤' }}</span>
   </button>
+
+  <div class="text-fallback">
+    <input
+      type="text"
+      [(ngModel)]="typedText"
+      (keyup.enter)="submitTyped()"
+      placeholder="Or type here..."
+      [disabled]="state !== 'idle'"
+      aria-label="Type your answer">
+    <button (click)="submitTyped()" [disabled]="state !== 'idle' || !typedText.trim()">Send</button>
+  </div>
+
+  <div class="error-detail" *ngIf="errorDetail" (click)="errorDetail = ''">{{ errorDetail }} (tap to dismiss)</div>
 
   <div class="status-bar">
     <span class="status" [ngSwitch]="state">
