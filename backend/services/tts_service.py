@@ -14,8 +14,7 @@ def _clean(text: str) -> str:
     text = _MARKDOWN.sub("", text)
     return re.sub(r"[ \t]+", " ", text).strip()
 
-# Rachel — warm, friendly female voice, great for kids
-_VOICE_ID = "21m00Tcm4TlvDq8ikWAM"
+_VOICE_ID = "BlgEcC0TfWpBak7FmvHW"
 
 def synthesize(text: str) -> bytes:
     api_key = os.environ["ELEVENLABS_API_KEY"]
