@@ -1,0 +1,17 @@
+.learn { width: 100%; max-width: 640px; background: #fff; color: #234; border-radius: 18px; padding: 16px; margin-bottom: 20px; font-family: Arial, sans-serif; }
+.top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; font-weight: 600; flex-wrap: wrap; gap: 6px; }
+.links { display: flex; gap: 10px; flex-wrap: wrap; }
+h2 { margin: 6px 0; }
+.prompt { font-size: 1.5rem; line-height: 1.4; margin: 10px 0; }
+.intro { font-size: 1.15rem; background: #fff7d6; padding: 12px; border-radius: 12px; }
+.note { color: #567; }
+.feedback { font-size: 1.2rem; padding: 12px; border-radius: 12px; background: #ffe9e0; }
+.feedback.good { background: #dff5e3; }
+.row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-top: 12px; }
+.go { font-size: 1.2rem; padding: 12px 24px; border-radius: 14px; border: 0; background: #2a7de1; color: #fff; cursor: pointer; }
+.go:disabled { opacity: 0.5; }
+.link { min-height: 44px; padding: 0 6px; background: none; border: 0; color: #2a7de1; font-size: 0.95rem; cursor: pointer; text-decoration: underline; }
+.link:disabled { opacity: 0.5; }
+.error { background: #fde0e0; padding: 10px; border-radius: 10px; margin-bottom: 10px; cursor: pointer; }
+.bar { height: 22px; background: #e5e9ee; border-radius: 11px; overflow: hidden; }
+.fill { height: 100%; background: #f5b400; }

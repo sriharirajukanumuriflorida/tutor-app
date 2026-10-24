@@ -1,0 +1,2121 @@
+[
+  {
+    "id": "ct-ck",
+    "grade": 1,
+    "category": "consonant_tricks",
+    "title": "Ck after a short vowel",
+    "trick": "Short vowel in the word? End it with ck, like duck.",
+    "explain": "Say duck. The u is short, like umbrella. Duck ends with ck. Sock and back do too. Ck says k. A word never starts with ck.",
+    "examples": [
+      "duck",
+      "back",
+      "sock",
+      "stick",
+      "truck"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "vt-short-vowels"
+    ],
+    "i_can": "I can use ck at the end of short vowel words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a bird that says quack.",
+        "answer": "duck",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled duck right! It is d, u, c, k. Remember this trick: Short vowel in the word? End it with ck, like duck.",
+        "if_wrong": "Good try! duck is spelled d, u, c, k. Remember this trick: Short vowel in the word? End it with ck, like duck. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word sock.",
+        "answer": "sock",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled sock right! It is s, o, c, k. Remember this trick: Short vowel in the word? End it with ck, like duck.",
+        "if_wrong": "Good try! sock is spelled s, o, c, k. Remember this trick: Short vowel in the word? End it with ck, like duck. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word truck.",
+        "answer": "truck",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled truck right! It is t, r, u, c, k. Remember this trick: Short vowel in the word? End it with ck, like duck.",
+        "if_wrong": "Good try! truck is spelled t, r, u, c, k. Remember this trick: Short vowel in the word? End it with ck, like duck. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Can a word start with ck? Yes or no?",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer": "no",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, no! You are right. Remember this trick: Short vowel in the word? End it with ck, like duck.",
+        "if_wrong": "Nice try! The answer is no. Remember this trick: Short vowel in the word? End it with ck, like duck. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the thing that tells time and goes tick tock.",
+        "answer": "clock",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled clock right! It is c, l, o, c, k. Remember this trick: Short vowel in the word? End it with ck, like duck.",
+        "if_wrong": "Good try! clock is spelled c, l, o, c, k. Remember this trick: Short vowel in the word? End it with ck, like duck. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the opposite of front. It ends with ck.",
+        "answer": "back",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled back right! It is b, a, c, k. Remember this trick: Short vowel in the word? End it with ck, like duck.",
+        "if_wrong": "Good try! back is spelled b, a, c, k. Remember this trick: Short vowel in the word? End it with ck, like duck. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "ct-c-or-k",
+    "grade": 1,
+    "category": "consonant_tricks",
+    "title": "Spelling the k sound: c or k",
+    "trick": "Use c before a, o and u. Use k before e and i.",
+    "explain": "Cat, cot and cup start with c. Keep and kit start with k. Look at the letter that comes next.",
+    "examples": [
+      "cat, cot, cup",
+      "keep, kit, king"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "vt-short-vowels"
+    ],
+    "i_can": "I can choose c or k at the start of a word.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the word kit start with c or k?",
+        "options": [
+          "c",
+          "k"
+        ],
+        "answer": "k",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, k! You are right. Remember this trick: Use c before a, o and u. Use k before e and i.",
+        "if_wrong": "Nice try! The answer is k. Remember this trick: Use c before a, o and u. Use k before e and i. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the word cup start with c or k?",
+        "options": [
+          "c",
+          "k"
+        ],
+        "answer": "c",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, c! You are right. Remember this trick: Use c before a, o and u. Use k before e and i.",
+        "if_wrong": "Nice try! The answer is c. Remember this trick: Use c before a, o and u. Use k before e and i. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word keep.",
+        "answer": "keep",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled keep right! It is k, e, e, p. Remember this trick: Use c before a, o and u. Use k before e and i.",
+        "if_wrong": "Good try! keep is spelled k, e, e, p. Remember this trick: Use c before a, o and u. Use k before e and i. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a pet that says meow.",
+        "answer": "cat",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled cat right! It is c, a, t. Remember this trick: Use c before a, o and u. Use k before e and i.",
+        "if_wrong": "Good try! cat is spelled c, a, t. Remember this trick: Use c before a, o and u. Use k before e and i. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "ct-soft-c",
+    "grade": 1,
+    "category": "consonant_tricks",
+    "title": "Soft c",
+    "trick": "C says s before e, i and y.",
+    "explain": "Cat starts with a c that says k. But in city, ice and face, the c says s. Look at the next letter. If it is e, i or y, the c says s.",
+    "examples": [
+      "city",
+      "ice",
+      "face",
+      "circle",
+      "pencil"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "ct-c-or-k"
+    ],
+    "i_can": "I can tell when c says s.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the c in cat say k or s?",
+        "options": [
+          "k",
+          "s"
+        ],
+        "answer": "k",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, k! You are right. Remember this trick: C says s before e, i and y.",
+        "if_wrong": "Nice try! The answer is k. Remember this trick: C says s before e, i and y. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the c in city say k or s?",
+        "options": [
+          "k",
+          "s"
+        ],
+        "answer": "s",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, s! You are right. Remember this trick: C says s before e, i and y.",
+        "if_wrong": "Nice try! The answer is s. Remember this trick: C says s before e, i and y. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for frozen water.",
+        "answer": "ice",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled ice right! It is i, c, e. Remember this trick: C says s before e, i and y.",
+        "if_wrong": "Good try! ice is spelled i, c, e. Remember this trick: C says s before e, i and y. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a shape that is round.",
+        "answer": "circle",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled circle right! It is c, i, r, c, l, e. Remember this trick: C says s before e, i and y.",
+        "if_wrong": "Good try! circle is spelled c, i, r, c, l, e. Remember this trick: C says s before e, i and y. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the place where many people live and buildings are tall.",
+        "answer": "city",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled city right! It is c, i, t, y. Remember this trick: C says s before e, i and y.",
+        "if_wrong": "Good try! city is spelled c, i, t, y. Remember this trick: C says s before e, i and y. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "ct-soft-g",
+    "grade": 2,
+    "category": "consonant_tricks",
+    "title": "Soft g",
+    "trick": "G can say j before e, i and y. But not always!",
+    "explain": "Giant, gem and gym have a g that says j. Go has a g that says g. Some words do not follow the trick, like get and give.",
+    "examples": [
+      "gem",
+      "giant",
+      "gym",
+      "cage",
+      "giraffe"
+    ],
+    "exceptions": [
+      "get, give, girl and gift keep the hard g."
+    ],
+    "prereqs": [
+      "ct-soft-c"
+    ],
+    "i_can": "I can tell when g says j.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the g in giant say g or j?",
+        "options": [
+          "g",
+          "j"
+        ],
+        "answer": "j",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, j! You are right. Remember this trick: G can say j before e, i and y. But not always!",
+        "if_wrong": "Nice try! The answer is j. Remember this trick: G can say j before e, i and y. But not always! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the g in go say g or j?",
+        "options": [
+          "g",
+          "j"
+        ],
+        "answer": "g",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, g! You are right. Remember this trick: G can say j before e, i and y. But not always!",
+        "if_wrong": "Nice try! The answer is g. Remember this trick: G can say j before e, i and y. But not always! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a very big person in a fairy tale.",
+        "answer": "giant",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled giant right! It is g, i, a, n, t. Remember this trick: G can say j before e, i and y. But not always!",
+        "if_wrong": "Good try! giant is spelled g, i, a, n, t. Remember this trick: G can say j before e, i and y. But not always! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "The word give has g before i. Does g say g or j in give?",
+        "options": [
+          "g",
+          "j"
+        ],
+        "answer": "g",
+        "accept": [],
+        "level": 4,
+        "if_right": "Yes, g! You are right. Remember this trick: G can say j before e, i and y. But not always!",
+        "if_wrong": "Nice try! The answer is g. Remember this trick: G can say j before e, i and y. But not always! Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "ct-tch",
+    "grade": 1,
+    "category": "consonant_tricks",
+    "title": "Tch after a short vowel",
+    "trick": "Short vowel in the word? End it with tch, like catch.",
+    "explain": "Say catch. The a is short, like apple. Catch ends with tch. It says ch. The t is quiet. Match and pitch work too. Lunch is different. It has n before ch.",
+    "examples": [
+      "catch",
+      "match",
+      "pitch",
+      "witch",
+      "lunch"
+    ],
+    "exceptions": [
+      "Which, much, such, rich and touch break the rule."
+    ],
+    "prereqs": [
+      "ct-ck",
+      "ct-digraphs"
+    ],
+    "i_can": "I can use tch at the end of short vowel words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word that you do with a ball.",
+        "answer": "catch",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled catch right! It is c, a, t, c, h. Remember this trick: Short vowel in the word? End it with tch, like catch.",
+        "if_wrong": "Good try! catch is spelled c, a, t, c, h. Remember this trick: Short vowel in the word? End it with tch, like catch. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word match.",
+        "answer": "match",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled match right! It is m, a, t, c, h. Remember this trick: Short vowel in the word? End it with tch, like catch.",
+        "if_wrong": "Good try! match is spelled m, a, t, c, h. Remember this trick: Short vowel in the word? End it with tch, like catch. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does lunch use ch or tch?",
+        "options": [
+          "ch",
+          "tch"
+        ],
+        "answer": "ch",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, ch! You are right. Remember this trick: Short vowel in the word? End it with tch, like catch.",
+        "if_wrong": "Nice try! The answer is ch. Remember this trick: Short vowel in the word? End it with tch, like catch. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word is sneaky and does not use tch: itch or much?",
+        "options": [
+          "itch",
+          "much"
+        ],
+        "answer": "much",
+        "accept": [],
+        "level": 4,
+        "if_right": "Yes, much! You are right. Remember this trick: Short vowel in the word? End it with tch, like catch.",
+        "if_wrong": "Nice try! The answer is much. Remember this trick: Short vowel in the word? End it with tch, like catch. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the lady in a scary story who flies on a broom. It starts with w.",
+        "answer": "witch",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled witch right! It is w, i, t, c, h. Remember this trick: Short vowel in the word? End it with tch, like catch.",
+        "if_wrong": "Good try! witch is spelled w, i, t, c, h. Remember this trick: Short vowel in the word? End it with tch, like catch. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that means to throw a ball. It rhymes with rich.",
+        "answer": "pitch",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled pitch right! It is p, i, t, c, h. Remember this trick: Short vowel in the word? End it with tch, like catch.",
+        "if_wrong": "Good try! pitch is spelled p, i, t, c, h. Remember this trick: Short vowel in the word? End it with tch, like catch. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "ct-dge",
+    "grade": 2,
+    "category": "consonant_tricks",
+    "title": "Dge and ge",
+    "trick": "Short vowel? Use dge, like badge. Vowel says its name? Use ge, like cage.",
+    "explain": "Badge has a short a, like apple. It ends with dge. Cage has an a that says its name, ay. It ends with ge. Both end with the j sound.",
+    "examples": [
+      "badge, edge, fudge",
+      "cage, page, large"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "ct-tch",
+      "ct-soft-g"
+    ],
+    "i_can": "I can choose dge or ge at the end of a word.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the word badge end with dge or ge?",
+        "options": [
+          "dge",
+          "ge"
+        ],
+        "answer": "dge",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, dge! You are right. Remember this trick: Short vowel? Use dge, like badge. Vowel says its name? Use ge, like cage.",
+        "if_wrong": "Nice try! The answer is dge. Remember this trick: Short vowel? Use dge, like badge. Vowel says its name? Use ge, like cage. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the word cage end with dge or ge?",
+        "options": [
+          "dge",
+          "ge"
+        ],
+        "answer": "ge",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, ge! You are right. Remember this trick: Short vowel? Use dge, like badge. Vowel says its name? Use ge, like cage.",
+        "if_wrong": "Nice try! The answer is ge. Remember this trick: Short vowel? Use dge, like badge. Vowel says its name? Use ge, like cage. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word fudge.",
+        "answer": "fudge",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled fudge right! It is f, u, d, g, e. Remember this trick: Short vowel? Use dge, like badge. Vowel says its name? Use ge, like cage.",
+        "if_wrong": "Good try! fudge is spelled f, u, d, g, e. Remember this trick: Short vowel? Use dge, like badge. Vowel says its name? Use ge, like cage. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word large.",
+        "answer": "large",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled large right! It is l, a, r, g, e. Remember this trick: Short vowel? Use dge, like badge. Vowel says its name? Use ge, like cage.",
+        "if_wrong": "Good try! large is spelled l, a, r, g, e. Remember this trick: Short vowel? Use dge, like badge. Vowel says its name? Use ge, like cage. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "ct-digraphs",
+    "grade": 1,
+    "category": "consonant_tricks",
+    "title": "Digraphs: sh, ch, th, wh",
+    "trick": "Two letters hold hands and make one new sound.",
+    "explain": "S and h make sh, like ship. C and h make ch, like chip. T and h make th, like thin. W and h make wh, like whale.",
+    "examples": [
+      "ship, fish",
+      "chip, much",
+      "thin, bath",
+      "whale, when"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can read and spell sh, ch, th and wh words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word that swims in the water and starts with sh.",
+        "answer": "shark",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled shark right! It is s, h, a, r, k. Remember this trick: Two letters hold hands and make one new sound.",
+        "if_wrong": "Good try! shark is spelled s, h, a, r, k. Remember this trick: Two letters hold hands and make one new sound. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word chin.",
+        "answer": "chin",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled chin right! It is c, h, i, n. Remember this trick: Two letters hold hands and make one new sound.",
+        "if_wrong": "Good try! chin is spelled c, h, i, n. Remember this trick: Two letters hold hands and make one new sound. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word whale.",
+        "answer": "whale",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled whale right! It is w, h, a, l, e. Remember this trick: Two letters hold hands and make one new sound.",
+        "if_wrong": "Good try! whale is spelled w, h, a, l, e. Remember this trick: Two letters hold hands and make one new sound. Let us try one more."
+      },
+      {
+        "type": "count",
+        "prompt": "How many sounds are in the word bath?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "accept": [
+          "three"
+        ],
+        "level": 3,
+        "if_right": "Yes, three! You are right. Remember this trick: Two letters hold hands and make one new sound.",
+        "if_wrong": "Nice try! The answer is three. Remember this trick: Two letters hold hands and make one new sound. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the thing you sit on at a table. It starts with ch.",
+        "answer": "chair",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled chair right! It is c, h, a, i, r. Remember this trick: Two letters hold hands and make one new sound.",
+        "if_wrong": "Good try! chair is spelled c, h, a, i, r. Remember this trick: Two letters hold hands and make one new sound. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the number after two. It starts with th.",
+        "answer": "three",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled three right! It is t, h, r, e, e. Remember this trick: Two letters hold hands and make one new sound.",
+        "if_wrong": "Good try! three is spelled t, h, r, e, e. Remember this trick: Two letters hold hands and make one new sound. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "ct-th-two-sounds",
+    "grade": 1,
+    "category": "consonant_tricks",
+    "title": "The two sounds of th",
+    "trick": "Th can whisper or buzz. Touch your throat to feel it!",
+    "explain": "Put your hand on your throat. Say the word thin. It is a quiet whisper. Now say the word this. Your throat buzzes! Th has two sounds.",
+    "examples": [
+      "thin, thumb, bath",
+      "this, that, mother"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "ct-digraphs"
+    ],
+    "i_can": "I can tell the quiet th from the buzzing th.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the th in thumb whisper or buzz?",
+        "options": [
+          "whisper",
+          "buzz"
+        ],
+        "answer": "whisper",
+        "accept": [
+          "quiet"
+        ],
+        "level": 1,
+        "if_right": "Yes, whisper! You are right. Remember this trick: Th can whisper or buzz. Touch your throat to feel it!",
+        "if_wrong": "Nice try! The answer is whisper. Remember this trick: Th can whisper or buzz. Touch your throat to feel it! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the th in this whisper or buzz?",
+        "options": [
+          "whisper",
+          "buzz"
+        ],
+        "answer": "buzz",
+        "accept": [
+          "buzzes"
+        ],
+        "level": 1,
+        "if_right": "Yes, buzz! You are right. Remember this trick: Th can whisper or buzz. Touch your throat to feel it!",
+        "if_wrong": "Nice try! The answer is buzz. Remember this trick: Th can whisper or buzz. Touch your throat to feel it! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the th in mother whisper or buzz?",
+        "options": [
+          "whisper",
+          "buzz"
+        ],
+        "answer": "buzz",
+        "accept": [
+          "buzzes"
+        ],
+        "level": 2,
+        "if_right": "Yes, buzz! You are right. Remember this trick: Th can whisper or buzz. Touch your throat to feel it!",
+        "if_wrong": "Nice try! The answer is buzz. Remember this trick: Th can whisper or buzz. Touch your throat to feel it! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that is the opposite of fat.",
+        "answer": "thin",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled thin right! It is t, h, i, n. Remember this trick: Th can whisper or buzz. Touch your throat to feel it!",
+        "if_wrong": "Good try! thin is spelled t, h, i, n. Remember this trick: Th can whisper or buzz. Touch your throat to feel it! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "ct-ph",
+    "grade": 2,
+    "category": "consonant_tricks",
+    "title": "Ph says f",
+    "trick": "P and h together say f. Phone, not fone!",
+    "explain": "Ph says f. You can hear it in phone, elephant and photo. Some words use ph instead of f.",
+    "examples": [
+      "phone",
+      "elephant",
+      "photo",
+      "dolphin"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "ct-digraphs"
+    ],
+    "i_can": "I can read and spell ph words.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does ph say p or f?",
+        "options": [
+          "p",
+          "f"
+        ],
+        "answer": "f",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, f! You are right. Remember this trick: P and h together say f. Phone, not fone!",
+        "if_wrong": "Nice try! The answer is f. Remember this trick: P and h together say f. Phone, not fone! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a big animal with a trunk.",
+        "answer": "elephant",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled elephant right! It is e, l, e, p, h, a, n, t. Remember this trick: P and h together say f. Phone, not fone!",
+        "if_wrong": "Good try! elephant is spelled e, l, e, p, h, a, n, t. Remember this trick: P and h together say f. Phone, not fone! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word you call people with.",
+        "answer": "phone",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled phone right! It is p, h, o, n, e. Remember this trick: P and h together say f. Phone, not fone!",
+        "if_wrong": "Good try! phone is spelled p, h, o, n, e. Remember this trick: P and h together say f. Phone, not fone! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word dolphin.",
+        "answer": "dolphin",
+        "accept": [],
+        "level": 4,
+        "if_right": "Yes! You spelled dolphin right! It is d, o, l, p, h, i, n. Remember this trick: P and h together say f. Phone, not fone!",
+        "if_wrong": "Good try! dolphin is spelled d, o, l, p, h, i, n. Remember this trick: P and h together say f. Phone, not fone! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "ct-ng-nk",
+    "grade": 1,
+    "category": "consonant_tricks",
+    "title": "Ng and nk",
+    "trick": "Some letters stick together. Ng and nk are glued sounds.",
+    "explain": "Ring ends with ng. Sink ends with nk. Say them fast. The sounds stick together like glue.",
+    "examples": [
+      "ring, king, song",
+      "sink, pink, bank"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "ct-digraphs"
+    ],
+    "i_can": "I can read and spell ng and nk words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a jewelry you wear on a finger.",
+        "answer": "ring",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled ring right! It is r, i, n, g. Remember this trick: Some letters stick together. Ng and nk are glued sounds.",
+        "if_wrong": "Good try! ring is spelled r, i, n, g. Remember this trick: Some letters stick together. Ng and nk are glued sounds. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the color pink.",
+        "answer": "pink",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled pink right! It is p, i, n, k. Remember this trick: Some letters stick together. Ng and nk are glued sounds.",
+        "if_wrong": "Good try! pink is spelled p, i, n, k. Remember this trick: Some letters stick together. Ng and nk are glued sounds. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word sing.",
+        "answer": "sing",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled sing right! It is s, i, n, g. Remember this trick: Some letters stick together. Ng and nk are glued sounds.",
+        "if_wrong": "Good try! sing is spelled s, i, n, g. Remember this trick: Some letters stick together. Ng and nk are glued sounds. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word thank.",
+        "answer": "thank",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled thank right! It is t, h, a, n, k. Remember this trick: Some letters stick together. Ng and nk are glued sounds.",
+        "if_wrong": "Good try! thank is spelled t, h, a, n, k. Remember this trick: Some letters stick together. Ng and nk are glued sounds. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "ct-silent-letters",
+    "grade": 2,
+    "category": "consonant_tricks",
+    "title": "Silent letters: kn, wr, gn",
+    "trick": "Some letters are quiet. You do not say them!",
+    "explain": "In knee, the k is quiet. In write, the w is quiet. In gnat, the g is quiet. You only hear the second letter.",
+    "examples": [
+      "knee, knit, knock",
+      "write, wrap, wrong",
+      "gnat, gnaw, gnome"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "ct-digraphs"
+    ],
+    "i_can": "I can read and spell words with silent letters.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "In the word knee, which letter is silent, k or n?",
+        "options": [
+          "k",
+          "n"
+        ],
+        "answer": "k",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, k! You are right. Remember this trick: Some letters are quiet. You do not say them!",
+        "if_wrong": "Nice try! The answer is k. Remember this trick: Some letters are quiet. You do not say them! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that you do with a pencil.",
+        "answer": "write",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled write right! It is w, r, i, t, e. Remember this trick: Some letters are quiet. You do not say them!",
+        "if_wrong": "Good try! write is spelled w, r, i, t, e. Remember this trick: Some letters are quiet. You do not say them! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word knot.",
+        "answer": "knot",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled knot right! It is k, n, o, t. Remember this trick: Some letters are quiet. You do not say them!",
+        "if_wrong": "Good try! knot is spelled k, n, o, t. Remember this trick: Some letters are quiet. You do not say them! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "In the word wrong, which letter is silent, w or r?",
+        "options": [
+          "w",
+          "r"
+        ],
+        "answer": "w",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, w! You are right. Remember this trick: Some letters are quiet. You do not say them!",
+        "if_wrong": "Nice try! The answer is w. Remember this trick: Some letters are quiet. You do not say them! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the part in the middle of your leg. It starts with kn.",
+        "answer": "knee",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled knee right! It is k, n, e, e. Remember this trick: Some letters are quiet. You do not say them!",
+        "if_wrong": "Good try! knee is spelled k, n, e, e. Remember this trick: Some letters are quiet. You do not say them! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the sharp thing you cut with. It starts with kn.",
+        "answer": "knife",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled knife right! It is k, n, i, f, e. Remember this trick: Some letters are quiet. You do not say them!",
+        "if_wrong": "Good try! knife is spelled k, n, i, f, e. Remember this trick: Some letters are quiet. You do not say them! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "ct-silent-mb",
+    "grade": 2,
+    "category": "consonant_tricks",
+    "title": "Silent b: mb",
+    "trick": "After m at the end, the b is quiet.",
+    "explain": "Lamb, comb, climb and thumb all end in mb. You say the m but not the b. The b is quiet.",
+    "examples": [
+      "lamb",
+      "comb",
+      "climb",
+      "thumb",
+      "crumb"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "ct-silent-letters"
+    ],
+    "i_can": "I can spell words that end in silent b.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a baby sheep.",
+        "answer": "lamb",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled lamb right! It is l, a, m, b. Remember this trick: After m at the end, the b is quiet.",
+        "if_wrong": "Good try! lamb is spelled l, a, m, b. Remember this trick: After m at the end, the b is quiet. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that you do to go up a tree.",
+        "answer": "climb",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled climb right! It is c, l, i, m, b. Remember this trick: After m at the end, the b is quiet.",
+        "if_wrong": "Good try! climb is spelled c, l, i, m, b. Remember this trick: After m at the end, the b is quiet. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word thumb.",
+        "answer": "thumb",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled thumb right! It is t, h, u, m, b. Remember this trick: After m at the end, the b is quiet.",
+        "if_wrong": "Good try! thumb is spelled t, h, u, m, b. Remember this trick: After m at the end, the b is quiet. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Do you hear the b in comb? Yes or no?",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer": "no",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, no! You are right. Remember this trick: After m at the end, the b is quiet.",
+        "if_wrong": "Nice try! The answer is no. Remember this trick: After m at the end, the b is quiet. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "ct-blends",
+    "grade": 1,
+    "category": "consonant_tricks",
+    "title": "Consonant blends",
+    "trick": "In a blend, you hear every letter. Slide them together fast.",
+    "explain": "Frog starts with f and r. Stop starts with s and t. You hear both sounds. Some words start with three, like street and splash.",
+    "examples": [
+      "frog, clap, stop",
+      "street, splash, scream",
+      "spring, three"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "sa-segment-sounds"
+    ],
+    "i_can": "I can read and spell words with blends.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a green animal that hops.",
+        "answer": "frog",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled frog right! It is f, r, o, g. Remember this trick: In a blend, you hear every letter. Slide them together fast.",
+        "if_wrong": "Good try! frog is spelled f, r, o, g. Remember this trick: In a blend, you hear every letter. Slide them together fast. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word splash.",
+        "answer": "splash",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled splash right! It is s, p, l, a, s, h. Remember this trick: In a blend, you hear every letter. Slide them together fast.",
+        "if_wrong": "Good try! splash is spelled s, p, l, a, s, h. Remember this trick: In a blend, you hear every letter. Slide them together fast. Let us try one more."
+      },
+      {
+        "type": "count",
+        "prompt": "How many sounds are in the word street?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "5",
+        "accept": [
+          "five"
+        ],
+        "level": 4,
+        "if_right": "Yes, five! You are right. Remember this trick: In a blend, you hear every letter. Slide them together fast.",
+        "if_wrong": "Nice try! The answer is five. Remember this trick: In a blend, you hear every letter. Slide them together fast. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word spring.",
+        "answer": "spring",
+        "accept": [],
+        "level": 4,
+        "if_right": "Yes! You spelled spring right! It is s, p, r, i, n, g. Remember this trick: In a blend, you hear every letter. Slide them together fast.",
+        "if_wrong": "Good try! spring is spelled s, p, r, i, n, g. Remember this trick: In a blend, you hear every letter. Slide them together fast. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the opposite of go. It starts with st.",
+        "answer": "stop",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled stop right! It is s, t, o, p. Remember this trick: In a blend, you hear every letter. Slide them together fast.",
+        "if_wrong": "Good try! stop is spelled s, t, o, p. Remember this trick: In a blend, you hear every letter. Slide them together fast. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the bug that spins webs. It starts with sp.",
+        "answer": "spider",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled spider right! It is s, p, i, d, e, r. Remember this trick: In a blend, you hear every letter. Slide them together fast.",
+        "if_wrong": "Good try! spider is spelled s, p, i, d, e, r. Remember this trick: In a blend, you hear every letter. Slide them together fast. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "ct-ch-other-sounds",
+    "grade": 2,
+    "category": "consonant_tricks",
+    "title": "Ch can say k or sh",
+    "trick": "Ch does not always say ch. Sometimes it says k or sh.",
+    "explain": "Chip says ch. School says k. Chef says sh. Some words have a funny ch. You just learn them.",
+    "examples": [
+      "chip, lunch",
+      "school, echo, stomach",
+      "chef, chute"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "ct-digraphs"
+    ],
+    "i_can": "I can read words where ch says k or sh.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "In the word school, does ch say ch or k?",
+        "options": [
+          "ch",
+          "k"
+        ],
+        "answer": "k",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, k! You are right. Remember this trick: Ch does not always say ch. Sometimes it says k or sh.",
+        "if_wrong": "Nice try! The answer is k. Remember this trick: Ch does not always say ch. Sometimes it says k or sh. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "In the word chef, does ch say ch or sh?",
+        "options": [
+          "ch",
+          "sh"
+        ],
+        "answer": "sh",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, sh! You are right. Remember this trick: Ch does not always say ch. Sometimes it says k or sh.",
+        "if_wrong": "Nice try! The answer is sh. Remember this trick: Ch does not always say ch. Sometimes it says k or sh. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word school.",
+        "answer": "school",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled school right! It is s, c, h, o, o, l. Remember this trick: Ch does not always say ch. Sometimes it says k or sh.",
+        "if_wrong": "Good try! school is spelled s, c, h, o, o, l. Remember this trick: Ch does not always say ch. Sometimes it says k or sh. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "In the word lunch, does ch say ch or k?",
+        "options": [
+          "ch",
+          "k"
+        ],
+        "answer": "ch",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, ch! You are right. Remember this trick: Ch does not always say ch. Sometimes it says k or sh.",
+        "if_wrong": "Nice try! The answer is ch. Remember this trick: Ch does not always say ch. Sometimes it says k or sh. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "ct-s-says-z",
+    "grade": 1,
+    "category": "consonant_tricks",
+    "title": "S says z",
+    "trick": "Sometimes s says z. Listen to the end of the word.",
+    "explain": "Dogs ends with s. It says z. Is and his say z too. Cats ends with s. It says s.",
+    "examples": [
+      "dogs",
+      "is",
+      "his",
+      "bees",
+      "nose"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "sr-plurals"
+    ],
+    "i_can": "I can hear when s says z.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the s in dogs say s or z?",
+        "options": [
+          "s",
+          "z"
+        ],
+        "answer": "z",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, z! You are right. Remember this trick: Sometimes s says z. Listen to the end of the word.",
+        "if_wrong": "Nice try! The answer is z. Remember this trick: Sometimes s says z. Listen to the end of the word. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the s in cats say s or z?",
+        "options": [
+          "s",
+          "z"
+        ],
+        "answer": "s",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, s! You are right. Remember this trick: Sometimes s says z. Listen to the end of the word.",
+        "if_wrong": "Nice try! The answer is s. Remember this trick: Sometimes s says z. Listen to the end of the word. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the s in his say s or z?",
+        "options": [
+          "s",
+          "z"
+        ],
+        "answer": "z",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, z! You are right. Remember this trick: Sometimes s says z. Listen to the end of the word.",
+        "if_wrong": "Nice try! The answer is z. Remember this trick: Sometimes s says z. Listen to the end of the word. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the s in bus say s or z?",
+        "options": [
+          "s",
+          "z"
+        ],
+        "answer": "s",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, s! You are right. Remember this trick: Sometimes s says z. Listen to the end of the word.",
+        "if_wrong": "Nice try! The answer is s. Remember this trick: Sometimes s says z. Listen to the end of the word. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the s in bees say s or z?",
+        "options": [
+          "s",
+          "z"
+        ],
+        "answer": "z",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, z! You are right. Remember this trick: Sometimes s says z. Listen to the end of the word.",
+        "if_wrong": "Nice try! The answer is z. Remember this trick: Sometimes s says z. Listen to the end of the word. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "ct-tion",
+    "grade": 2,
+    "category": "consonant_tricks",
+    "title": "Tion says shun",
+    "trick": "Tion says shun. You see it at the end of words.",
+    "explain": "Nation, action and station end with tion. It says shun. Look for it at the end of a word.",
+    "examples": [
+      "nation",
+      "action",
+      "station",
+      "vacation",
+      "lotion"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "ct-digraphs"
+    ],
+    "i_can": "I can read and spell words that end in tion.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does tion say shun or tee-on?",
+        "options": [
+          "shun",
+          "tee-on"
+        ],
+        "answer": "shun",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, shun! You are right. Remember this trick: Tion says shun. You see it at the end of words.",
+        "if_wrong": "Nice try! The answer is shun. Remember this trick: Tion says shun. You see it at the end of words. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the place where trains stop. It ends with tion.",
+        "answer": "station",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled station right! It is s, t, a, t, i, o, n. Remember this trick: Tion says shun. You see it at the end of words.",
+        "if_wrong": "Good try! station is spelled s, t, a, t, i, o, n. Remember this trick: Tion says shun. You see it at the end of words. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a country. It ends with tion.",
+        "answer": "nation",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled nation right! It is n, a, t, i, o, n. Remember this trick: Tion says shun. You see it at the end of words.",
+        "if_wrong": "Good try! nation is spelled n, a, t, i, o, n. Remember this trick: Tion says shun. You see it at the end of words. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for something you do. It starts with a and ends with tion.",
+        "answer": "action",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled action right! It is a, c, t, i, o, n. Remember this trick: Tion says shun. You see it at the end of words.",
+        "if_wrong": "Good try! action is spelled a, c, t, i, o, n. Remember this trick: Tion says shun. You see it at the end of words. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a fun trip. It starts with va and ends with tion.",
+        "answer": "vacation",
+        "accept": [],
+        "level": 4,
+        "if_right": "Yes! You spelled vacation right! It is v, a, c, a, t, i, o, n. Remember this trick: Tion says shun. You see it at the end of words.",
+        "if_wrong": "Good try! vacation is spelled v, a, c, a, t, i, o, n. Remember this trick: Tion says shun. You see it at the end of words. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "ct-ough",
+    "grade": 2,
+    "category": "consonant_tricks",
+    "title": "Tricky ough",
+    "trick": "Ough is tricky. It can say many sounds.",
+    "explain": "Though says oh. Through says oo. Tough says uff. You must learn each word by heart.",
+    "examples": [
+      "though",
+      "through",
+      "tough",
+      "dough",
+      "cough"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "ct-silent-letters",
+      "vt-long-o"
+    ],
+    "i_can": "I can read the tricky ough words.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the ough in through say oo or uff?",
+        "options": [
+          "oo",
+          "uff"
+        ],
+        "answer": "oo",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, oo! You are right. Remember this trick: Ough is tricky. It can say many sounds.",
+        "if_wrong": "Nice try! The answer is oo. Remember this trick: Ough is tricky. It can say many sounds. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the ough in tough say oh or uff?",
+        "options": [
+          "oh",
+          "uff"
+        ],
+        "answer": "uff",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, uff! You are right. Remember this trick: Ough is tricky. It can say many sounds.",
+        "if_wrong": "Nice try! The answer is uff. Remember this trick: Ough is tricky. It can say many sounds. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that means hard to break. It rhymes with stuff.",
+        "answer": "tough",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled tough right! It is t, o, u, g, h. Remember this trick: Ough is tricky. It can say many sounds.",
+        "if_wrong": "Good try! tough is spelled t, o, u, g, h. Remember this trick: Ough is tricky. It can say many sounds. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for going in one side and out the other. It rhymes with true.",
+        "answer": "through",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled through right! It is t, h, r, o, u, g, h. Remember this trick: Ough is tricky. It can say many sounds.",
+        "if_wrong": "Good try! through is spelled t, h, r, o, u, g, h. Remember this trick: Ough is tricky. It can say many sounds. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that rhymes with go and starts with th.",
+        "answer": "though",
+        "accept": [],
+        "level": 4,
+        "if_right": "Yes! You spelled though right! It is t, h, o, u, g, h. Remember this trick: Ough is tricky. It can say many sounds.",
+        "if_wrong": "Good try! though is spelled t, h, o, u, g, h. Remember this trick: Ough is tricky. It can say many sounds. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "ct-gh-silent",
+    "grade": 1,
+    "category": "consonant_tricks",
+    "title": "Quiet gh",
+    "trick": "In many words, gh is quiet. Night, light, eight! In laugh, gh says f.",
+    "explain": "Look at night. The gh is quiet. You do not hear it. Light and eight work the same way.",
+    "examples": [
+      "night",
+      "light",
+      "eight",
+      "high"
+    ],
+    "exceptions": [
+      "In laugh and tough, gh says f."
+    ],
+    "prereqs": [
+      "vt-long-i-igh"
+    ],
+    "i_can": "I can read words with a quiet gh.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word for when it is dark and stars come out.",
+        "answer": "night",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled night right! It is n, i, g, h, t. Remember this trick: In many words, gh is quiet. Night, light, eight! In laugh, gh says f.",
+        "if_wrong": "Good try! night is spelled n, i, g, h, t. Remember this trick: In many words, gh is quiet. Night, light, eight! In laugh, gh says f. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word light.",
+        "answer": "light",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled light right! It is l, i, g, h, t. Remember this trick: In many words, gh is quiet. Night, light, eight! In laugh, gh says f.",
+        "if_wrong": "Good try! light is spelled l, i, g, h, t. Remember this trick: In many words, gh is quiet. Night, light, eight! In laugh, gh says f. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word eight.",
+        "answer": "eight",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled eight right! It is e, i, g, h, t. Remember this trick: In many words, gh is quiet. Night, light, eight! In laugh, gh says f.",
+        "if_wrong": "Good try! eight is spelled e, i, g, h, t. Remember this trick: In many words, gh is quiet. Night, light, eight! In laugh, gh says f. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Is gh quiet or loud in night?",
+        "options": [
+          "quiet",
+          "loud"
+        ],
+        "answer": "quiet",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, quiet! You are right. Remember this trick: In many words, gh is quiet. Night, light, eight! In laugh, gh says f.",
+        "if_wrong": "Nice try! The answer is quiet. Remember this trick: In many words, gh is quiet. Night, light, eight! In laugh, gh says f. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has gh saying f: tough or night?",
+        "options": [
+          "tough",
+          "night"
+        ],
+        "answer": "tough",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, tough! You are right. Remember this trick: In many words, gh is quiet. Night, light, eight! In laugh, gh says f.",
+        "if_wrong": "Nice try! The answer is tough. Remember this trick: In many words, gh is quiet. Night, light, eight! In laugh, gh says f. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "ct-x",
+    "grade": 1,
+    "category": "consonant_tricks",
+    "title": "X says ks",
+    "trick": "X says ks at the end of a word. Box, fox, six!",
+    "explain": "X makes two sounds. They are k and s. In box, you hear b, o, ks. At the start of a word, x says z, like in xylophone.",
+    "examples": [
+      "box",
+      "fox",
+      "six",
+      "mix",
+      "tax"
+    ],
+    "exceptions": [
+      "At the start, x says z: xylophone."
+    ],
+    "prereqs": [],
+    "i_can": "I can read and spell words with x.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the orange animal with a bushy tail.",
+        "answer": "fox",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled fox right! It is f, o, x. Remember this trick: X says ks at the end of a word. Box, fox, six!",
+        "if_wrong": "Good try! fox is spelled f, o, x. Remember this trick: X says ks at the end of a word. Box, fox, six! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the number that comes after five.",
+        "answer": "six",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled six right! It is s, i, x. Remember this trick: X says ks at the end of a word. Box, fox, six!",
+        "if_wrong": "Good try! six is spelled s, i, x. Remember this trick: X says ks at the end of a word. Box, fox, six! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word box.",
+        "answer": "box",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled box right! It is b, o, x. Remember this trick: X says ks at the end of a word. Box, fox, six!",
+        "if_wrong": "Good try! box is spelled b, o, x. Remember this trick: X says ks at the end of a word. Box, fox, six! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does x say ks or z in box?",
+        "options": [
+          "ks",
+          "z"
+        ],
+        "answer": "ks",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, ks! You are right. Remember this trick: X says ks at the end of a word. Box, fox, six!",
+        "if_wrong": "Nice try! The answer is ks. Remember this trick: X says ks at the end of a word. Box, fox, six! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has x saying z at the start: xylophone or box?",
+        "options": [
+          "xylophone",
+          "box"
+        ],
+        "answer": "xylophone",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, xylophone! You are right. Remember this trick: X says ks at the end of a word. Box, fox, six!",
+        "if_wrong": "Nice try! The answer is xylophone. Remember this trick: X says ks at the end of a word. Box, fox, six! Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "ct-qu",
+    "grade": 1,
+    "category": "consonant_tricks",
+    "title": "Qu says kw",
+    "trick": "Qu says kw. Queen, quick, quit!",
+    "explain": "Q always has u after it. Together they say kw. In queen, you hear kw, ee, n.",
+    "examples": [
+      "queen",
+      "quick",
+      "quit",
+      "quilt",
+      "quiz"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "sr-q-u"
+    ],
+    "i_can": "I can read and spell qu words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a lady who wears a crown and rules a country.",
+        "answer": "queen",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled queen right! It is q, u, e, e, n. Remember this trick: Qu says kw. Queen, quick, quit!",
+        "if_wrong": "Good try! queen is spelled q, u, e, e, n. Remember this trick: Qu says kw. Queen, quick, quit! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word quick.",
+        "answer": "quick",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled quick right! It is q, u, i, c, k. Remember this trick: Qu says kw. Queen, quick, quit!",
+        "if_wrong": "Good try! quick is spelled q, u, i, c, k. Remember this trick: Qu says kw. Queen, quick, quit! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word quit.",
+        "answer": "quit",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled quit right! It is q, u, i, t. Remember this trick: Qu says kw. Queen, quick, quit!",
+        "if_wrong": "Good try! quit is spelled q, u, i, t. Remember this trick: Qu says kw. Queen, quick, quit! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does qu say kw or ch?",
+        "options": [
+          "kw",
+          "ch"
+        ],
+        "answer": "kw",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, kw! You are right. Remember this trick: Qu says kw. Queen, quick, quit!",
+        "if_wrong": "Nice try! The answer is kw. Remember this trick: Qu says kw. Queen, quick, quit! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a warm cover on a bed made of squares of cloth.",
+        "answer": "quilt",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled quilt right! It is q, u, i, l, t. Remember this trick: Qu says kw. Queen, quick, quit!",
+        "if_wrong": "Good try! quilt is spelled q, u, i, l, t. Remember this trick: Qu says kw. Queen, quick, quit! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "ct-ture",
+    "grade": 2,
+    "category": "consonant_tricks",
+    "title": "Ture says cher",
+    "trick": "Ture says cher. Picture, nature, future!",
+    "explain": "At the end of a word, ture says cher. Picture says pik-cher.",
+    "examples": [
+      "picture",
+      "nature",
+      "future",
+      "capture"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can read and spell ture words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word picture.",
+        "answer": "picture",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled picture right! It is p, i, c, t, u, r, e. Remember this trick: Ture says cher. Picture, nature, future!",
+        "if_wrong": "Good try! picture is spelled p, i, c, t, u, r, e. Remember this trick: Ture says cher. Picture, nature, future! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word nature.",
+        "answer": "nature",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled nature right! It is n, a, t, u, r, e. Remember this trick: Ture says cher. Picture, nature, future!",
+        "if_wrong": "Good try! nature is spelled n, a, t, u, r, e. Remember this trick: Ture says cher. Picture, nature, future! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does ture say cher or shun?",
+        "options": [
+          "cher",
+          "shun"
+        ],
+        "answer": "cher",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, cher! You are right. Remember this trick: Ture says cher. Picture, nature, future!",
+        "if_wrong": "Nice try! The answer is cher. Remember this trick: Ture says cher. Picture, nature, future! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word. You can hang one on a wall. It can be a photo or a drawing.",
+        "answer": "picture",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled picture right! It is p, i, c, t, u, r, e. Remember this trick: Ture says cher. Picture, nature, future!",
+        "if_wrong": "Good try! picture is spelled p, i, c, t, u, r, e. Remember this trick: Ture says cher. Picture, nature, future! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "ct-sion",
+    "grade": 2,
+    "category": "consonant_tricks",
+    "title": "Sion says zhun",
+    "trick": "Sion can say zhun. Vision, television! Tion says shun.",
+    "explain": "Sion often says zhun. Television says tel-uh-vizh-un. Tion says shun, like in nation.",
+    "examples": [
+      "vision",
+      "television",
+      "decision",
+      "confusion"
+    ],
+    "exceptions": [
+      "Mission and session say shun."
+    ],
+    "prereqs": [
+      "ct-tion"
+    ],
+    "i_can": "I can read and spell sion words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word vision.",
+        "answer": "vision",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled vision right! It is v, i, s, i, o, n. Remember this trick: Sion can say zhun. Vision, television! Tion says shun.",
+        "if_wrong": "Good try! vision is spelled v, i, s, i, o, n. Remember this trick: Sion can say zhun. Vision, television! Tion says shun. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word television.",
+        "answer": "television",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled television right! It is t, e, l, e, v, i, s, i, o, n. Remember this trick: Sion can say zhun. Vision, television! Tion says shun.",
+        "if_wrong": "Good try! television is spelled t, e, l, e, v, i, s, i, o, n. Remember this trick: Sion can say zhun. Vision, television! Tion says shun. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word says zhun: vision or nation?",
+        "options": [
+          "vision",
+          "nation"
+        ],
+        "answer": "vision",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, vision! You are right. Remember this trick: Sion can say zhun. Vision, television! Tion says shun.",
+        "if_wrong": "Nice try! The answer is vision. Remember this trick: Sion can say zhun. Vision, television! Tion says shun. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word says shun: nation or vision?",
+        "options": [
+          "nation",
+          "vision"
+        ],
+        "answer": "nation",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, nation! You are right. Remember this trick: Sion can say zhun. Vision, television! Tion says shun.",
+        "if_wrong": "Nice try! The answer is nation. Remember this trick: Sion can say zhun. Vision, television! Tion says shun. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "ct-age",
+    "grade": 2,
+    "category": "consonant_tricks",
+    "title": "Age says ij",
+    "trick": "At the end of a word, age often says ij. Village, package, message!",
+    "explain": "In village, the age says ij. It does not say aij. Package and message work the same way.",
+    "examples": [
+      "village",
+      "package",
+      "message",
+      "image",
+      "garbage"
+    ],
+    "exceptions": [
+      "Page, cage and stage say aij."
+    ],
+    "prereqs": [],
+    "i_can": "I can read and spell age words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word village.",
+        "answer": "village",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled village right! It is v, i, l, l, a, g, e. Remember this trick: At the end of a word, age often says ij. Village, package, message!",
+        "if_wrong": "Good try! village is spelled v, i, l, l, a, g, e. Remember this trick: At the end of a word, age often says ij. Village, package, message! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word package.",
+        "answer": "package",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled package right! It is p, a, c, k, a, g, e. Remember this trick: At the end of a word, age often says ij. Village, package, message!",
+        "if_wrong": "Good try! package is spelled p, a, c, k, a, g, e. Remember this trick: At the end of a word, age often says ij. Village, package, message! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a very small town.",
+        "answer": "village",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled village right! It is v, i, l, l, a, g, e. Remember this trick: At the end of a word, age often says ij. Village, package, message!",
+        "if_wrong": "Good try! village is spelled v, i, l, l, a, g, e. Remember this trick: At the end of a word, age often says ij. Village, package, message! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the age in message say aij or ij?",
+        "options": [
+          "aij",
+          "ij"
+        ],
+        "answer": "ij",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, ij! You are right. Remember this trick: At the end of a word, age often says ij. Village, package, message!",
+        "if_wrong": "Nice try! The answer is ij. Remember this trick: At the end of a word, age often says ij. Village, package, message! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word message.",
+        "answer": "message",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled message right! It is m, e, s, s, a, g, e. Remember this trick: At the end of a word, age often says ij. Village, package, message!",
+        "if_wrong": "Good try! message is spelled m, e, s, s, a, g, e. Remember this trick: At the end of a word, age often says ij. Village, package, message! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "ct-gu",
+    "grade": 2,
+    "category": "consonant_tricks",
+    "title": "Gu says g",
+    "trick": "In some words, gu says g. The u is quiet. Guess, guide, guard!",
+    "explain": "The u is a helper. It keeps the g hard. In guess, you hear g, e, s.",
+    "examples": [
+      "guess",
+      "guide",
+      "guard",
+      "guitar"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can read and spell gu words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word guess.",
+        "answer": "guess",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled guess right! It is g, u, e, s, s. Remember this trick: In some words, gu says g. The u is quiet. Guess, guide, guard!",
+        "if_wrong": "Good try! guess is spelled g, u, e, s, s. Remember this trick: In some words, gu says g. The u is quiet. Guess, guide, guard! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word guide.",
+        "answer": "guide",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled guide right! It is g, u, i, d, e. Remember this trick: In some words, gu says g. The u is quiet. Guess, guide, guard!",
+        "if_wrong": "Good try! guide is spelled g, u, i, d, e. Remember this trick: In some words, gu says g. The u is quiet. Guess, guide, guard! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word guard.",
+        "answer": "guard",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled guard right! It is g, u, a, r, d. Remember this trick: In some words, gu says g. The u is quiet. Guess, guide, guard!",
+        "if_wrong": "Good try! guard is spelled g, u, a, r, d. Remember this trick: In some words, gu says g. The u is quiet. Guess, guide, guard! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for an instrument with six strings.",
+        "answer": "guitar",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled guitar right! It is g, u, i, t, a, r. Remember this trick: In some words, gu says g. The u is quiet. Guess, guide, guard!",
+        "if_wrong": "Good try! guitar is spelled g, u, i, t, a, r. Remember this trick: In some words, gu says g. The u is quiet. Guess, guide, guard! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Is the u quiet in guess?",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer": "yes",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, yes! You are right. Remember this trick: In some words, gu says g. The u is quiet. Guess, guide, guard!",
+        "if_wrong": "Nice try! The answer is yes. Remember this trick: In some words, gu says g. The u is quiet. Guess, guide, guard! Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "ct-silent-t-h-s",
+    "grade": 2,
+    "category": "consonant_tricks",
+    "title": "More quiet letters: t, h, s",
+    "trick": "Some words have a quiet t, h or s. Castle, listen, hour, island!",
+    "explain": "In castle, the t is quiet. In hour, the h is quiet. In island, the s is quiet.",
+    "examples": [
+      "castle",
+      "listen",
+      "hour",
+      "honest",
+      "island"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "ct-silent-letters"
+    ],
+    "i_can": "I can find the quiet letters.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word castle.",
+        "answer": "castle",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled castle right! It is c, a, s, t, l, e. Remember this trick: Some words have a quiet t, h or s. Castle, listen, hour, island!",
+        "if_wrong": "Good try! castle is spelled c, a, s, t, l, e. Remember this trick: Some words have a quiet t, h or s. Castle, listen, hour, island! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word listen.",
+        "answer": "listen",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled listen right! It is l, i, s, t, e, n. Remember this trick: Some words have a quiet t, h or s. Castle, listen, hour, island!",
+        "if_wrong": "Good try! listen is spelled l, i, s, t, e, n. Remember this trick: Some words have a quiet t, h or s. Castle, listen, hour, island! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which letter is quiet in castle: t or s?",
+        "options": [
+          "t",
+          "s"
+        ],
+        "answer": "t",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, t! You are right. Remember this trick: Some words have a quiet t, h or s. Castle, listen, hour, island!",
+        "if_wrong": "Nice try! The answer is t. Remember this trick: Some words have a quiet t, h or s. Castle, listen, hour, island! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which letter is quiet in hour: h or r?",
+        "options": [
+          "h",
+          "r"
+        ],
+        "answer": "h",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, h! You are right. Remember this trick: Some words have a quiet t, h or s. Castle, listen, hour, island!",
+        "if_wrong": "Nice try! The answer is h. Remember this trick: Some words have a quiet t, h or s. Castle, listen, hour, island! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which letter is quiet in island: s or l?",
+        "options": [
+          "s",
+          "l"
+        ],
+        "answer": "s",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, s! You are right. Remember this trick: Some words have a quiet t, h or s. Castle, listen, hour, island!",
+        "if_wrong": "Nice try! The answer is s. Remember this trick: Some words have a quiet t, h or s. Castle, listen, hour, island! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a big stone home where a king lives.",
+        "answer": "castle",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled castle right! It is c, a, s, t, l, e. Remember this trick: Some words have a quiet t, h or s. Castle, listen, hour, island!",
+        "if_wrong": "Good try! castle is spelled c, a, s, t, l, e. Remember this trick: Some words have a quiet t, h or s. Castle, listen, hour, island! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "ct-tch-exceptions",
+    "grade": 2,
+    "category": "consonant_tricks",
+    "title": "Tricky words: rich, much, such, which",
+    "trick": "Rich, much, such and which are tricky. They have a short vowel but no t before ch.",
+    "explain": "Words with a short vowel usually use tch. But rich, much, such and which only use ch. Just remember them.",
+    "examples": [
+      "rich",
+      "much",
+      "such",
+      "which"
+    ],
+    "exceptions": [
+      "Touch and attach are tricky too."
+    ],
+    "prereqs": [
+      "ct-tch"
+    ],
+    "i_can": "I can spell the tricky ch words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word rich.",
+        "answer": "rich",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled rich right! It is r, i, c, h. Remember this trick: Rich, much, such and which are tricky. They have a short vowel but no t before ch.",
+        "if_wrong": "Good try! rich is spelled r, i, c, h. Remember this trick: Rich, much, such and which are tricky. They have a short vowel but no t before ch. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word much.",
+        "answer": "much",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled much right! It is m, u, c, h. Remember this trick: Rich, much, such and which are tricky. They have a short vowel but no t before ch.",
+        "if_wrong": "Good try! much is spelled m, u, c, h. Remember this trick: Rich, much, such and which are tricky. They have a short vowel but no t before ch. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word such.",
+        "answer": "such",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled such right! It is s, u, c, h. Remember this trick: Rich, much, such and which are tricky. They have a short vowel but no t before ch.",
+        "if_wrong": "Good try! such is spelled s, u, c, h. Remember this trick: Rich, much, such and which are tricky. They have a short vowel but no t before ch. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word which.",
+        "answer": "which",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled which right! It is w, h, i, c, h. Remember this trick: Rich, much, such and which are tricky. They have a short vowel but no t before ch.",
+        "if_wrong": "Good try! which is spelled w, h, i, c, h. Remember this trick: Rich, much, such and which are tricky. They have a short vowel but no t before ch. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which is spelled right: much or mutch?",
+        "options": [
+          "much",
+          "mutch"
+        ],
+        "answer": "much",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, much! You are right. Remember this trick: Rich, much, such and which are tricky. They have a short vowel but no t before ch.",
+        "if_wrong": "Nice try! The answer is much. Remember this trick: Rich, much, such and which are tricky. They have a short vowel but no t before ch. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "ct-silent-bt",
+    "grade": 2,
+    "category": "consonant_tricks",
+    "title": "Silent b before t: debt, doubt",
+    "trick": "Before t, b is quiet. Debt and doubt do not say the b.",
+    "explain": "You know b is quiet after m, like lamb. B is also quiet before t. In debt, you say det. In doubt, you say dowt.",
+    "examples": [
+      "debt",
+      "doubt",
+      "subtle"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "ct-silent-mb"
+    ],
+    "i_can": "I can read words where b is quiet before t.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "In the word debt, is the b quiet or loud?",
+        "options": [
+          "quiet",
+          "loud"
+        ],
+        "answer": "quiet",
+        "accept": [
+          "silent"
+        ],
+        "level": 1,
+        "if_right": "Yes, quiet! You are right. Remember this trick: Before t, b is quiet. Debt and doubt do not say the b.",
+        "if_wrong": "Nice try! The answer is quiet. Remember this trick: Before t, b is quiet. Debt and doubt do not say the b. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word debt.",
+        "answer": "debt",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled debt right! It is d, e, b, t. Remember this trick: Before t, b is quiet. Debt and doubt do not say the b.",
+        "if_wrong": "Good try! debt is spelled d, e, b, t. Remember this trick: Before t, b is quiet. Debt and doubt do not say the b. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word doubt.",
+        "answer": "doubt",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled doubt right! It is d, o, u, b, t. Remember this trick: Before t, b is quiet. Debt and doubt do not say the b.",
+        "if_wrong": "Good try! doubt is spelled d, o, u, b, t. Remember this trick: Before t, b is quiet. Debt and doubt do not say the b. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which letter is quiet in doubt: b or d?",
+        "options": [
+          "b",
+          "d"
+        ],
+        "answer": "b",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, b! You are right. Remember this trick: Before t, b is quiet. Debt and doubt do not say the b.",
+        "if_wrong": "Nice try! The answer is b. Remember this trick: Before t, b is quiet. Debt and doubt do not say the b. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "ct-silent-l",
+    "grade": 2,
+    "category": "consonant_tricks",
+    "title": "Silent l: calm, half, folk",
+    "trick": "Before m and f, the l is quiet. Calm, half, folk!",
+    "explain": "In calm, the l is quiet. You say c-ahm. Half says h-af. Folk says f-ohk. The l hides.",
+    "examples": [
+      "calm",
+      "palm",
+      "half",
+      "calf",
+      "folk",
+      "yolk"
+    ],
+    "exceptions": [
+      "Walk and talk also hide the l. Could and would hide it too."
+    ],
+    "prereqs": [
+      "ct-silent-letters"
+    ],
+    "i_can": "I can read words with a quiet l.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "In the word calm, is the l quiet or loud?",
+        "options": [
+          "quiet",
+          "loud"
+        ],
+        "answer": "quiet",
+        "accept": [
+          "silent"
+        ],
+        "level": 1,
+        "if_right": "Yes, quiet! You are right. Remember this trick: Before m and f, the l is quiet. Calm, half, folk!",
+        "if_wrong": "Nice try! The answer is quiet. Remember this trick: Before m and f, the l is quiet. Calm, half, folk! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word calm.",
+        "answer": "calm",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled calm right! It is c, a, l, m. Remember this trick: Before m and f, the l is quiet. Calm, half, folk!",
+        "if_wrong": "Good try! calm is spelled c, a, l, m. Remember this trick: Before m and f, the l is quiet. Calm, half, folk! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that means fifty percent of something. It starts with h.",
+        "answer": "half",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled half right! It is h, a, l, f. Remember this trick: Before m and f, the l is quiet. Calm, half, folk!",
+        "if_wrong": "Good try! half is spelled h, a, l, f. Remember this trick: Before m and f, the l is quiet. Calm, half, folk! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word palm.",
+        "answer": "palm",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled palm right! It is p, a, l, m. Remember this trick: Before m and f, the l is quiet. Calm, half, folk!",
+        "if_wrong": "Good try! palm is spelled p, a, l, m. Remember this trick: Before m and f, the l is quiet. Calm, half, folk! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which letter is quiet in folk: l or f?",
+        "options": [
+          "l",
+          "f"
+        ],
+        "answer": "l",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, l! You are right. Remember this trick: Before m and f, the l is quiet. Calm, half, folk!",
+        "if_wrong": "Nice try! The answer is l. Remember this trick: Before m and f, the l is quiet. Calm, half, folk! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word yolk.",
+        "answer": "yolk",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled yolk right! It is y, o, l, k. Remember this trick: Before m and f, the l is quiet. Calm, half, folk!",
+        "if_wrong": "Good try! yolk is spelled y, o, l, k. Remember this trick: Before m and f, the l is quiet. Calm, half, folk! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "ct-silent-n",
+    "grade": 2,
+    "category": "consonant_tricks",
+    "title": "Silent n: column, hymn",
+    "trick": "After m at the end of a word, n is quiet. Column, hymn!",
+    "explain": "In column, the n at the end is quiet. You say col-um. Hymn says him. The n hides after the m.",
+    "examples": [
+      "column",
+      "hymn",
+      "autumn",
+      "solemn"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "ct-silent-mb"
+    ],
+    "i_can": "I can read words where n is quiet after m.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "In the word hymn, is the n quiet or loud?",
+        "options": [
+          "quiet",
+          "loud"
+        ],
+        "answer": "quiet",
+        "accept": [
+          "silent"
+        ],
+        "level": 1,
+        "if_right": "Yes, quiet! You are right. Remember this trick: After m at the end of a word, n is quiet. Column, hymn!",
+        "if_wrong": "Nice try! The answer is quiet. Remember this trick: After m at the end of a word, n is quiet. Column, hymn! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word hymn.",
+        "answer": "hymn",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled hymn right! It is h, y, m, n. Remember this trick: After m at the end of a word, n is quiet. Column, hymn!",
+        "if_wrong": "Good try! hymn is spelled h, y, m, n. Remember this trick: After m at the end of a word, n is quiet. Column, hymn! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word column.",
+        "answer": "column",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled column right! It is c, o, l, u, m, n. Remember this trick: After m at the end of a word, n is quiet. Column, hymn!",
+        "if_wrong": "Good try! column is spelled c, o, l, u, m, n. Remember this trick: After m at the end of a word, n is quiet. Column, hymn! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for the season before winter. It starts with au.",
+        "answer": "autumn",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled autumn right! It is a, u, t, u, m, n. Remember this trick: After m at the end of a word, n is quiet. Column, hymn!",
+        "if_wrong": "Good try! autumn is spelled a, u, t, u, m, n. Remember this trick: After m at the end of a word, n is quiet. Column, hymn! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which letter is quiet in column: n or u?",
+        "options": [
+          "n",
+          "u"
+        ],
+        "answer": "n",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, n! You are right. Remember this trick: After m at the end of a word, n is quiet. Column, hymn!",
+        "if_wrong": "Nice try! The answer is n. Remember this trick: After m at the end of a word, n is quiet. Column, hymn! Let us try again."
+      }
+    ]
+  }
+]

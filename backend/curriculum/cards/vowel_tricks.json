@@ -1,0 +1,3593 @@
+[
+  {
+    "id": "vt-short-vowels",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Short vowel review",
+    "trick": "Each vowel has a short sound. A is like apple. E is like egg.",
+    "explain": "A, e, i, o and u are vowels. Each one has a short sound. A is like apple. E is like egg. I is like itch. O is like octopus. U is like umbrella. Cat has a short a. Say it!",
+    "examples": [
+      "cat",
+      "sit",
+      "hug",
+      "pet",
+      "hop"
+    ],
+    "exceptions": [
+      "old, kind and child have a single vowel that is long."
+    ],
+    "prereqs": [],
+    "i_can": "I can read and spell short vowel words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word that means a pet that says meow.",
+        "answer": "cat",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled cat right! It is c, a, t. Remember this trick: Each vowel has a short sound. A is like apple. E is like egg.",
+        "if_wrong": "Good try! cat is spelled c, a, t. Remember this trick: Each vowel has a short sound. A is like apple. E is like egg. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the word step have a short vowel or a long vowel?",
+        "options": [
+          "short",
+          "long"
+        ],
+        "answer": "short",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, short! You are right. Remember this trick: Each vowel has a short sound. A is like apple. E is like egg.",
+        "if_wrong": "Nice try! The answer is short. Remember this trick: Each vowel has a short sound. A is like apple. E is like egg. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word jump.",
+        "answer": "jump",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled jump right! It is j, u, m, p. Remember this trick: Each vowel has a short sound. A is like apple. E is like egg.",
+        "if_wrong": "Good try! jump is spelled j, u, m, p. Remember this trick: Each vowel has a short sound. A is like apple. E is like egg. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word crisp, like a crisp apple.",
+        "answer": "crisp",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled crisp right! It is c, r, i, s, p. Remember this trick: Each vowel has a short sound. A is like apple. E is like egg.",
+        "if_wrong": "Good try! crisp is spelled c, r, i, s, p. Remember this trick: Each vowel has a short sound. A is like apple. E is like egg. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-silent-e",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Magic silent e",
+    "trick": "Magic e is quiet, but it makes the vowel say its name!",
+    "explain": "Cap has a short a. Add an e at the end and you get cape. The e does not make a sound. It makes the a say its name. Kit becomes kite!",
+    "examples": [
+      "cap to cape",
+      "kit to kite",
+      "hop to hope",
+      "cub to cube"
+    ],
+    "exceptions": [
+      "have, give, love and come have a silent e but the vowel is short."
+    ],
+    "prereqs": [
+      "vt-short-vowels"
+    ],
+    "i_can": "I can add magic e to make a long vowel.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "Add magic e to cap. What word do you get?",
+        "answer": "cape",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! cape! Great job. Remember this trick: Magic e is quiet, but it makes the vowel say its name!",
+        "if_wrong": "Good try! The answer is cape. Remember this trick: Magic e is quiet, but it makes the vowel say its name! Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Add magic e to hop. What word do you get?",
+        "answer": "hope",
+        "accept": [],
+        "level": 2,
+        "if_right": "You got it! hope! Great job. Remember this trick: Magic e is quiet, but it makes the vowel say its name!",
+        "if_wrong": "Good try! The answer is hope. Remember this trick: Magic e is quiet, but it makes the vowel say its name! Let us try another one."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word bike.",
+        "answer": "bike",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled bike right! It is b, i, k, e. Remember this trick: Magic e is quiet, but it makes the vowel say its name!",
+        "if_wrong": "Good try! bike is spelled b, i, k, e. Remember this trick: Magic e is quiet, but it makes the vowel say its name! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word does not follow the magic e rule: make or have?",
+        "options": [
+          "make",
+          "have"
+        ],
+        "answer": "have",
+        "accept": [],
+        "level": 4,
+        "if_right": "Yes, have! You are right. Remember this trick: Magic e is quiet, but it makes the vowel say its name!",
+        "if_wrong": "Nice try! The answer is have. Remember this trick: Magic e is quiet, but it makes the vowel say its name! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a toy that flies on a string. It rhymes with bite.",
+        "answer": "kite",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled kite right! It is k, i, t, e. Remember this trick: Magic e is quiet, but it makes the vowel say its name!",
+        "if_wrong": "Good try! kite is spelled k, i, t, e. Remember this trick: Magic e is quiet, but it makes the vowel say its name! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a box shape, like a dice. It starts with c.",
+        "answer": "cube",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled cube right! It is c, u, b, e. Remember this trick: Magic e is quiet, but it makes the vowel say its name!",
+        "if_wrong": "Good try! cube is spelled c, u, b, e. Remember this trick: Magic e is quiet, but it makes the vowel say its name! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-long-a",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Long a: ai, ay and a_e",
+    "trick": "Use ai in the middle. Use ay at the end.",
+    "explain": "Rain has ai in the middle. Play has ay at the end. Words do not end in ai. Cake and name make the same sound with magic e.",
+    "examples": [
+      "rain, train, snail",
+      "play, day, stay",
+      "cake, name, late"
+    ],
+    "exceptions": [
+      "eight, sleigh and they also say long a."
+    ],
+    "prereqs": [
+      "vt-silent-e"
+    ],
+    "i_can": "I can choose ai, ay or a_e to spell long a.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the word play end with ai or ay?",
+        "options": [
+          "ai",
+          "ay"
+        ],
+        "answer": "ay",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, ay! You are right. Remember this trick: Use ai in the middle. Use ay at the end.",
+        "if_wrong": "Nice try! The answer is ay. Remember this trick: Use ai in the middle. Use ay at the end. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the word rain use ai or ay in the middle?",
+        "options": [
+          "ai",
+          "ay"
+        ],
+        "answer": "ai",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, ai! You are right. Remember this trick: Use ai in the middle. Use ay at the end.",
+        "if_wrong": "Nice try! The answer is ai. Remember this trick: Use ai in the middle. Use ay at the end. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word stay.",
+        "answer": "stay",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled stay right! It is s, t, a, y. Remember this trick: Use ai in the middle. Use ay at the end.",
+        "if_wrong": "Good try! stay is spelled s, t, a, y. Remember this trick: Use ai in the middle. Use ay at the end. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word snail.",
+        "answer": "snail",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled snail right! It is s, n, a, i, l. Remember this trick: Use ai in the middle. Use ay at the end.",
+        "if_wrong": "Good try! snail is spelled s, n, a, i, l. Remember this trick: Use ai in the middle. Use ay at the end. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a sweet treat you bake. It rhymes with take.",
+        "answer": "cake",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled cake right! It is c, a, k, e. Remember this trick: Use ai in the middle. Use ay at the end.",
+        "if_wrong": "Good try! cake is spelled c, a, k, e. Remember this trick: Use ai in the middle. Use ay at the end. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the word day end with ai or ay?",
+        "options": [
+          "ai",
+          "ay"
+        ],
+        "answer": "ay",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, ay! You are right. Remember this trick: Use ai in the middle. Use ay at the end.",
+        "if_wrong": "Nice try! The answer is ay. Remember this trick: Use ai in the middle. Use ay at the end. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "vt-long-e",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Long e: ee and ea",
+    "trick": "When two vowels walk together, the first one talks.",
+    "explain": "In tree and eat, you hear the name of the letter e. Ee and ea make that sound. You have to remember which words use which.",
+    "examples": [
+      "tree, feet, green",
+      "eat, beach, leaf"
+    ],
+    "exceptions": [
+      "In bread, head and breath, ea says short e.",
+      "In great and break, ea says long a."
+    ],
+    "prereqs": [
+      "vt-short-vowels"
+    ],
+    "i_can": "I can read and spell ee and ea words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word that is a green plant that grows tall.",
+        "answer": "tree",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled tree right! It is t, r, e, e. Remember this trick: When two vowels walk together, the first one talks.",
+        "if_wrong": "Good try! tree is spelled t, r, e, e. Remember this trick: When two vowels walk together, the first one talks. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word beach.",
+        "answer": "beach",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled beach right! It is b, e, a, c, h. Remember this trick: When two vowels walk together, the first one talks.",
+        "if_wrong": "Good try! beach is spelled b, e, a, c, h. Remember this trick: When two vowels walk together, the first one talks. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "In the word bread, does ea say long e or short e?",
+        "options": [
+          "long e",
+          "short e"
+        ],
+        "answer": "short e",
+        "accept": [
+          "short"
+        ],
+        "level": 3,
+        "if_right": "Yes, short e! You are right. Remember this trick: When two vowels walk together, the first one talks.",
+        "if_wrong": "Nice try! The answer is short e. Remember this trick: When two vowels walk together, the first one talks. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "In the word great, does ea say long e or long a?",
+        "options": [
+          "long e",
+          "long a"
+        ],
+        "answer": "long a",
+        "accept": [
+          "a"
+        ],
+        "level": 4,
+        "if_right": "Yes, long a! You are right. Remember this trick: When two vowels walk together, the first one talks.",
+        "if_wrong": "Nice try! The answer is long a. Remember this trick: When two vowels walk together, the first one talks. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "vt-long-i-igh",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "The eye sound: igh",
+    "trick": "I, G, H says eye! The g and h are quiet.",
+    "explain": "Night, light and high all have igh. Read the three letters together. They say eye. The g and h do not make a sound.",
+    "examples": [
+      "night",
+      "light",
+      "high",
+      "bright",
+      "fight"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "vt-silent-e"
+    ],
+    "i_can": "I can read and spell igh words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word that is the opposite of day.",
+        "answer": "night",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled night right! It is n, i, g, h, t. Remember this trick: I, G, H says eye! The g and h are quiet.",
+        "if_wrong": "Good try! night is spelled n, i, g, h, t. Remember this trick: I, G, H says eye! The g and h are quiet. Let us try one more."
+      },
+      {
+        "type": "say",
+        "prompt": "Change the l in light to f. What word?",
+        "answer": "fight",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! fight! Great job. Remember this trick: I, G, H says eye! The g and h are quiet.",
+        "if_wrong": "Good try! The answer is fight. Remember this trick: I, G, H says eye! The g and h are quiet. Let us try another one."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word bright.",
+        "answer": "bright",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled bright right! It is b, r, i, g, h, t. Remember this trick: I, G, H says eye! The g and h are quiet.",
+        "if_wrong": "Good try! bright is spelled b, r, i, g, h, t. Remember this trick: I, G, H says eye! The g and h are quiet. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that means very tall.",
+        "answer": "high",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled high right! It is h, i, g, h. Remember this trick: I, G, H says eye! The g and h are quiet.",
+        "if_wrong": "Good try! high is spelled h, i, g, h. Remember this trick: I, G, H says eye! The g and h are quiet. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for what a lamp gives. It rhymes with night.",
+        "answer": "light",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled light right! It is l, i, g, h, t. Remember this trick: I, G, H says eye! The g and h are quiet.",
+        "if_wrong": "Good try! light is spelled l, i, g, h, t. Remember this trick: I, G, H says eye! The g and h are quiet. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that rhymes with light and means correct. It starts with r.",
+        "answer": "right",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled right right! It is r, i, g, h, t. Remember this trick: I, G, H says eye! The g and h are quiet.",
+        "if_wrong": "Good try! right is spelled r, i, g, h, t. Remember this trick: I, G, H says eye! The g and h are quiet. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-long-i-y",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "The eye sound: y at the end",
+    "trick": "At the end of a short word, y says eye.",
+    "explain": "Fly, my, cry, try and sky all end with y. The y says eye. In a long word like happy, the y says ee.",
+    "examples": [
+      "fly",
+      "my",
+      "cry",
+      "try",
+      "sky",
+      "by"
+    ],
+    "exceptions": [
+      "In longer words, y says long e, like happy."
+    ],
+    "prereqs": [
+      "vt-silent-e"
+    ],
+    "i_can": "I can read and spell y words that say eye.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word that is up in the air with the clouds.",
+        "answer": "sky",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled sky right! It is s, k, y. Remember this trick: At the end of a short word, y says eye.",
+        "if_wrong": "Good try! sky is spelled s, k, y. Remember this trick: At the end of a short word, y says eye. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that a bird does.",
+        "answer": "fly",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled fly right! It is f, l, y. Remember this trick: At the end of a short word, y says eye.",
+        "if_wrong": "Good try! fly is spelled f, l, y. Remember this trick: At the end of a short word, y says eye. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word cry.",
+        "answer": "cry",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled cry right! It is c, r, y. Remember this trick: At the end of a short word, y says eye.",
+        "if_wrong": "Good try! cry is spelled c, r, y. Remember this trick: At the end of a short word, y says eye. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the y in my sound like eye or like ee?",
+        "options": [
+          "eye",
+          "ee"
+        ],
+        "answer": "eye",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, eye! You are right. Remember this trick: At the end of a short word, y says eye.",
+        "if_wrong": "Nice try! The answer is eye. Remember this trick: At the end of a short word, y says eye. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word we use to ask for a reason. It starts with wh and ends with y.",
+        "answer": "why",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled why right! It is w, h, y. Remember this trick: At the end of a short word, y says eye.",
+        "if_wrong": "Good try! why is spelled w, h, y. Remember this trick: At the end of a short word, y says eye. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that means to cook in hot oil. It rhymes with my and starts with fr.",
+        "answer": "fry",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled fry right! It is f, r, y. Remember this trick: At the end of a short word, y says eye.",
+        "if_wrong": "Good try! fry is spelled f, r, y. Remember this trick: At the end of a short word, y says eye. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-long-i-ie",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "The eye sound: ie at the end",
+    "trick": "When ie is at the end of a word, it says eye. Pie, tie, lie!",
+    "explain": "Pie, tie and lie end with ie. The e is quiet. Together they say eye. In field, the ie says ee.",
+    "examples": [
+      "pie",
+      "tie",
+      "lie",
+      "die",
+      "untie"
+    ],
+    "exceptions": [
+      "In the middle of a word, ie often says long e, like field and chief.",
+      "In cookie, movie and zombie, ie says long e."
+    ],
+    "prereqs": [
+      "vt-long-i-y",
+      "vt-silent-e"
+    ],
+    "i_can": "I can read and spell ie words that say eye.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word that is a tasty dessert made with fruit.",
+        "answer": "pie",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled pie right! It is p, i, e. Remember this trick: When ie is at the end of a word, it says eye. Pie, tie, lie!",
+        "if_wrong": "Good try! pie is spelled p, i, e. Remember this trick: When ie is at the end of a word, it says eye. Pie, tie, lie! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that you do to your shoes.",
+        "answer": "tie",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled tie right! It is t, i, e. Remember this trick: When ie is at the end of a word, it says eye. Pie, tie, lie!",
+        "if_wrong": "Good try! tie is spelled t, i, e. Remember this trick: When ie is at the end of a word, it says eye. Pie, tie, lie! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which one has ie saying long e: pie or field?",
+        "options": [
+          "pie",
+          "field"
+        ],
+        "answer": "field",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, field! You are right. Remember this trick: When ie is at the end of a word, it says eye. Pie, tie, lie!",
+        "if_wrong": "Nice try! The answer is field. Remember this trick: When ie is at the end of a word, it says eye. Pie, tie, lie! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that means the opposite of tie.",
+        "answer": "untie",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled untie right! It is u, n, t, i, e. Remember this trick: When ie is at the end of a word, it says eye. Pie, tie, lie!",
+        "if_wrong": "Good try! untie is spelled u, n, t, i, e. Remember this trick: When ie is at the end of a word, it says eye. Pie, tie, lie! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that means not telling the truth. It rhymes with pie and starts with l.",
+        "answer": "lie",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled lie right! It is l, i, e. Remember this trick: When ie is at the end of a word, it says eye. Pie, tie, lie!",
+        "if_wrong": "Good try! lie is spelled l, i, e. Remember this trick: When ie is at the end of a word, it says eye. Pie, tie, lie! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the ie in lie say eye or ee?",
+        "options": [
+          "eye",
+          "ee"
+        ],
+        "answer": "eye",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, eye! You are right. Remember this trick: When ie is at the end of a word, it says eye. Pie, tie, lie!",
+        "if_wrong": "Nice try! The answer is eye. Remember this trick: When ie is at the end of a word, it says eye. Pie, tie, lie! Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "vt-long-i-ind-ild",
+    "grade": 2,
+    "category": "vowel_tricks",
+    "title": "Tricky old words: ind, ild, old, olt, oll, ost",
+    "trick": "Some words are sneaky. The i or o says its name.",
+    "explain": "In kind and child, the i says eye. In cold, bolt, roll and most, the o says oh. Learn these endings: ind, ild, old, olt, oll and ost.",
+    "examples": [
+      "kind, find, mind",
+      "child, wild, mild",
+      "cold, gold, told",
+      "bolt, jolt, colt",
+      "roll, toll, poll",
+      "most, post, host"
+    ],
+    "exceptions": [
+      "Wind, when it blows, has a short i. Wind, when you wind up a toy, has a long i."
+    ],
+    "prereqs": [
+      "vt-long-i-y"
+    ],
+    "i_can": "I can read words ending in ind, ild, old, olt, oll and ost.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word that means nice to others.",
+        "answer": "kind",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled kind right! It is k, i, n, d. Remember this trick: Some words are sneaky. The i or o says its name.",
+        "if_wrong": "Good try! kind is spelled k, i, n, d. Remember this trick: Some words are sneaky. The i or o says its name. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a young person.",
+        "answer": "child",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled child right! It is c, h, i, l, d. Remember this trick: Some words are sneaky. The i or o says its name.",
+        "if_wrong": "Good try! child is spelled c, h, i, l, d. Remember this trick: Some words are sneaky. The i or o says its name. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the o in gold say short o or long o?",
+        "options": [
+          "short o",
+          "long o"
+        ],
+        "answer": "long o",
+        "accept": [
+          "long"
+        ],
+        "level": 2,
+        "if_right": "Yes, long o! You are right. Remember this trick: Some words are sneaky. The i or o says its name.",
+        "if_wrong": "Nice try! The answer is long o. Remember this trick: Some words are sneaky. The i or o says its name. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that means not hot.",
+        "answer": "cold",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled cold right! It is c, o, l, d. Remember this trick: Some words are sneaky. The i or o says its name. Let us try one more.",
+        "if_wrong": "Good try! cold is spelled c, o, l, d. Remember this trick: Some words are sneaky. The i or o says its name. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a big screw that holds things tight.",
+        "answer": "bolt",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled bolt right! It is b, o, l, t. Remember this trick: Some words are sneaky. The i or o says its name.",
+        "if_wrong": "Good try! bolt is spelled b, o, l, t. Remember this trick: Some words are sneaky. The i or o says its name. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word roll.",
+        "answer": "roll",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled roll right! It is r, o, l, l. Remember this trick: Some words are sneaky. The i or o says its name.",
+        "if_wrong": "Good try! roll is spelled r, o, l, l. Remember this trick: Some words are sneaky. The i or o says its name. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-long-o",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Long o: oa, ow and o_e",
+    "trick": "Use oa in the middle. Use ow at the end.",
+    "explain": "Boat has oa in the middle. Snow has ow at the end. Bone uses magic e. All of these say the name of the letter o.",
+    "examples": [
+      "boat, coat, road",
+      "snow, grow, show",
+      "bone, home, rope"
+    ],
+    "exceptions": [
+      "Ow can also say ou, like cow."
+    ],
+    "prereqs": [
+      "vt-silent-e"
+    ],
+    "i_can": "I can choose oa, ow or o_e to spell long o.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word for something that floats on water.",
+        "answer": "boat",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled boat right! It is b, o, a, t. Remember this trick: Use oa in the middle. Use ow at the end.",
+        "if_wrong": "Good try! boat is spelled b, o, a, t. Remember this trick: Use oa in the middle. Use ow at the end. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does snow end with oa or ow?",
+        "options": [
+          "oa",
+          "ow"
+        ],
+        "answer": "ow",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, ow! You are right. Remember this trick: Use oa in the middle. Use ow at the end.",
+        "if_wrong": "Nice try! The answer is ow. Remember this trick: Use oa in the middle. Use ow at the end. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that is a long string you can tie.",
+        "answer": "rope",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled rope right! It is r, o, p, e. Remember this trick: Use oa in the middle. Use ow at the end.",
+        "if_wrong": "Good try! rope is spelled r, o, p, e. Remember this trick: Use oa in the middle. Use ow at the end. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word grow.",
+        "answer": "grow",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled grow right! It is g, r, o, w. Remember this trick: Use oa in the middle. Use ow at the end.",
+        "if_wrong": "Good try! grow is spelled g, r, o, w. Remember this trick: Use oa in the middle. Use ow at the end. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the word road use oa or ow?",
+        "options": [
+          "oa",
+          "ow"
+        ],
+        "answer": "oa",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, oa! You are right. Remember this trick: Use oa in the middle. Use ow at the end.",
+        "if_wrong": "Nice try! The answer is oa. Remember this trick: Use oa in the middle. Use ow at the end. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word you wear outside when it is cold. It rhymes with boat.",
+        "answer": "coat",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled coat right! It is c, o, a, t. Remember this trick: Use oa in the middle. Use ow at the end.",
+        "if_wrong": "Good try! coat is spelled c, o, a, t. Remember this trick: Use oa in the middle. Use ow at the end. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-long-u",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Long u: u_e, ue and ew",
+    "trick": "Long u has three looks: u with magic e, ue and ew.",
+    "explain": "Cube uses u with magic e. Blue uses ue. Grew uses ew. They all say the name of the letter u, or oo. Ue and ew are often at the end of a word.",
+    "examples": [
+      "cube, tune, huge",
+      "blue, clue, glue",
+      "grew, new, chew"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "vt-silent-e"
+    ],
+    "i_can": "I can read and spell long u words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the color of the sky on a sunny day. It starts with b.",
+        "answer": "blue",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled blue right! It is b, l, u, e. Remember this trick: Long u has three looks: u with magic e, ue and ew.",
+        "if_wrong": "Good try! blue is spelled b, l, u, e. Remember this trick: Long u has three looks: u with magic e, ue and ew. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word new.",
+        "answer": "new",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled new right! It is n, e, w. Remember this trick: Long u has three looks: u with magic e, ue and ew.",
+        "if_wrong": "Good try! new is spelled n, e, w. Remember this trick: Long u has three looks: u with magic e, ue and ew. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word is spelled with u_e: cube or grew?",
+        "options": [
+          "cube",
+          "grew"
+        ],
+        "answer": "cube",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, cube! You are right. Remember this trick: Long u has three looks: u with magic e, ue and ew.",
+        "if_wrong": "Nice try! The answer is cube. Remember this trick: Long u has three looks: u with magic e, ue and ew. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word glue.",
+        "answer": "glue",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled glue right! It is g, l, u, e. Remember this trick: Long u has three looks: u with magic e, ue and ew.",
+        "if_wrong": "Good try! glue is spelled g, l, u, e. Remember this trick: Long u has three looks: u with magic e, ue and ew. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the word grew end with ew or ue?",
+        "options": [
+          "ew",
+          "ue"
+        ],
+        "answer": "ew",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, ew! You are right. Remember this trick: Long u has three looks: u with magic e, ue and ew.",
+        "if_wrong": "Nice try! The answer is ew. Remember this trick: Long u has three looks: u with magic e, ue and ew. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that is the past of grow. It rhymes with blue and starts with gr.",
+        "answer": "grew",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled grew right! It is g, r, e, w. Remember this trick: Long u has three looks: u with magic e, ue and ew.",
+        "if_wrong": "Good try! grew is spelled g, r, e, w. Remember this trick: Long u has three looks: u with magic e, ue and ew. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-oo",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "The two sounds of oo",
+    "trick": "Oo can make two sounds. Try both!",
+    "explain": "Moon, zoo and food have a long oo sound. Book, foot and good have a short oo sound. If one does not sound right, try the other one.",
+    "examples": [
+      "moon, zoo, food",
+      "book, foot, good"
+    ],
+    "exceptions": [
+      "Door and floor are odd. Oo says or."
+    ],
+    "prereqs": [
+      "vt-short-vowels"
+    ],
+    "i_can": "I can try both sounds of oo.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does book have the long oo sound like moon, or the short oo sound?",
+        "options": [
+          "long",
+          "short"
+        ],
+        "answer": "short",
+        "accept": [
+          "short oo"
+        ],
+        "level": 1,
+        "if_right": "Yes, short! You are right. Remember this trick: Oo can make two sounds. Try both!",
+        "if_wrong": "Nice try! The answer is short. Remember this trick: Oo can make two sounds. Try both! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for the thing in the night sky.",
+        "answer": "moon",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled moon right! It is m, o, o, n. Remember this trick: Oo can make two sounds. Try both!",
+        "if_wrong": "Good try! moon is spelled m, o, o, n. Remember this trick: Oo can make two sounds. Try both! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word foot.",
+        "answer": "foot",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled foot right! It is f, o, o, t. Remember this trick: Oo can make two sounds. Try both!",
+        "if_wrong": "Good try! foot is spelled f, o, o, t. Remember this trick: Oo can make two sounds. Try both! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has the long oo sound: good or food?",
+        "options": [
+          "good",
+          "food"
+        ],
+        "answer": "food",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, food! You are right. Remember this trick: Oo can make two sounds. Try both!",
+        "if_wrong": "Nice try! The answer is food. Remember this trick: Oo can make two sounds. Try both! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the place where animals live and people visit. It has oo.",
+        "answer": "zoo",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled zoo right! It is z, o, o. Remember this trick: Oo can make two sounds. Try both!",
+        "if_wrong": "Good try! zoo is spelled z, o, o. Remember this trick: Oo can make two sounds. Try both! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the thing you read. It rhymes with look.",
+        "answer": "book",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled book right! It is b, o, o, k. Remember this trick: Oo can make two sounds. Try both!",
+        "if_wrong": "Good try! book is spelled b, o, o, k. Remember this trick: Oo can make two sounds. Try both! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-ou-ow",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Ou and ow: the ouch sound",
+    "trick": "Ouch! Ou and ow can both say ow.",
+    "explain": "Cloud and cow have the same sound. It is the sound you say when you say ouch! Ou is usually in the middle, like house. Ow is often at the end, like cow.",
+    "examples": [
+      "cloud, house, out",
+      "cow, how, now",
+      "down, town, owl"
+    ],
+    "exceptions": [
+      "Ow can say long o, like snow."
+    ],
+    "prereqs": [
+      "vt-long-o"
+    ],
+    "i_can": "I can choose ou or ow for the ow sound.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the word cow end with ou or ow?",
+        "options": [
+          "ou",
+          "ow"
+        ],
+        "answer": "ow",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, ow! You are right. Remember this trick: Ouch! Ou and ow can both say ow.",
+        "if_wrong": "Nice try! The answer is ow. Remember this trick: Ouch! Ou and ow can both say ow. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word house.",
+        "answer": "house",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled house right! It is h, o, u, s, e. Remember this trick: Ouch! Ou and ow can both say ow.",
+        "if_wrong": "Good try! house is spelled h, o, u, s, e. Remember this trick: Ouch! Ou and ow can both say ow. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a place smaller than a city where people live.",
+        "answer": "town",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled town right! It is t, o, w, n. Remember this trick: Ouch! Ou and ow can both say ow.",
+        "if_wrong": "Good try! town is spelled t, o, w, n. Remember this trick: Ouch! Ou and ow can both say ow. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "In snow, does ow say the ouch sound or long o?",
+        "options": [
+          "ouch sound",
+          "long o"
+        ],
+        "answer": "long o",
+        "accept": [
+          "o"
+        ],
+        "level": 3,
+        "if_right": "Yes, long o! You are right. Remember this trick: Ouch! Ou and ow can both say ow.",
+        "if_wrong": "Nice try! The answer is long o. Remember this trick: Ouch! Ou and ow can both say ow. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the animal that gives milk. It rhymes with now.",
+        "answer": "cow",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled cow right! It is c, o, w. Remember this trick: Ouch! Ou and ow can both say ow.",
+        "if_wrong": "Good try! cow is spelled c, o, w. Remember this trick: Ouch! Ou and ow can both say ow. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the white fluffy thing in the sky. It starts with cl.",
+        "answer": "cloud",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled cloud right! It is c, l, o, u, d. Remember this trick: Ouch! Ou and ow can both say ow.",
+        "if_wrong": "Good try! cloud is spelled c, l, o, u, d. Remember this trick: Ouch! Ou and ow can both say ow. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-oi-oy",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Oi and oy",
+    "trick": "Oi goes in the middle. Oy goes at the end. Oy, boy!",
+    "explain": "Coin and toy have the same sound. Use oi in the middle, like coin. Use oy at the end, like boy.",
+    "examples": [
+      "coin, oil, point",
+      "toy, boy, enjoy"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "vt-long-a"
+    ],
+    "i_can": "I can choose oi or oy.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the word toy end with oi or oy?",
+        "options": [
+          "oi",
+          "oy"
+        ],
+        "answer": "oy",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, oy! You are right. Remember this trick: Oi goes in the middle. Oy goes at the end. Oy, boy!",
+        "if_wrong": "Nice try! The answer is oy. Remember this trick: Oi goes in the middle. Oy goes at the end. Oy, boy! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word coin.",
+        "answer": "coin",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled coin right! It is c, o, i, n. Remember this trick: Oi goes in the middle. Oy goes at the end. Oy, boy!",
+        "if_wrong": "Good try! coin is spelled c, o, i, n. Remember this trick: Oi goes in the middle. Oy goes at the end. Oy, boy! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a young male.",
+        "answer": "boy",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled boy right! It is b, o, y. Remember this trick: Oi goes in the middle. Oy goes at the end. Oy, boy!",
+        "if_wrong": "Good try! boy is spelled b, o, y. Remember this trick: Oi goes in the middle. Oy goes at the end. Oy, boy! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word enjoy.",
+        "answer": "enjoy",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled enjoy right! It is e, n, j, o, y. Remember this trick: Oi goes in the middle. Oy goes at the end. Oy, boy!",
+        "if_wrong": "Good try! enjoy is spelled e, n, j, o, y. Remember this trick: Oi goes in the middle. Oy goes at the end. Oy, boy! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the thing you play with. It rhymes with boy.",
+        "answer": "toy",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled toy right! It is t, o, y. Remember this trick: Oi goes in the middle. Oy goes at the end. Oy, boy!",
+        "if_wrong": "Good try! toy is spelled t, o, y. Remember this trick: Oi goes in the middle. Oy goes at the end. Oy, boy! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for what you cook with. It rhymes with boil.",
+        "answer": "oil",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled oil right! It is o, i, l. Remember this trick: Oi goes in the middle. Oy goes at the end. Oy, boy!",
+        "if_wrong": "Good try! oil is spelled o, i, l. Remember this trick: Oi goes in the middle. Oy goes at the end. Oy, boy! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-au-aw",
+    "grade": 2,
+    "category": "vowel_tricks",
+    "title": "Au and aw",
+    "trick": "Aw goes at the end. Au goes in the middle.",
+    "explain": "Paw and sauce have the same sound. Use aw at the end, like paw. Use aw before n or l, like lawn and crawl. Use au in the middle, like sauce.",
+    "examples": [
+      "paw, saw, claw",
+      "lawn, yawn, crawl",
+      "haul, sauce, August"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "vt-oi-oy"
+    ],
+    "i_can": "I can choose au or aw.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the word paw end with au or aw?",
+        "options": [
+          "au",
+          "aw"
+        ],
+        "answer": "aw",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, aw! You are right. Remember this trick: Aw goes at the end. Au goes in the middle.",
+        "if_wrong": "Nice try! The answer is aw. Remember this trick: Aw goes at the end. Au goes in the middle. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word claw.",
+        "answer": "claw",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled claw right! It is c, l, a, w. Remember this trick: Aw goes at the end. Au goes in the middle.",
+        "if_wrong": "Good try! claw is spelled c, l, a, w. Remember this trick: Aw goes at the end. Au goes in the middle. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word sauce.",
+        "answer": "sauce",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled sauce right! It is s, a, u, c, e. Remember this trick: Aw goes at the end. Au goes in the middle.",
+        "if_wrong": "Good try! sauce is spelled s, a, u, c, e. Remember this trick: Aw goes at the end. Au goes in the middle. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word lawn.",
+        "answer": "lawn",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled lawn right! It is l, a, w, n. Remember this trick: Aw goes at the end. Au goes in the middle.",
+        "if_wrong": "Good try! lawn is spelled l, a, w, n. Remember this trick: Aw goes at the end. Au goes in the middle. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-r-controlled-ar-or",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Bossy R: ar and or",
+    "trick": "R is bossy! It changes the sound of the vowel.",
+    "explain": "Car and star have ar. Corn and fork have or. The r is bossy. The vowel does not say its usual sound. Listen for ar and or.",
+    "examples": [
+      "car, star, farm",
+      "corn, fork, horse"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "vt-short-vowels"
+    ],
+    "i_can": "I can read and spell ar and or words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word that is a twinkling light in the night sky.",
+        "answer": "star",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled star right! It is s, t, a, r. Remember this trick: R is bossy! It changes the sound of the vowel.",
+        "if_wrong": "Good try! star is spelled s, t, a, r. Remember this trick: R is bossy! It changes the sound of the vowel. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that you eat with.",
+        "answer": "fork",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled fork right! It is f, o, r, k. Remember this trick: R is bossy! It changes the sound of the vowel.",
+        "if_wrong": "Good try! fork is spelled f, o, r, k. Remember this trick: R is bossy! It changes the sound of the vowel. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word farm.",
+        "answer": "farm",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled farm right! It is f, a, r, m. Remember this trick: R is bossy! It changes the sound of the vowel.",
+        "if_wrong": "Good try! farm is spelled f, a, r, m. Remember this trick: R is bossy! It changes the sound of the vowel. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word horse.",
+        "answer": "horse",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled horse right! It is h, o, r, s, e. Remember this trick: R is bossy! It changes the sound of the vowel.",
+        "if_wrong": "Good try! horse is spelled h, o, r, s, e. Remember this trick: R is bossy! It changes the sound of the vowel. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the thing with wheels that you ride in. It starts with c.",
+        "answer": "car",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled car right! It is c, a, r. Remember this trick: R is bossy! It changes the sound of the vowel.",
+        "if_wrong": "Good try! car is spelled c, a, r. Remember this trick: R is bossy! It changes the sound of the vowel. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the yellow food that grows on a cob.",
+        "answer": "corn",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled corn right! It is c, o, r, n. Remember this trick: R is bossy! It changes the sound of the vowel.",
+        "if_wrong": "Good try! corn is spelled c, o, r, n. Remember this trick: R is bossy! It changes the sound of the vowel. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-r-controlled-er-ir-ur",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Bossy R: er, ir and ur",
+    "trick": "Er, ir and ur all say the same sound.",
+    "explain": "Her, bird and turn all have the same sound. It is the sound at the end of the word water. You have to remember which letters each word uses.",
+    "examples": [
+      "her, water, teacher",
+      "bird, girl, shirt",
+      "turn, hurt, burn"
+    ],
+    "exceptions": [
+      "After w, or often says er, like work and worm."
+    ],
+    "prereqs": [
+      "vt-r-controlled-ar-or"
+    ],
+    "i_can": "I can read and spell er, ir and ur words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word that flies in the sky and sings.",
+        "answer": "bird",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled bird right! It is b, i, r, d. Remember this trick: Er, ir and ur all say the same sound.",
+        "if_wrong": "Good try! bird is spelled b, i, r, d. Remember this trick: Er, ir and ur all say the same sound. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for what you wear on your top.",
+        "answer": "shirt",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled shirt right! It is s, h, i, r, t. Remember this trick: Er, ir and ur all say the same sound.",
+        "if_wrong": "Good try! shirt is spelled s, h, i, r, t. Remember this trick: Er, ir and ur all say the same sound. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word turn.",
+        "answer": "turn",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled turn right! It is t, u, r, n. Remember this trick: Er, ir and ur all say the same sound.",
+        "if_wrong": "Good try! turn is spelled t, u, r, n. Remember this trick: Er, ir and ur all say the same sound. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the word work use or or er to make the er sound? It is a trick.",
+        "options": [
+          "or",
+          "er"
+        ],
+        "answer": "or",
+        "accept": [],
+        "level": 4,
+        "if_right": "Yes, or! You are right. Remember this trick: Er, ir and ur all say the same sound.",
+        "if_wrong": "Nice try! The answer is or. Remember this trick: Er, ir and ur all say the same sound. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a female child. It starts with g.",
+        "answer": "girl",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled girl right! It is g, i, r, l. Remember this trick: Er, ir and ur all say the same sound.",
+        "if_wrong": "Good try! girl is spelled g, i, r, l. Remember this trick: Er, ir and ur all say the same sound. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for the person who helps you learn at school.",
+        "answer": "teacher",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled teacher right! It is t, e, a, c, h, e, r. Remember this trick: Er, ir and ur all say the same sound.",
+        "if_wrong": "Good try! teacher is spelled t, e, a, c, h, e, r. Remember this trick: Er, ir and ur all say the same sound. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-all-words",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "A before ll: ball, call, fall",
+    "trick": "A before ll says aw, like in ball.",
+    "explain": "Ball, call and fall have a before ll. The a says aw. Walk and talk say aw too.",
+    "examples": [
+      "ball",
+      "call",
+      "fall",
+      "wall",
+      "walk",
+      "talk"
+    ],
+    "exceptions": [
+      "shall"
+    ],
+    "prereqs": [
+      "vt-short-vowels",
+      "sr-floss"
+    ],
+    "i_can": "I can read and spell ball, call and fall words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a round toy you bounce. It rhymes with call.",
+        "answer": "ball",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled ball right! It is b, a, l, l. Remember this trick: A before ll says aw, like in ball.",
+        "if_wrong": "Good try! ball is spelled b, a, l, l. Remember this trick: A before ll says aw, like in ball. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for the side of a room. It rhymes with ball.",
+        "answer": "wall",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled wall right! It is w, a, l, l. Remember this trick: A before ll says aw, like in ball.",
+        "if_wrong": "Good try! wall is spelled w, a, l, l. Remember this trick: A before ll says aw, like in ball. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for the season after summer. It rhymes with call.",
+        "answer": "fall",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled fall right! It is f, a, l, l. Remember this trick: A before ll says aw, like in ball.",
+        "if_wrong": "Good try! fall is spelled f, a, l, l. Remember this trick: A before ll says aw, like in ball. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the a in tall say a like in cat, or aw like in ball?",
+        "options": [
+          "a",
+          "aw"
+        ],
+        "answer": "aw",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, aw! You are right. Remember this trick: A before ll says aw, like in ball.",
+        "if_wrong": "Nice try! The answer is aw. Remember this trick: A before ll says aw, like in ball. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for moving with your feet, slowly. It starts with w.",
+        "answer": "walk",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled walk right! It is w, a, l, k. Remember this trick: A before ll says aw, like in ball.",
+        "if_wrong": "Good try! walk is spelled w, a, l, k. Remember this trick: A before ll says aw, like in ball. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-ea-short",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Ea can say eh",
+    "trick": "Ea can say eh, like in bread.",
+    "explain": "Ea can say ee, like in eat. But in bread, head and ready, it says eh. Try both sounds. Pick the one that makes a real word.",
+    "examples": [
+      "bread",
+      "head",
+      "ready",
+      "sweater"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "vt-long-e"
+    ],
+    "i_can": "I can try both sounds of ea.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the ea in head say ee or eh?",
+        "options": [
+          "ee",
+          "eh"
+        ],
+        "answer": "eh",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, eh! You are right. Remember this trick: Ea can say eh, like in bread.",
+        "if_wrong": "Nice try! The answer is eh. Remember this trick: Ea can say eh, like in bread. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for the top of your body. It rhymes with bed.",
+        "answer": "head",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled head right! It is h, e, a, d. Remember this trick: Ea can say eh, like in bread.",
+        "if_wrong": "Good try! head is spelled h, e, a, d. Remember this trick: Ea can say eh, like in bread. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the food you make toast from. It rhymes with red.",
+        "answer": "bread",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled bread right! It is b, r, e, a, d. Remember this trick: Ea can say eh, like in bread.",
+        "if_wrong": "Good try! bread is spelled b, r, e, a, d. Remember this trick: Ea can say eh, like in bread. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the ea in beach say ee or eh?",
+        "options": [
+          "ee",
+          "eh"
+        ],
+        "answer": "ee",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, ee! You are right. Remember this trick: Ea can say eh, like in bread.",
+        "if_wrong": "Nice try! The answer is ee. Remember this trick: Ea can say eh, like in bread. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that means set to go. It starts with r and ends with y.",
+        "answer": "ready",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled ready right! It is r, e, a, d, y. Remember this trick: Ea can say eh, like in bread.",
+        "if_wrong": "Good try! ready is spelled r, e, a, d, y. Remember this trick: Ea can say eh, like in bread. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-y-says-ee",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Y says ee in long words",
+    "trick": "At the end of a long word, y says ee.",
+    "explain": "Happy, baby and funny end with y. Here, the y says ee. In short words like my and fly, the y says eye.",
+    "examples": [
+      "happy",
+      "baby",
+      "funny",
+      "sunny",
+      "puppy"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "vt-long-i-y"
+    ],
+    "i_can": "I can tell when y says ee or eye.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the y in happy say ee or eye?",
+        "options": [
+          "ee",
+          "eye"
+        ],
+        "answer": "ee",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, ee! You are right. Remember this trick: At the end of a long word, y says ee.",
+        "if_wrong": "Nice try! The answer is ee. Remember this trick: At the end of a long word, y says ee. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the y in fly say ee or eye?",
+        "options": [
+          "ee",
+          "eye"
+        ],
+        "answer": "eye",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, eye! You are right. Remember this trick: At the end of a long word, y says ee.",
+        "if_wrong": "Nice try! The answer is eye. Remember this trick: At the end of a long word, y says ee. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a very little child. It starts with b.",
+        "answer": "baby",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled baby right! It is b, a, b, y. Remember this trick: At the end of a long word, y says ee.",
+        "if_wrong": "Good try! baby is spelled b, a, b, y. Remember this trick: At the end of a long word, y says ee. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that rhymes with sunny and means silly.",
+        "answer": "funny",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled funny right! It is f, u, n, n, y. Remember this trick: At the end of a long word, y says ee.",
+        "if_wrong": "Good try! funny is spelled f, u, n, n, y. Remember this trick: At the end of a long word, y says ee. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that is the opposite of sad. It starts with h.",
+        "answer": "happy",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled happy right! It is h, a, p, p, y. Remember this trick: At the end of a long word, y says ee.",
+        "if_wrong": "Good try! happy is spelled h, a, p, p, y. Remember this trick: At the end of a long word, y says ee. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-long-a-eigh-ey",
+    "grade": 2,
+    "category": "vowel_tricks",
+    "title": "Sneaky long a: eigh and ey",
+    "trick": "Eigh and ey can say ay too. Learn them by heart.",
+    "explain": "Eight says ay. Weigh says ay. They says ay. Hey says ay. These are sneaky spellings.",
+    "examples": [
+      "eight",
+      "weigh",
+      "sleigh",
+      "they",
+      "hey"
+    ],
+    "exceptions": [
+      "Key says ee."
+    ],
+    "prereqs": [
+      "vt-long-a"
+    ],
+    "i_can": "I can read and spell eight, they and hey.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the number after seven.",
+        "answer": "eight",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled eight right! It is e, i, g, h, t. Remember this trick: Eigh and ey can say ay too. Learn them by heart.",
+        "if_wrong": "Good try! eight is spelled e, i, g, h, t. Remember this trick: Eigh and ey can say ay too. Learn them by heart. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word says ay: they or the?",
+        "options": [
+          "they",
+          "the"
+        ],
+        "answer": "they",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, they! You are right. Remember this trick: Eigh and ey can say ay too. Learn them by heart.",
+        "if_wrong": "Nice try! The answer is they. Remember this trick: Eigh and ey can say ay too. Learn them by heart. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word you say to get a friend's attention. It starts with h and ends with ey.",
+        "answer": "hey",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled hey right! It is h, e, y. Remember this trick: Eigh and ey can say ay too. Learn them by heart.",
+        "if_wrong": "Good try! hey is spelled h, e, y. Remember this trick: Eigh and ey can say ay too. Learn them by heart. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that means to find how heavy a thing is. It starts with w.",
+        "answer": "weigh",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled weigh right! It is w, e, i, g, h. Remember this trick: Eigh and ey can say ay too. Learn them by heart.",
+        "if_wrong": "Good try! weigh is spelled w, e, i, g, h. Remember this trick: Eigh and ey can say ay too. Learn them by heart. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a ride in the snow pulled by reindeer. It starts with sl.",
+        "answer": "sleigh",
+        "accept": [],
+        "level": 4,
+        "if_right": "Yes! You spelled sleigh right! It is s, l, e, i, g, h. Remember this trick: Eigh and ey can say ay too. Learn them by heart.",
+        "if_wrong": "Good try! sleigh is spelled s, l, e, i, g, h. Remember this trick: Eigh and ey can say ay too. Learn them by heart. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-ey-ee",
+    "grade": 2,
+    "category": "vowel_tricks",
+    "title": "Ey says ee",
+    "trick": "At the end of a word, ey can say ee.",
+    "explain": "Key, monkey and turkey end with ey. The ey says ee. Some words say ay, like they and hey.",
+    "examples": [
+      "key",
+      "monkey",
+      "turkey",
+      "donkey"
+    ],
+    "exceptions": [
+      "They and hey say ay."
+    ],
+    "prereqs": [
+      "vt-long-a-eigh-ey"
+    ],
+    "i_can": "I can read and spell words that end in ey.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the thing that opens a door. It starts with k.",
+        "answer": "key",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled key right! It is k, e, y. Remember this trick: At the end of a word, ey can say ee.",
+        "if_wrong": "Good try! key is spelled k, e, y. Remember this trick: At the end of a word, ey can say ee. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the animal that loves bananas. It ends with ey.",
+        "answer": "monkey",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled monkey right! It is m, o, n, k, e, y. Remember this trick: At the end of a word, ey can say ee.",
+        "if_wrong": "Good try! monkey is spelled m, o, n, k, e, y. Remember this trick: At the end of a word, ey can say ee. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the big bird we eat at Thanksgiving. It ends with ey.",
+        "answer": "turkey",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled turkey right! It is t, u, r, k, e, y. Remember this trick: At the end of a word, ey can say ee.",
+        "if_wrong": "Good try! turkey is spelled t, u, r, k, e, y. Remember this trick: At the end of a word, ey can say ee. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the ey in key say ee or ay?",
+        "options": [
+          "ee",
+          "ay"
+        ],
+        "answer": "ee",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, ee! You are right. Remember this trick: At the end of a word, ey can say ee.",
+        "if_wrong": "Nice try! The answer is ee. Remember this trick: At the end of a word, ey can say ee. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the ey in they say ee or ay?",
+        "options": [
+          "ee",
+          "ay"
+        ],
+        "answer": "ay",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, ay! You are right. Remember this trick: At the end of a word, ey can say ee.",
+        "if_wrong": "Nice try! The answer is ay. Remember this trick: At the end of a word, ey can say ee. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "vt-a-e",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Magic e with a: a_e",
+    "trick": "In a_e words, the a says its name. The e at the end is quiet. Cake, make, name!",
+    "explain": "Look at cake. The e at the end is quiet. It makes the a say its name. Cap becomes cape.",
+    "examples": [
+      "cake",
+      "make",
+      "name",
+      "game",
+      "plate"
+    ],
+    "exceptions": [
+      "Have does not follow the rule."
+    ],
+    "prereqs": [
+      "vt-silent-e"
+    ],
+    "i_can": "I can read and spell a_e words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a birthday treat with candles.",
+        "answer": "cake",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled cake right! It is c, a, k, e. Remember this trick: In a_e words, the a says its name. The e at the end is quiet. Cake, make, name!",
+        "if_wrong": "Good try! cake is spelled c, a, k, e. Remember this trick: In a_e words, the a says its name. The e at the end is quiet. Cake, make, name! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word make.",
+        "answer": "make",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled make right! It is m, a, k, e. Remember this trick: In a_e words, the a says its name. The e at the end is quiet. Cake, make, name!",
+        "if_wrong": "Good try! make is spelled m, a, k, e. Remember this trick: In a_e words, the a says its name. The e at the end is quiet. Cake, make, name! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for what you eat food from. It is a dish.",
+        "answer": "plate",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled plate right! It is p, l, a, t, e. Remember this trick: In a_e words, the a says its name. The e at the end is quiet. Cake, make, name!",
+        "if_wrong": "Good try! plate is spelled p, l, a, t, e. Remember this trick: In a_e words, the a says its name. The e at the end is quiet. Cake, make, name! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has a magic e: hat or hate?",
+        "options": [
+          "hat",
+          "hate"
+        ],
+        "answer": "hate",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, hate! You are right. Remember this trick: In a_e words, the a says its name. The e at the end is quiet. Cake, make, name!",
+        "if_wrong": "Nice try! The answer is hate. Remember this trick: In a_e words, the a says its name. The e at the end is quiet. Cake, make, name! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the a in cake say its name or say a like apple?",
+        "options": [
+          "its name",
+          "a like apple"
+        ],
+        "answer": "its name",
+        "accept": [
+          "name"
+        ],
+        "level": 2,
+        "if_right": "Yes, its name! You are right. Remember this trick: In a_e words, the a says its name. The e at the end is quiet. Cake, make, name!",
+        "if_wrong": "Nice try! The answer is its name. Remember this trick: In a_e words, the a says its name. The e at the end is quiet. Cake, make, name! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word. You play it with friends.",
+        "answer": "game",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled game right! It is g, a, m, e. Remember this trick: In a_e words, the a says its name. The e at the end is quiet. Cake, make, name!",
+        "if_wrong": "Good try! game is spelled g, a, m, e. Remember this trick: In a_e words, the a says its name. The e at the end is quiet. Cake, make, name! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-i-e",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Magic e with i: i_e",
+    "trick": "In i_e words, the i says its name. The e at the end is quiet. Bike, kite, five!",
+    "explain": "Look at bike. The e is quiet. It makes the i say its name. Kit becomes kite.",
+    "examples": [
+      "bike",
+      "kite",
+      "five",
+      "time",
+      "line"
+    ],
+    "exceptions": [
+      "Give and live do not follow the rule."
+    ],
+    "prereqs": [
+      "vt-silent-e"
+    ],
+    "i_can": "I can read and spell i_e words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a thing with two wheels that you pedal.",
+        "answer": "bike",
+        "accept": [
+          "bicycle"
+        ],
+        "level": 1,
+        "if_right": "Yes! You spelled bike right! It is b, i, k, e. Remember this trick: In i_e words, the i says its name. The e at the end is quiet. Bike, kite, five!",
+        "if_wrong": "Good try! bike is spelled b, i, k, e. Remember this trick: In i_e words, the i says its name. The e at the end is quiet. Bike, kite, five! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a toy that flies on a string in the wind.",
+        "answer": "kite",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled kite right! It is k, i, t, e. Remember this trick: In i_e words, the i says its name. The e at the end is quiet. Bike, kite, five!",
+        "if_wrong": "Good try! kite is spelled k, i, t, e. Remember this trick: In i_e words, the i says its name. The e at the end is quiet. Bike, kite, five! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the number that comes after four.",
+        "answer": "five",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled five right! It is f, i, v, e. Remember this trick: In i_e words, the i says its name. The e at the end is quiet. Bike, kite, five!",
+        "if_wrong": "Good try! five is spelled f, i, v, e. Remember this trick: In i_e words, the i says its name. The e at the end is quiet. Bike, kite, five! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has a magic e: kit or kite?",
+        "options": [
+          "kit",
+          "kite"
+        ],
+        "answer": "kite",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, kite! You are right. Remember this trick: In i_e words, the i says its name. The e at the end is quiet. Bike, kite, five!",
+        "if_wrong": "Nice try! The answer is kite. Remember this trick: In i_e words, the i says its name. The e at the end is quiet. Bike, kite, five! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word time.",
+        "answer": "time",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled time right! It is t, i, m, e. Remember this trick: In i_e words, the i says its name. The e at the end is quiet. Bike, kite, five!",
+        "if_wrong": "Good try! time is spelled t, i, m, e. Remember this trick: In i_e words, the i says its name. The e at the end is quiet. Bike, kite, five! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word line.",
+        "answer": "line",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled line right! It is l, i, n, e. Remember this trick: In i_e words, the i says its name. The e at the end is quiet. Bike, kite, five!",
+        "if_wrong": "Good try! line is spelled l, i, n, e. Remember this trick: In i_e words, the i says its name. The e at the end is quiet. Bike, kite, five! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-o-e",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Magic e with o: o_e",
+    "trick": "In o_e words, the o says its name. The e at the end is quiet. Bone, home, rope!",
+    "explain": "Look at home. The e is quiet. It makes the o say its name. Hop becomes hope.",
+    "examples": [
+      "bone",
+      "home",
+      "rope",
+      "nose",
+      "stone"
+    ],
+    "exceptions": [
+      "Love, some and come do not follow the rule."
+    ],
+    "prereqs": [
+      "vt-silent-e"
+    ],
+    "i_can": "I can read and spell o_e words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word for what a dog likes to chew.",
+        "answer": "bone",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled bone right! It is b, o, n, e. Remember this trick: In o_e words, the o says its name. The e at the end is quiet. Bone, home, rope!",
+        "if_wrong": "Good try! bone is spelled b, o, n, e. Remember this trick: In o_e words, the o says its name. The e at the end is quiet. Bone, home, rope! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for the place where you live.",
+        "answer": "home",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled home right! It is h, o, m, e. Remember this trick: In o_e words, the o says its name. The e at the end is quiet. Bone, home, rope!",
+        "if_wrong": "Good try! home is spelled h, o, m, e. Remember this trick: In o_e words, the o says its name. The e at the end is quiet. Bone, home, rope! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for what you smell with.",
+        "answer": "nose",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled nose right! It is n, o, s, e. Remember this trick: In o_e words, the o says its name. The e at the end is quiet. Bone, home, rope!",
+        "if_wrong": "Good try! nose is spelled n, o, s, e. Remember this trick: In o_e words, the o says its name. The e at the end is quiet. Bone, home, rope! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has a magic e: hop or hope?",
+        "options": [
+          "hop",
+          "hope"
+        ],
+        "answer": "hope",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, hope! You are right. Remember this trick: In o_e words, the o says its name. The e at the end is quiet. Bone, home, rope!",
+        "if_wrong": "Nice try! The answer is hope. Remember this trick: In o_e words, the o says its name. The e at the end is quiet. Bone, home, rope! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word. You can jump with it. It is a long, thick cord.",
+        "answer": "rope",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled rope right! It is r, o, p, e. Remember this trick: In o_e words, the o says its name. The e at the end is quiet. Bone, home, rope!",
+        "if_wrong": "Good try! rope is spelled r, o, p, e. Remember this trick: In o_e words, the o says its name. The e at the end is quiet. Bone, home, rope! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word stone.",
+        "answer": "stone",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled stone right! It is s, t, o, n, e. Remember this trick: In o_e words, the o says its name. The e at the end is quiet. Bone, home, rope!",
+        "if_wrong": "Good try! stone is spelled s, t, o, n, e. Remember this trick: In o_e words, the o says its name. The e at the end is quiet. Bone, home, rope! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-u-e",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Magic e with u: u_e",
+    "trick": "In u_e words, the u says its name, like in cube. Sometimes u says oo, like in rule.",
+    "explain": "Look at cube. The e is quiet. The u says its name. In rule and flute, the u says oo.",
+    "examples": [
+      "cube",
+      "cute",
+      "tune",
+      "huge",
+      "rule"
+    ],
+    "exceptions": [
+      "Some u_e words say oo: rule, flute, June."
+    ],
+    "prereqs": [
+      "vt-silent-e"
+    ],
+    "i_can": "I can read and spell u_e words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a small block, like an ice one.",
+        "answer": "cube",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled cube right! It is c, u, b, e. Remember this trick: In u_e words, the u says its name, like in cube. Sometimes u says oo, like in rule.",
+        "if_wrong": "Good try! cube is spelled c, u, b, e. Remember this trick: In u_e words, the u says its name, like in cube. Sometimes u says oo, like in rule. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a song you hum.",
+        "answer": "tune",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled tune right! It is t, u, n, e. Remember this trick: In u_e words, the u says its name, like in cube. Sometimes u says oo, like in rule.",
+        "if_wrong": "Good try! tune is spelled t, u, n, e. Remember this trick: In u_e words, the u says its name, like in cube. Sometimes u says oo, like in rule. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has a magic e: cut or cute?",
+        "options": [
+          "cut",
+          "cute"
+        ],
+        "answer": "cute",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, cute! You are right. Remember this trick: In u_e words, the u says its name, like in cube. Sometimes u says oo, like in rule.",
+        "if_wrong": "Nice try! The answer is cute. Remember this trick: In u_e words, the u says its name, like in cube. Sometimes u says oo, like in rule. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word huge.",
+        "answer": "huge",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled huge right! It is h, u, g, e. Remember this trick: In u_e words, the u says its name, like in cube. Sometimes u says oo, like in rule.",
+        "if_wrong": "Good try! huge is spelled h, u, g, e. Remember this trick: In u_e words, the u says its name, like in cube. Sometimes u says oo, like in rule. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word rule.",
+        "answer": "rule",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled rule right! It is r, u, l, e. Remember this trick: In u_e words, the u says its name, like in cube. Sometimes u says oo, like in rule.",
+        "if_wrong": "Good try! rule is spelled r, u, l, e. Remember this trick: In u_e words, the u says its name, like in cube. Sometimes u says oo, like in rule. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has u saying oo: rule or cube?",
+        "options": [
+          "rule",
+          "cube"
+        ],
+        "answer": "rule",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, rule! You are right. Remember this trick: In u_e words, the u says its name, like in cube. Sometimes u says oo, like in rule.",
+        "if_wrong": "Nice try! The answer is rule. Remember this trick: In u_e words, the u says its name, like in cube. Sometimes u says oo, like in rule. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "vt-e-e",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Magic e with e: e_e",
+    "trick": "Words with e_e are not common. Most magic e words use a, i, o or u. These, theme!",
+    "explain": "Look at these. The last e is quiet. It makes the first e say its name. This one is rare.",
+    "examples": [
+      "these",
+      "theme",
+      "Pete",
+      "scene",
+      "complete"
+    ],
+    "exceptions": [
+      "There, where and were do not follow the rule."
+    ],
+    "prereqs": [
+      "vt-silent-e"
+    ],
+    "i_can": "I can read and spell e_e words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word these.",
+        "answer": "these",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled these right! It is t, h, e, s, e. Remember this trick: Words with e_e are not common. Most magic e words use a, i, o or u. These, theme!",
+        "if_wrong": "Good try! these is spelled t, h, e, s, e. Remember this trick: Words with e_e are not common. Most magic e words use a, i, o or u. These, theme! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word theme.",
+        "answer": "theme",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled theme right! It is t, h, e, m, e. Remember this trick: Words with e_e are not common. Most magic e words use a, i, o or u. These, theme!",
+        "if_wrong": "Good try! theme is spelled t, h, e, m, e. Remember this trick: Words with e_e are not common. Most magic e words use a, i, o or u. These, theme! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has a magic e: them or theme?",
+        "options": [
+          "them",
+          "theme"
+        ],
+        "answer": "theme",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, theme! You are right. Remember this trick: Words with e_e are not common. Most magic e words use a, i, o or u. These, theme!",
+        "if_wrong": "Nice try! The answer is theme. Remember this trick: Words with e_e are not common. Most magic e words use a, i, o or u. These, theme! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Are e_e words common or rare?",
+        "options": [
+          "common",
+          "rare"
+        ],
+        "answer": "rare",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, rare! You are right. Remember this trick: Words with e_e are not common. Most magic e words use a, i, o or u. These, theme!",
+        "if_wrong": "Nice try! The answer is rare. Remember this trick: Words with e_e are not common. Most magic e words use a, i, o or u. These, theme! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word scene.",
+        "answer": "scene",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled scene right! It is s, c, e, n, e. Remember this trick: Words with e_e are not common. Most magic e words use a, i, o or u. These, theme!",
+        "if_wrong": "Good try! scene is spelled s, c, e, n, e. Remember this trick: Words with e_e are not common. Most magic e words use a, i, o or u. These, theme! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-y-e",
+    "grade": 2,
+    "category": "vowel_tricks",
+    "title": "Magic e with y: y_e",
+    "trick": "In y_e words, the y says eye. The e at the end is quiet. Type, rhyme, style!",
+    "explain": "Y can say eye with a silent e. Look at type. The e is quiet. The y says eye.",
+    "examples": [
+      "type",
+      "rhyme",
+      "style",
+      "bye"
+    ],
+    "exceptions": [
+      "In gym and myth, y says short i."
+    ],
+    "prereqs": [
+      "vt-silent-e",
+      "sa-y-special"
+    ],
+    "i_can": "I can read and spell y_e words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word type.",
+        "answer": "type",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled type right! It is t, y, p, e. Remember this trick: In y_e words, the y says eye. The e at the end is quiet. Type, rhyme, style!",
+        "if_wrong": "Good try! type is spelled t, y, p, e. Remember this trick: In y_e words, the y says eye. The e at the end is quiet. Type, rhyme, style! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word rhyme.",
+        "answer": "rhyme",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled rhyme right! It is r, h, y, m, e. Remember this trick: In y_e words, the y says eye. The e at the end is quiet. Type, rhyme, style!",
+        "if_wrong": "Good try! rhyme is spelled r, h, y, m, e. Remember this trick: In y_e words, the y says eye. The e at the end is quiet. Type, rhyme, style! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has y with a magic e: gym or type?",
+        "options": [
+          "gym",
+          "type"
+        ],
+        "answer": "type",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, type! You are right. Remember this trick: In y_e words, the y says eye. The e at the end is quiet. Type, rhyme, style!",
+        "if_wrong": "Nice try! The answer is type. Remember this trick: In y_e words, the y says eye. The e at the end is quiet. Type, rhyme, style! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word. Cat and hat do this.",
+        "answer": "rhyme",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled rhyme right! It is r, h, y, m, e. Remember this trick: In y_e words, the y says eye. The e at the end is quiet. Type, rhyme, style!",
+        "if_wrong": "Good try! rhyme is spelled r, h, y, m, e. Remember this trick: In y_e words, the y says eye. The e at the end is quiet. Type, rhyme, style! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the y in rhyme say eye or short i?",
+        "options": [
+          "eye",
+          "short i"
+        ],
+        "answer": "eye",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, eye! You are right. Remember this trick: In y_e words, the y says eye. The e at the end is quiet. Type, rhyme, style!",
+        "if_wrong": "Nice try! The answer is eye. Remember this trick: In y_e words, the y says eye. The e at the end is quiet. Type, rhyme, style! Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "vt-ui",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Ui says oo",
+    "trick": "In some words, ui says oo. Fruit, juice, suit!",
+    "explain": "Look at fruit. The u and i are together. They say oo. Juice and suit work the same way.",
+    "examples": [
+      "fruit",
+      "juice",
+      "suit",
+      "cruise"
+    ],
+    "exceptions": [
+      "Build, guilt and guitar do not follow the rule."
+    ],
+    "prereqs": [],
+    "i_can": "I can read and spell ui words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word for an apple or a banana.",
+        "answer": "fruit",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled fruit right! It is f, r, u, i, t. Remember this trick: In some words, ui says oo. Fruit, juice, suit!",
+        "if_wrong": "Good try! fruit is spelled f, r, u, i, t. Remember this trick: In some words, ui says oo. Fruit, juice, suit! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a drink made from oranges.",
+        "answer": "juice",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled juice right! It is j, u, i, c, e. Remember this trick: In some words, ui says oo. Fruit, juice, suit!",
+        "if_wrong": "Good try! juice is spelled j, u, i, c, e. Remember this trick: In some words, ui says oo. Fruit, juice, suit! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for clothes you wear with a tie.",
+        "answer": "suit",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled suit right! It is s, u, i, t. Remember this trick: In some words, ui says oo. Fruit, juice, suit!",
+        "if_wrong": "Good try! suit is spelled s, u, i, t. Remember this trick: In some words, ui says oo. Fruit, juice, suit! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does ui in fruit say oo or ee?",
+        "options": [
+          "oo",
+          "ee"
+        ],
+        "answer": "oo",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, oo! You are right. Remember this trick: In some words, ui says oo. Fruit, juice, suit!",
+        "if_wrong": "Nice try! The answer is oo. Remember this trick: In some words, ui says oo. Fruit, juice, suit! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has ui: shoot or fruit?",
+        "options": [
+          "shoot",
+          "fruit"
+        ],
+        "answer": "fruit",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, fruit! You are right. Remember this trick: In some words, ui says oo. Fruit, juice, suit!",
+        "if_wrong": "Nice try! The answer is fruit. Remember this trick: In some words, ui says oo. Fruit, juice, suit! Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "vt-oe",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Oe says long o",
+    "trick": "In some words, oe says long o. Toe, doe, goes!",
+    "explain": "Look at toe. The o and e are together. They say oh. Toe says t-oh.",
+    "examples": [
+      "toe",
+      "doe",
+      "hoe",
+      "goes"
+    ],
+    "exceptions": [
+      "Shoe says oo. Does says duz."
+    ],
+    "prereqs": [],
+    "i_can": "I can read and spell oe words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word toe.",
+        "answer": "toe",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled toe right! It is t, o, e. Remember this trick: In some words, oe says long o. Toe, doe, goes!",
+        "if_wrong": "Good try! toe is spelled t, o, e. Remember this trick: In some words, oe says long o. Toe, doe, goes! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word doe.",
+        "answer": "doe",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled doe right! It is d, o, e. Remember this trick: In some words, oe says long o. Toe, doe, goes!",
+        "if_wrong": "Good try! doe is spelled d, o, e. Remember this trick: In some words, oe says long o. Toe, doe, goes! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the oe in toe say long o or oo?",
+        "options": [
+          "long o",
+          "oo"
+        ],
+        "answer": "long o",
+        "accept": [
+          "o"
+        ],
+        "level": 2,
+        "if_right": "Yes, long o! You are right. Remember this trick: In some words, oe says long o. Toe, doe, goes!",
+        "if_wrong": "Nice try! The answer is long o. Remember this trick: In some words, oe says long o. Toe, doe, goes! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has oe saying oo: toe or shoe?",
+        "options": [
+          "toe",
+          "shoe"
+        ],
+        "answer": "shoe",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, shoe! You are right. Remember this trick: In some words, oe says long o. Toe, doe, goes!",
+        "if_wrong": "Nice try! The answer is shoe. Remember this trick: In some words, oe says long o. Toe, doe, goes! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word goes.",
+        "answer": "goes",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled goes right! It is g, o, e, s. Remember this trick: In some words, oe says long o. Toe, doe, goes!",
+        "if_wrong": "Good try! goes is spelled g, o, e, s. Remember this trick: In some words, oe says long o. Toe, doe, goes! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-ie-middle",
+    "grade": 2,
+    "category": "vowel_tricks",
+    "title": "Ie in the middle says ee",
+    "trick": "In the middle of a word, ie often says ee. Field, chief, thief!",
+    "explain": "At the end, ie says eye, like in pie. In the middle, ie says ee, like in field.",
+    "examples": [
+      "field",
+      "chief",
+      "thief",
+      "piece"
+    ],
+    "exceptions": [
+      "Friend says eh. Science says eye-uh."
+    ],
+    "prereqs": [
+      "vt-long-i-ie"
+    ],
+    "i_can": "I can tell if ie says ee or eye.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word field.",
+        "answer": "field",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled field right! It is f, i, e, l, d. Remember this trick: In the middle of a word, ie often says ee. Field, chief, thief!",
+        "if_wrong": "Good try! field is spelled f, i, e, l, d. Remember this trick: In the middle of a word, ie often says ee. Field, chief, thief! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word thief.",
+        "answer": "thief",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled thief right! It is t, h, i, e, f. Remember this trick: In the middle of a word, ie often says ee. Field, chief, thief!",
+        "if_wrong": "Good try! thief is spelled t, h, i, e, f. Remember this trick: In the middle of a word, ie often says ee. Field, chief, thief! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the ie in chief say ee or eye?",
+        "options": [
+          "ee",
+          "eye"
+        ],
+        "answer": "ee",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, ee! You are right. Remember this trick: In the middle of a word, ie often says ee. Field, chief, thief!",
+        "if_wrong": "Nice try! The answer is ee. Remember this trick: In the middle of a word, ie often says ee. Field, chief, thief! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which one says eye: pie or field?",
+        "options": [
+          "pie",
+          "field"
+        ],
+        "answer": "pie",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, pie! You are right. Remember this trick: In the middle of a word, ie often says ee. Field, chief, thief!",
+        "if_wrong": "Nice try! The answer is pie. Remember this trick: In the middle of a word, ie often says ee. Field, chief, thief! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a slice of pie. It starts with p.",
+        "answer": "piece",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled piece right! It is p, i, e, c, e. Remember this trick: In the middle of a word, ie often says ee. Field, chief, thief!",
+        "if_wrong": "Good try! piece is spelled p, i, e, c, e. Remember this trick: In the middle of a word, ie often says ee. Field, chief, thief! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-ear",
+    "grade": 2,
+    "category": "vowel_tricks",
+    "title": "Ear has three sounds",
+    "trick": "Ear can say three ways. Hear says eer. Bear says air. Learn says er.",
+    "explain": "Ear is tricky. In hear, it says eer. In bear, it says air. In learn, it says er.",
+    "examples": [
+      "hear",
+      "near",
+      "bear",
+      "wear",
+      "learn",
+      "earth"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "vt-r-controlled-er-ir-ur"
+    ],
+    "i_can": "I can read ear words.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the ear in hear say eer or air?",
+        "options": [
+          "eer",
+          "air"
+        ],
+        "answer": "eer",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, eer! You are right. Remember this trick: Ear can say three ways. Hear says eer. Bear says air. Learn says er.",
+        "if_wrong": "Nice try! The answer is eer. Remember this trick: Ear can say three ways. Hear says eer. Bear says air. Learn says er. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the ear in bear say air or eer?",
+        "options": [
+          "air",
+          "eer"
+        ],
+        "answer": "air",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, air! You are right. Remember this trick: Ear can say three ways. Hear says eer. Bear says air. Learn says er.",
+        "if_wrong": "Nice try! The answer is air. Remember this trick: Ear can say three ways. Hear says eer. Bear says air. Learn says er. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has ear saying er: learn or hear?",
+        "options": [
+          "learn",
+          "hear"
+        ],
+        "answer": "learn",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, learn! You are right. Remember this trick: Ear can say three ways. Hear says eer. Bear says air. Learn says er.",
+        "if_wrong": "Nice try! The answer is learn. Remember this trick: Ear can say three ways. Hear says eer. Bear says air. Learn says er. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word you do with your ears.",
+        "answer": "hear",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled hear right! It is h, e, a, r. Remember this trick: Ear can say three ways. Hear says eer. Bear says air. Learn says er.",
+        "if_wrong": "Good try! hear is spelled h, e, a, r. Remember this trick: Ear can say three ways. Hear says eer. Bear says air. Learn says er. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a big furry animal that sleeps in winter.",
+        "answer": "bear",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled bear right! It is b, e, a, r. Remember this trick: Ear can say three ways. Hear says eer. Bear says air. Learn says er.",
+        "if_wrong": "Good try! bear is spelled b, e, a, r. Remember this trick: Ear can say three ways. Hear says eer. Bear says air. Learn says er. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-air-are",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "The air sound: air, are, ear",
+    "trick": "The air sound can be spelled air, are or ear. Hair, care, bear!",
+    "explain": "Air, are and ear can all say air. Hair, care and bear all end the same.",
+    "examples": [
+      "hair",
+      "chair",
+      "care",
+      "share",
+      "bear"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can read and spell the air sound.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word for what grows on your head.",
+        "answer": "hair",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled hair right! It is h, a, i, r. Remember this trick: The air sound can be spelled air, are or ear. Hair, care, bear!",
+        "if_wrong": "Good try! hair is spelled h, a, i, r. Remember this trick: The air sound can be spelled air, are or ear. Hair, care, bear! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word you sit on at the table.",
+        "answer": "chair",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled chair right! It is c, h, a, i, r. Remember this trick: The air sound can be spelled air, are or ear. Hair, care, bear!",
+        "if_wrong": "Good try! chair is spelled c, h, a, i, r. Remember this trick: The air sound can be spelled air, are or ear. Hair, care, bear! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word care.",
+        "answer": "care",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled care right! It is c, a, r, e. Remember this trick: The air sound can be spelled air, are or ear. Hair, care, bear!",
+        "if_wrong": "Good try! care is spelled c, a, r, e. Remember this trick: The air sound can be spelled air, are or ear. Hair, care, bear! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has the air sound: care or car?",
+        "options": [
+          "care",
+          "car"
+        ],
+        "answer": "care",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, care! You are right. Remember this trick: The air sound can be spelled air, are or ear. Hair, care, bear!",
+        "if_wrong": "Nice try! The answer is care. Remember this trick: The air sound can be spelled air, are or ear. Hair, care, bear! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word share.",
+        "answer": "share",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled share right! It is s, h, a, r, e. Remember this trick: The air sound can be spelled air, are or ear. Hair, care, bear!",
+        "if_wrong": "Good try! share is spelled s, h, a, r, e. Remember this trick: The air sound can be spelled air, are or ear. Hair, care, bear! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-eer-ere",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "The ear sound: eer, ere, ear",
+    "trick": "The ear sound can be spelled eer, ere or ear. Deer, here, hear!",
+    "explain": "Deer, here and hear all say eer. Here and hear sound the same. Here tells where.",
+    "examples": [
+      "deer",
+      "cheer",
+      "here",
+      "hear"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can read and spell the eer sound.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the animal with antlers.",
+        "answer": "deer",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled deer right! It is d, e, e, r. Remember this trick: The ear sound can be spelled eer, ere or ear. Deer, here, hear!",
+        "if_wrong": "Good try! deer is spelled d, e, e, r. Remember this trick: The ear sound can be spelled eer, ere or ear. Deer, here, hear! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word here.",
+        "answer": "here",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled here right! It is h, e, r, e. Remember this trick: The ear sound can be spelled eer, ere or ear. Deer, here, hear!",
+        "if_wrong": "Good try! here is spelled h, e, r, e. Remember this trick: The ear sound can be spelled eer, ere or ear. Deer, here, hear! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which one tells where: here or hear?",
+        "options": [
+          "here",
+          "hear"
+        ],
+        "answer": "here",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, here! You are right. Remember this trick: The ear sound can be spelled eer, ere or ear. Deer, here, hear!",
+        "if_wrong": "Nice try! The answer is here. Remember this trick: The ear sound can be spelled eer, ere or ear. Deer, here, hear! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which one do you do with your ears: here or hear?",
+        "options": [
+          "here",
+          "hear"
+        ],
+        "answer": "hear",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, hear! You are right. Remember this trick: The ear sound can be spelled eer, ere or ear. Deer, here, hear!",
+        "if_wrong": "Nice try! The answer is hear. Remember this trick: The ear sound can be spelled eer, ere or ear. Deer, here, hear! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word cheer.",
+        "answer": "cheer",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled cheer right! It is c, h, e, e, r. Remember this trick: The ear sound can be spelled eer, ere or ear. Deer, here, hear!",
+        "if_wrong": "Good try! cheer is spelled c, h, e, e, r. Remember this trick: The ear sound can be spelled eer, ere or ear. Deer, here, hear! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-ire-our",
+    "grade": 2,
+    "category": "vowel_tricks",
+    "title": "Fire and hour",
+    "trick": "Ire says eye-er, like fire. Our says ow-er, like hour.",
+    "explain": "Fire has an ire at the end. It says eye-er. Hour has our at the end. It says ow-er.",
+    "examples": [
+      "fire",
+      "tire",
+      "hour",
+      "sour",
+      "flour"
+    ],
+    "exceptions": [
+      "Four says or."
+    ],
+    "prereqs": [
+      "vt-long-i-ie"
+    ],
+    "i_can": "I can read ire and our words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word for flames that are hot.",
+        "answer": "fire",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled fire right! It is f, i, r, e. Remember this trick: Ire says eye-er, like fire. Our says ow-er, like hour.",
+        "if_wrong": "Good try! fire is spelled f, i, r, e. Remember this trick: Ire says eye-er, like fire. Our says ow-er, like hour. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for sixty minutes.",
+        "answer": "hour",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled hour right! It is h, o, u, r. Remember this trick: Ire says eye-er, like fire. Our says ow-er, like hour.",
+        "if_wrong": "Good try! hour is spelled h, o, u, r. Remember this trick: Ire says eye-er, like fire. Our says ow-er, like hour. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for how a lemon tastes.",
+        "answer": "sour",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled sour right! It is s, o, u, r. Remember this trick: Ire says eye-er, like fire. Our says ow-er, like hour.",
+        "if_wrong": "Good try! sour is spelled s, o, u, r. Remember this trick: Ire says eye-er, like fire. Our says ow-er, like hour. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which one has our saying ow-er: hour or four?",
+        "options": [
+          "hour",
+          "four"
+        ],
+        "answer": "hour",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, hour! You are right. Remember this trick: Ire says eye-er, like fire. Our says ow-er, like hour.",
+        "if_wrong": "Nice try! The answer is hour. Remember this trick: Ire says eye-er, like fire. Our says ow-er, like hour. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word tire.",
+        "answer": "tire",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled tire right! It is t, i, r, e. Remember this trick: Ire says eye-er, like fire. Our says ow-er, like hour.",
+        "if_wrong": "Good try! tire is spelled t, i, r, e. Remember this trick: Ire says eye-er, like fire. Our says ow-er, like hour. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-ould",
+    "grade": 2,
+    "category": "vowel_tricks",
+    "title": "Could, would, should",
+    "trick": "Ould says oo, like in foot. The l is quiet. Could, would, should!",
+    "explain": "Could, would and should end the same. The l is quiet. They all say oo.",
+    "examples": [
+      "could",
+      "would",
+      "should"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can read and spell could, would and should.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word could.",
+        "answer": "could",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled could right! It is c, o, u, l, d. Remember this trick: Ould says oo, like in foot. The l is quiet. Could, would, should!",
+        "if_wrong": "Good try! could is spelled c, o, u, l, d. Remember this trick: Ould says oo, like in foot. The l is quiet. Could, would, should! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word would.",
+        "answer": "would",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled would right! It is w, o, u, l, d. Remember this trick: Ould says oo, like in foot. The l is quiet. Could, would, should!",
+        "if_wrong": "Good try! would is spelled w, o, u, l, d. Remember this trick: Ould says oo, like in foot. The l is quiet. Could, would, should! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word should.",
+        "answer": "should",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled should right! It is s, h, o, u, l, d. Remember this trick: Ould says oo, like in foot. The l is quiet. Could, would, should!",
+        "if_wrong": "Good try! should is spelled s, h, o, u, l, d. Remember this trick: Ould says oo, like in foot. The l is quiet. Could, would, should! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Is the l quiet in could?",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer": "yes",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, yes! You are right. Remember this trick: Ould says oo, like in foot. The l is quiet. Could, would, should!",
+        "if_wrong": "Nice try! The answer is yes. Remember this trick: Ould says oo, like in foot. The l is quiet. Could, would, should! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which is spelled right: cud or could?",
+        "options": [
+          "cud",
+          "could"
+        ],
+        "answer": "could",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, could! You are right. Remember this trick: Ould says oo, like in foot. The l is quiet. Could, would, should!",
+        "if_wrong": "Nice try! The answer is could. Remember this trick: Ould says oo, like in foot. The l is quiet. Could, would, should! Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "vt-augh",
+    "grade": 2,
+    "category": "vowel_tricks",
+    "title": "Augh says aw",
+    "trick": "Augh often says aw. Caught, taught, daughter! In laugh, augh says af.",
+    "explain": "Look at caught. The augh says aw. Taught and daughter work the same. Laugh is the odd one.",
+    "examples": [
+      "caught",
+      "taught",
+      "daughter"
+    ],
+    "exceptions": [
+      "In laugh, augh says af."
+    ],
+    "prereqs": [
+      "vt-au-aw"
+    ],
+    "i_can": "I can read and spell augh words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word caught.",
+        "answer": "caught",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled caught right! It is c, a, u, g, h, t. Remember this trick: Augh often says aw. Caught, taught, daughter! In laugh, augh says af.",
+        "if_wrong": "Good try! caught is spelled c, a, u, g, h, t. Remember this trick: Augh often says aw. Caught, taught, daughter! In laugh, augh says af. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word taught.",
+        "answer": "taught",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled taught right! It is t, a, u, g, h, t. Remember this trick: Augh often says aw. Caught, taught, daughter! In laugh, augh says af.",
+        "if_wrong": "Good try! taught is spelled t, a, u, g, h, t. Remember this trick: Augh often says aw. Caught, taught, daughter! In laugh, augh says af. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does augh in caught say aw or ay?",
+        "options": [
+          "aw",
+          "ay"
+        ],
+        "answer": "aw",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, aw! You are right. Remember this trick: Augh often says aw. Caught, taught, daughter! In laugh, augh says af.",
+        "if_wrong": "Nice try! The answer is aw. Remember this trick: Augh often says aw. Caught, taught, daughter! In laugh, augh says af. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has augh saying af: laugh or caught?",
+        "options": [
+          "laugh",
+          "caught"
+        ],
+        "answer": "laugh",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, laugh! You are right. Remember this trick: Augh often says aw. Caught, taught, daughter! In laugh, augh says af.",
+        "if_wrong": "Nice try! The answer is laugh. Remember this trick: Augh often says aw. Caught, taught, daughter! In laugh, augh says af. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word you do when something is funny.",
+        "answer": "laugh",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled laugh right! It is l, a, u, g, h. Remember this trick: Augh often says aw. Caught, taught, daughter! In laugh, augh says af.",
+        "if_wrong": "Good try! laugh is spelled l, a, u, g, h. Remember this trick: Augh often says aw. Caught, taught, daughter! In laugh, augh says af. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-alk",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Alk says awk",
+    "trick": "In alk words, the l is quiet. The al says aw. Walk, talk, chalk!",
+    "explain": "Walk, talk and chalk all end with alk. The l is quiet. They say awk.",
+    "examples": [
+      "walk",
+      "talk",
+      "chalk",
+      "stalk"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can read and spell alk words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word you do with your legs to go slowly.",
+        "answer": "walk",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled walk right! It is w, a, l, k. Remember this trick: In alk words, the l is quiet. The al says aw. Walk, talk, chalk!",
+        "if_wrong": "Good try! walk is spelled w, a, l, k. Remember this trick: In alk words, the l is quiet. The al says aw. Walk, talk, chalk! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word you do with your mouth to tell a friend something.",
+        "answer": "talk",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled talk right! It is t, a, l, k. Remember this trick: In alk words, the l is quiet. The al says aw. Walk, talk, chalk!",
+        "if_wrong": "Good try! talk is spelled t, a, l, k. Remember this trick: In alk words, the l is quiet. The al says aw. Walk, talk, chalk! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for what you write on a board with.",
+        "answer": "chalk",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled chalk right! It is c, h, a, l, k. Remember this trick: In alk words, the l is quiet. The al says aw. Walk, talk, chalk!",
+        "if_wrong": "Good try! chalk is spelled c, h, a, l, k. Remember this trick: In alk words, the l is quiet. The al says aw. Walk, talk, chalk! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Is the l quiet in walk?",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer": "yes",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, yes! You are right. Remember this trick: In alk words, the l is quiet. The al says aw. Walk, talk, chalk!",
+        "if_wrong": "Nice try! The answer is yes. Remember this trick: In alk words, the l is quiet. The al says aw. Walk, talk, chalk! Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "vt-wa",
+    "grade": 2,
+    "category": "vowel_tricks",
+    "title": "A after w says o",
+    "trick": "After w, the a often says o, like in hot. Want, wash, watch!",
+    "explain": "W changes the a. In want, the a says o. Wash and watch work the same way.",
+    "examples": [
+      "want",
+      "wash",
+      "watch",
+      "water",
+      "swan"
+    ],
+    "exceptions": [
+      "Wag and wax do not follow the rule."
+    ],
+    "prereqs": [],
+    "i_can": "I can read wa words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word want.",
+        "answer": "want",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled want right! It is w, a, n, t. Remember this trick: After w, the a often says o, like in hot. Want, wash, watch!",
+        "if_wrong": "Good try! want is spelled w, a, n, t. Remember this trick: After w, the a often says o, like in hot. Want, wash, watch! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word wash.",
+        "answer": "wash",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled wash right! It is w, a, s, h. Remember this trick: After w, the a often says o, like in hot. Want, wash, watch!",
+        "if_wrong": "Good try! wash is spelled w, a, s, h. Remember this trick: After w, the a often says o, like in hot. Want, wash, watch! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word watch.",
+        "answer": "watch",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled watch right! It is w, a, t, c, h. Remember this trick: After w, the a often says o, like in hot. Want, wash, watch!",
+        "if_wrong": "Good try! watch is spelled w, a, t, c, h. Remember this trick: After w, the a often says o, like in hot. Want, wash, watch! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the a in wash say o as in hot or a as in cat?",
+        "options": [
+          "o",
+          "a"
+        ],
+        "answer": "o",
+        "accept": [
+          "o as in hot"
+        ],
+        "level": 2,
+        "if_right": "Yes, o! You are right. Remember this trick: After w, the a often says o, like in hot. Want, wash, watch!",
+        "if_wrong": "Nice try! The answer is o. Remember this trick: After w, the a often says o, like in hot. Want, wash, watch! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word water.",
+        "answer": "water",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled water right! It is w, a, t, e, r. Remember this trick: After w, the a often says o, like in hot. Want, wash, watch!",
+        "if_wrong": "Good try! water is spelled w, a, t, e, r. Remember this trick: After w, the a often says o, like in hot. Want, wash, watch! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-w-bossy",
+    "grade": 2,
+    "category": "vowel_tricks",
+    "title": "W changes ar and or",
+    "trick": "After w, ar says or. After w, or says er. Warm, work!",
+    "explain": "W is bossy. In warm, ar says or. In work, or says er.",
+    "examples": [
+      "warm",
+      "warn",
+      "work",
+      "word",
+      "world"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "vt-r-controlled-ar-or"
+    ],
+    "i_can": "I can read words where w is the boss.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the ar in warm say ar or or?",
+        "options": [
+          "ar",
+          "or"
+        ],
+        "answer": "or",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, or! You are right. Remember this trick: After w, ar says or. After w, or says er. Warm, work!",
+        "if_wrong": "Nice try! The answer is or. Remember this trick: After w, ar says or. After w, or says er. Warm, work! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the or in work say or or er?",
+        "options": [
+          "or",
+          "er"
+        ],
+        "answer": "er",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, er! You are right. Remember this trick: After w, ar says or. After w, or says er. Warm, work!",
+        "if_wrong": "Nice try! The answer is er. Remember this trick: After w, ar says or. After w, or says er. Warm, work! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word warm.",
+        "answer": "warm",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled warm right! It is w, a, r, m. Remember this trick: After w, ar says or. After w, or says er. Warm, work!",
+        "if_wrong": "Good try! warm is spelled w, a, r, m. Remember this trick: After w, ar says or. After w, or says er. Warm, work! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a job you do.",
+        "answer": "work",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled work right! It is w, o, r, k. Remember this trick: After w, ar says or. After w, or says er. Warm, work!",
+        "if_wrong": "Good try! work is spelled w, o, r, k. Remember this trick: After w, ar says or. After w, or says er. Warm, work! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word world.",
+        "answer": "world",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled world right! It is w, o, r, l, d. Remember this trick: After w, ar says or. After w, or says er. Warm, work!",
+        "if_wrong": "Good try! world is spelled w, o, r, l, d. Remember this trick: After w, ar says or. After w, or says er. Warm, work! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-o-says-u",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "O can say u",
+    "trick": "Sometimes o says u, like in cup. Son, come, love!",
+    "explain": "Look at son. The o says u. It does not say o. Come and love work the same way.",
+    "examples": [
+      "son",
+      "come",
+      "love",
+      "some",
+      "month"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can read words where o says u.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word son.",
+        "answer": "son",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled son right! It is s, o, n. Remember this trick: Sometimes o says u, like in cup. Son, come, love!",
+        "if_wrong": "Good try! son is spelled s, o, n. Remember this trick: Sometimes o says u, like in cup. Son, come, love! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word come.",
+        "answer": "come",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled come right! It is c, o, m, e. Remember this trick: Sometimes o says u, like in cup. Son, come, love!",
+        "if_wrong": "Good try! come is spelled c, o, m, e. Remember this trick: Sometimes o says u, like in cup. Son, come, love! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word love.",
+        "answer": "love",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled love right! It is l, o, v, e. Remember this trick: Sometimes o says u, like in cup. Son, come, love!",
+        "if_wrong": "Good try! love is spelled l, o, v, e. Remember this trick: Sometimes o says u, like in cup. Son, come, love! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the o in love say o like hot or u like cup?",
+        "options": [
+          "o",
+          "u"
+        ],
+        "answer": "u",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, u! You are right. Remember this trick: Sometimes o says u, like in cup. Son, come, love!",
+        "if_wrong": "Nice try! The answer is u. Remember this trick: Sometimes o says u, like in cup. Son, come, love! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has o saying u: dog or son?",
+        "options": [
+          "dog",
+          "son"
+        ],
+        "answer": "son",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, son! You are right. Remember this trick: Sometimes o says u, like in cup. Son, come, love!",
+        "if_wrong": "Nice try! The answer is son. Remember this trick: Sometimes o says u, like in cup. Son, come, love! Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "vt-u-two-sounds",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Long u has two sounds",
+    "trick": "Long u can say yoo, like unicorn, or oo, like rule. It is the only vowel with two long sounds!",
+    "explain": "In cube and cute, u says yoo. In rule and flute, u says oo. Both are long u. Listen and pick the one that sounds right.",
+    "examples": [
+      "cube, cute, use (say yoo)",
+      "rule, flute, June (say oo)"
+    ],
+    "exceptions": [
+      "After r, l, and ch, u almost always says oo: rude, blue, chew."
+    ],
+    "prereqs": [
+      "vt-u-e",
+      "vt-long-u"
+    ],
+    "i_can": "I can tell if long u says yoo or oo.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the u in cube say yoo or oo?",
+        "options": [
+          "yoo",
+          "oo"
+        ],
+        "answer": "yoo",
+        "accept": [
+          "yoo sound",
+          "you"
+        ],
+        "level": 1,
+        "if_right": "Yes, yoo! You are right. Remember this trick: Long u can say yoo, like unicorn, or oo, like rule.",
+        "if_wrong": "Nice try! The answer is yoo. Remember this trick: Long u can say yoo, like unicorn, or oo, like rule. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the u in rule say yoo or oo?",
+        "options": [
+          "yoo",
+          "oo"
+        ],
+        "answer": "oo",
+        "accept": [
+          "oo sound"
+        ],
+        "level": 1,
+        "if_right": "Yes, oo! You are right. Remember this trick: Long u can say yoo, like unicorn, or oo, like rule.",
+        "if_wrong": "Nice try! The answer is oo. Remember this trick: Long u can say yoo, like unicorn, or oo, like rule. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has u saying yoo: cute or flute?",
+        "options": [
+          "cute",
+          "flute"
+        ],
+        "answer": "cute",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, cute! You are right. Remember this trick: Long u can say yoo, like unicorn, or oo, like rule.",
+        "if_wrong": "Nice try! The answer is cute. Remember this trick: Long u can say yoo, like unicorn, or oo, like rule. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has u saying oo: use or flute?",
+        "options": [
+          "use",
+          "flute"
+        ],
+        "answer": "flute",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, flute! You are right. Remember this trick: Long u can say yoo, like unicorn, or oo, like rule.",
+        "if_wrong": "Nice try! The answer is flute. Remember this trick: Long u can say yoo, like unicorn, or oo, like rule. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Is u the only vowel with two long sounds?",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer": "yes",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, yes! You are right. Remember this trick: Long u can say yoo, like unicorn, or oo, like rule. It is the only vowel with two long sounds!",
+        "if_wrong": "Nice try! The answer is yes. Remember this trick: Long u can say yoo, like unicorn, or oo, like rule. It is the only vowel with two long sounds! Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "vt-open-syllable",
+    "grade": 1,
+    "category": "vowel_tricks",
+    "title": "Open syllable: vowel says its name",
+    "trick": "When a vowel is at the end of a beat, it says its name. Me, we, no, go!",
+    "explain": "In me, the e is at the end. It says its name. Same for we, he, be, she. In no and go, the o is at the end. It says its name.",
+    "examples": [
+      "me",
+      "we",
+      "he",
+      "be",
+      "no",
+      "go",
+      "so",
+      "she"
+    ],
+    "exceptions": [
+      "Do does not follow the rule. Do says doo."
+    ],
+    "prereqs": [
+      "vt-short-vowels"
+    ],
+    "i_can": "I can read vowels that say their name at the end of a beat.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the e in me say its name or say short e like in egg?",
+        "options": [
+          "its name",
+          "short e"
+        ],
+        "answer": "its name",
+        "accept": [
+          "name",
+          "long e",
+          "long"
+        ],
+        "level": 1,
+        "if_right": "Yes, its name! You are right. Remember this trick: When a vowel is at the end of a beat, it says its name. Me, we, no, go!",
+        "if_wrong": "Nice try! The answer is its name. Remember this trick: When a vowel is at the end of a beat, it says its name. Me, we, no, go! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the o in go say its name or say short o like in hot?",
+        "options": [
+          "its name",
+          "short o"
+        ],
+        "answer": "its name",
+        "accept": [
+          "name",
+          "long o",
+          "long"
+        ],
+        "level": 1,
+        "if_right": "Yes, its name! You are right. Remember this trick: When a vowel is at the end of a beat, it says its name. Me, we, no, go!",
+        "if_wrong": "Nice try! The answer is its name. Remember this trick: When a vowel is at the end of a beat, it says its name. Me, we, no, go! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that means a boy. It is one letter less than him.",
+        "answer": "he",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled he right! It is h, e. Remember this trick: When a vowel is at the end of a beat, it says its name. Me, we, no, go!",
+        "if_wrong": "Good try! he is spelled h, e. Remember this trick: When a vowel is at the end of a beat, it says its name. Me, we, no, go! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for the opposite of yes.",
+        "answer": "no",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled no right! It is n, o. Remember this trick: When a vowel is at the end of a beat, it says its name. Me, we, no, go!",
+        "if_wrong": "Good try! no is spelled n, o. Remember this trick: When a vowel is at the end of a beat, it says its name. Me, we, no, go! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has a vowel at the end saying its name: go or got?",
+        "options": [
+          "go",
+          "got"
+        ],
+        "answer": "go",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, go! You are right. Remember this trick: When a vowel is at the end of a beat, it says its name. Me, we, no, go!",
+        "if_wrong": "Nice try! The answer is go. Remember this trick: When a vowel is at the end of a beat, it says its name. Me, we, no, go! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word so.",
+        "answer": "so",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled so right! It is s, o. Remember this trick: When a vowel is at the end of a beat, it says its name. Me, we, no, go!",
+        "if_wrong": "Good try! so is spelled s, o. Remember this trick: When a vowel is at the end of a beat, it says its name. Me, we, no, go! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-i-open-syllable",
+    "grade": 2,
+    "category": "vowel_tricks",
+    "title": "I at the end of a beat: tiny, pilot",
+    "trick": "When i is at the end of a beat in a long word, it says eye.",
+    "explain": "Cut the word tiny into two beats: ti and ny. The i in ti is at the end of a beat. It says eye. Pilot says pi and lot. Tiger says ti and ger.",
+    "examples": [
+      "tiny (ti-ny)",
+      "pilot (pi-lot)",
+      "tiger (ti-ger)",
+      "silent (si-lent)",
+      "final (fi-nal)"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "vt-open-syllable",
+      "vt-long-i-y"
+    ],
+    "i_can": "I can read i at the end of a beat in a long word.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Cut tiny into two beats: ti and ny. Does the i in ti say eye or short i?",
+        "options": [
+          "eye",
+          "short i"
+        ],
+        "answer": "eye",
+        "accept": [
+          "long i",
+          "long"
+        ],
+        "level": 1,
+        "if_right": "Yes, eye! You are right. Remember this trick: When i is at the end of a beat in a long word, it says eye.",
+        "if_wrong": "Nice try! The answer is eye. Remember this trick: When i is at the end of a beat in a long word, it says eye. Let us try again."
+      },
+      {
+        "type": "say",
+        "prompt": "Cut the word pilot into two beats. What are the two beats?",
+        "answer": "pi lot",
+        "accept": [
+          "pi-lot",
+          "pi and lot"
+        ],
+        "level": 1,
+        "if_right": "You got it! pi and lot! Great job. Remember this trick: When i is at the end of a beat in a long word, it says eye.",
+        "if_wrong": "Good try! The answer is pi and lot. Remember this trick: When i is at the end of a beat in a long word, it says eye. Let us try another one."
+      },
+      {
+        "type": "choose",
+        "prompt": "In the word tiger, the first beat is ti. Does the i say eye or short i?",
+        "options": [
+          "eye",
+          "short i"
+        ],
+        "answer": "eye",
+        "accept": [
+          "long i",
+          "long"
+        ],
+        "level": 2,
+        "if_right": "Yes, eye! You are right. Remember this trick: When i is at the end of a beat in a long word, it says eye.",
+        "if_wrong": "Nice try! The answer is eye. Remember this trick: When i is at the end of a beat in a long word, it says eye. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word tiny.",
+        "answer": "tiny",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled tiny right! It is t, i, n, y. Remember this trick: When i is at the end of a beat in a long word, it says eye.",
+        "if_wrong": "Good try! tiny is spelled t, i, n, y. Remember this trick: When i is at the end of a beat in a long word, it says eye. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for the person who flies a plane.",
+        "answer": "pilot",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled pilot right! It is p, i, l, o, t. Remember this trick: When i is at the end of a beat in a long word, it says eye.",
+        "if_wrong": "Good try! pilot is spelled p, i, l, o, t. Remember this trick: When i is at the end of a beat in a long word, it says eye. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-ei-long-a",
+    "grade": 2,
+    "category": "vowel_tricks",
+    "title": "Ei says long a: vein, rein",
+    "trick": "Ei can say long a. Vein and rein do not say ee.",
+    "explain": "Vein and rein both have ei. They say long a, like rain. You just have to learn these words.",
+    "examples": [
+      "vein",
+      "rein",
+      "veil",
+      "reign"
+    ],
+    "exceptions": [
+      "In eight and weigh, the ei is part of eigh."
+    ],
+    "prereqs": [
+      "vt-long-a",
+      "vt-long-a-eigh-ey"
+    ],
+    "i_can": "I can read and spell words where ei says long a.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does ei in vein say long a or ee?",
+        "options": [
+          "long a",
+          "ee"
+        ],
+        "answer": "long a",
+        "accept": [
+          "a",
+          "ay"
+        ],
+        "level": 1,
+        "if_right": "Yes, long a! You are right. Remember this trick: Ei can say long a. Vein and rein do not say ee.",
+        "if_wrong": "Nice try! The answer is long a. Remember this trick: Ei can say long a. Vein and rein do not say ee. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word vein.",
+        "answer": "vein",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled vein right! It is v, e, i, n. Remember this trick: Ei can say long a. Vein and rein do not say ee.",
+        "if_wrong": "Good try! vein is spelled v, e, i, n. Remember this trick: Ei can say long a. Vein and rein do not say ee. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for the strap a rider holds to lead a horse.",
+        "answer": "rein",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled rein right! It is r, e, i, n. Remember this trick: Ei can say long a. Vein and rein do not say ee.",
+        "if_wrong": "Good try! rein is spelled r, e, i, n. Remember this trick: Ei can say long a. Vein and rein do not say ee. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has ei saying long a: vein or ceiling?",
+        "options": [
+          "vein",
+          "ceiling"
+        ],
+        "answer": "vein",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, vein! You are right. Remember this trick: Ei can say long a. Vein and rein do not say ee.",
+        "if_wrong": "Nice try! The answer is vein. Remember this trick: Ei can say long a. Vein and rein do not say ee. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word veil.",
+        "answer": "veil",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled veil right! It is v, e, i, l. Remember this trick: Ei can say long a. Vein and rein do not say ee.",
+        "if_wrong": "Good try! veil is spelled v, e, i, l. Remember this trick: Ei can say long a. Vein and rein do not say ee. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "vt-ea-long-a",
+    "grade": 2,
+    "category": "vowel_tricks",
+    "title": "Ea can say long a: break, steak",
+    "trick": "Sometimes ea says long a. Break and steak do not say ee.",
+    "explain": "Ea usually says ee, like in eat. But in break and steak, ea says long a. If ee does not make a real word, try long a.",
+    "examples": [
+      "break",
+      "steak",
+      "great",
+      "steak"
+    ],
+    "exceptions": [
+      "In bread and head, ea says short e."
+    ],
+    "prereqs": [
+      "vt-long-e",
+      "vt-ea-short"
+    ],
+    "i_can": "I can try long a when ea does not say ee.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does ea in break say ee, short e, or long a?",
+        "options": [
+          "short e",
+          "long a"
+        ],
+        "answer": "long a",
+        "accept": [
+          "a",
+          "ay"
+        ],
+        "level": 1,
+        "if_right": "Yes, long a! You are right. Remember this trick: Sometimes ea says long a. Break and steak do not say ee.",
+        "if_wrong": "Nice try! The answer is long a. Remember this trick: Sometimes ea says long a. Break and steak do not say ee. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word break.",
+        "answer": "break",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled break right! It is b, r, e, a, k. Remember this trick: Sometimes ea says long a. Break and steak do not say ee.",
+        "if_wrong": "Good try! break is spelled b, r, e, a, k. Remember this trick: Sometimes ea says long a. Break and steak do not say ee. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a thick piece of beef you can grill.",
+        "answer": "steak",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled steak right! It is s, t, e, a, k. Remember this trick: Sometimes ea says long a. Break and steak do not say ee.",
+        "if_wrong": "Good try! steak is spelled s, t, e, a, k. Remember this trick: Sometimes ea says long a. Break and steak do not say ee. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word great.",
+        "answer": "great",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled great right! It is g, r, e, a, t. Remember this trick: Sometimes ea says long a. Break and steak do not say ee.",
+        "if_wrong": "Good try! great is spelled g, r, e, a, t. Remember this trick: Sometimes ea says long a. Break and steak do not say ee. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which has ea saying long a: break or bread?",
+        "options": [
+          "break",
+          "bread"
+        ],
+        "answer": "break",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, break! You are right. Remember this trick: Sometimes ea says long a. Break and steak do not say ee.",
+        "if_wrong": "Nice try! The answer is break. Remember this trick: Sometimes ea says long a. Break and steak do not say ee. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "vt-y-short-i",
+    "grade": 2,
+    "category": "vowel_tricks",
+    "title": "Y in the middle: gym, myth",
+    "trick": "When y is in the middle of a word, it says short i, like in gym.",
+    "explain": "Y usually says eye or ee at the end. But in gym and myth, the y is in the middle. It says ih, like the i in sit.",
+    "examples": [
+      "gym",
+      "myth",
+      "crystal",
+      "hymn",
+      "system"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "sa-y-special",
+      "vt-long-i-y"
+    ],
+    "i_can": "I can read y in the middle of a word.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the y in gym say eye, ee, or short i?",
+        "options": [
+          "eye, ee",
+          "short i"
+        ],
+        "answer": "short i",
+        "accept": [
+          "short",
+          "ih",
+          "i"
+        ],
+        "level": 1,
+        "if_right": "Yes, short i! You are right. Remember this trick: When y is in the middle of a word, it says short i, like in gym.",
+        "if_wrong": "Nice try! The answer is short i. Remember this trick: When y is in the middle of a word, it says short i, like in gym. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for the room where you exercise.",
+        "answer": "gym",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled gym right! It is g, y, m. Remember this trick: When y is in the middle of a word, it says short i, like in gym.",
+        "if_wrong": "Good try! gym is spelled g, y, m. Remember this trick: When y is in the middle of a word, it says short i, like in gym. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word myth.",
+        "answer": "myth",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled myth right! It is m, y, t, h. Remember this trick: When y is in the middle of a word, it says short i, like in gym.",
+        "if_wrong": "Good try! myth is spelled m, y, t, h. Remember this trick: When y is in the middle of a word, it says short i, like in gym. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has y saying short i: my or gym?",
+        "options": [
+          "my",
+          "gym"
+        ],
+        "answer": "gym",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, gym! You are right. Remember this trick: When y is in the middle of a word, it says short i, like in gym.",
+        "if_wrong": "Nice try! The answer is gym. Remember this trick: When y is in the middle of a word, it says short i, like in gym. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word crystal.",
+        "answer": "crystal",
+        "accept": [],
+        "level": 4,
+        "if_right": "Yes! You spelled crystal right! It is c, r, y, s, t, a, l. Remember this trick: When y is in the middle of a word, it says short i, like in gym.",
+        "if_wrong": "Good try! crystal is spelled c, r, y, s, t, a, l. Remember this trick: When y is in the middle of a word, it says short i, like in gym. Let us try one more."
+      }
+    ]
+  }
+]

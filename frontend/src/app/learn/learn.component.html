@@ -1,0 +1,54 @@
+<div class="learn">
+  <div class="top">
+    <span>{{ child.name }}</span>
+    <span class="links">
+      <button class="link" (click)="openProgress()">My stars</button>
+      <button class="link" (click)="chat.emit()">Chat with Aria</button>
+      <button class="link" (click)="notMe.emit()">Not {{ child.name }}?</button>
+    </span>
+  </div>
+
+  <div class="error" *ngIf="error" (click)="error = ''">{{ error }} (tap to dismiss)</div>
+
+  <section *ngIf="screen === 'placement'">
+    <div class="note">Question {{ position + 1 }}<span *ngIf="question"> of {{ question.total }}</span></div>
+    <ng-container *ngIf="question">
+      <p class="prompt">{{ question.display }}</p>
+      <app-answer-input *ngIf="!feedback" [options]="question.options" [disabled]="busy || locked" (submitted)="submitPlacement($event)"></app-answer-input>
+    </ng-container>
+    <p class="feedback" *ngIf="feedback">{{ feedback.text }}</p>
+    <div class="row">
+      <button class="go" *ngIf="feedback" (click)="afterPlacement()" [disabled]="busy || locked">{{ placementDone ? "Let's learn!" : 'Next' }}</button>
+      <button class="link" *ngIf="!feedback" (click)="startLesson()">Skip</button>
+    </div>
+  </section>
+
+  <section *ngIf="screen === 'lesson'">
+    <ng-container *ngIf="step && !step.done">
+      <h2>{{ step.concept.title }} <small *ngIf="step.is_review">(review)</small></h2>
+      <p class="intro" *ngIf="step.intro && !feedback">{{ step.intro }}</p>
+      <p class="prompt" *ngIf="question">{{ question.display }}</p>
+      <app-answer-input *ngIf="!feedback && question" [options]="question.options" [disabled]="busy || locked" (submitted)="submitLesson($event)"></app-answer-input>
+      <p class="feedback" [class.good]="feedback.correct" *ngIf="feedback">{{ feedback.text }}</p>
+      <div class="row">
+        <button class="go" *ngIf="feedback" (click)="loadNext()" [disabled]="busy || locked">Next</button>
+        <button class="link" *ngIf="canReveal" (click)="showMe()" [disabled]="busy || locked">Show me the word</button>
+      </div>
+    </ng-container>
+    <ng-container *ngIf="step?.done">
+      <h2>All done for now!</h2>
+      <p class="prompt">{{ step.speech }}</p>
+    </ng-container>
+    <p *ngIf="busy && !step">Loading...</p>
+  </section>
+
+  <section *ngIf="screen === 'progress'">
+    <h2>My stars</h2>
+    <ng-container *ngIf="progress">
+      <div class="bar"><div class="fill" [style.width.%]="pct"></div></div>
+      <p class="prompt">⭐ {{ progress.mastered }} of {{ progress.total }} learned</p>
+      <p *ngIf="progress.in_progress">Still practising: {{ progress.in_progress }}</p>
+    </ng-container>
+    <button class="go" (click)="startLesson()">Keep learning</button>
+  </section>
+</div>

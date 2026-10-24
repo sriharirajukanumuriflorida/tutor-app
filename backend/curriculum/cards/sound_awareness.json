@@ -1,0 +1,1033 @@
+[
+  {
+    "id": "sa-syllables-clap",
+    "grade": 1,
+    "category": "sound_awareness",
+    "title": "Clapping syllables",
+    "trick": "Every word has beats, like a drum. Clap once for each beat.",
+    "explain": "Words have beats. Put your hand under your chin and say the word. Your chin drops one time for each beat. Dog has one beat. Table has two beats.",
+    "examples": [
+      "dog (1)",
+      "ta-ble (2)",
+      "ban-an-a (3)",
+      "wa-ter-mel-on (4)"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can clap the beats in a word.",
+    "questions": [
+      {
+        "type": "count",
+        "prompt": "Clap the word dog. How many claps?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "1",
+        "accept": [
+          "one"
+        ],
+        "level": 1,
+        "if_right": "Yes, one! You are right. Remember this trick: Every word has beats, like a drum. Clap once for each beat.",
+        "if_wrong": "Nice try! The answer is one. Remember this trick: Every word has beats, like a drum. Clap once for each beat. Let us try again."
+      },
+      {
+        "type": "count",
+        "prompt": "How many beats are in the word banana?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "accept": [
+          "three"
+        ],
+        "level": 2,
+        "if_right": "Yes, three! You are right. Remember this trick: Every word has beats, like a drum. Clap once for each beat.",
+        "if_wrong": "Nice try! The answer is three. Remember this trick: Every word has beats, like a drum. Clap once for each beat. Let us try again."
+      },
+      {
+        "type": "count",
+        "prompt": "How many beats are in the word elephant?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "accept": [
+          "three"
+        ],
+        "level": 3,
+        "if_right": "Yes, three! You are right. Remember this trick: Every word has beats, like a drum. Clap once for each beat.",
+        "if_wrong": "Nice try! The answer is three. Remember this trick: Every word has beats, like a drum. Clap once for each beat. Let us try again."
+      },
+      {
+        "type": "count",
+        "prompt": "How many beats are in the word watermelon?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4",
+        "accept": [
+          "four"
+        ],
+        "level": 4,
+        "if_right": "Yes, four! You are right. Remember this trick: Every word has beats, like a drum. Clap once for each beat.",
+        "if_wrong": "Nice try! The answer is four. Remember this trick: Every word has beats, like a drum. Clap once for each beat. Let us try again."
+      },
+      {
+        "type": "count",
+        "prompt": "How many beats are in the word table?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "2",
+        "accept": [
+          "two"
+        ],
+        "level": 1,
+        "if_right": "Yes, two! You are right. Remember this trick: Every word has beats, like a drum. Clap once for each beat.",
+        "if_wrong": "Nice try! The answer is two. Remember this trick: Every word has beats, like a drum. Clap once for each beat. Let us try again."
+      },
+      {
+        "type": "count",
+        "prompt": "How many beats are in the word hippopotamus?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "5",
+        "accept": [
+          "five"
+        ],
+        "level": 4,
+        "if_right": "Yes, five! You are right. Remember this trick: Every word has beats, like a drum. Clap once for each beat.",
+        "if_wrong": "Nice try! The answer is five. Remember this trick: Every word has beats, like a drum. Clap once for each beat. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "sa-compound-words",
+    "grade": 1,
+    "category": "sound_awareness",
+    "title": "Compound words",
+    "trick": "Two little words can hold hands and make one big word.",
+    "explain": "Cup and cake make cupcake. Sun and flower make sunflower. Look for two small words inside a big word.",
+    "examples": [
+      "cupcake",
+      "sunflower",
+      "rainbow",
+      "baseball",
+      "butterfly"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "sa-syllables-clap"
+    ],
+    "i_can": "I can put two words together to make a new word.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "What word do you get with sun and flower?",
+        "answer": "sunflower",
+        "accept": [
+          "sun flower"
+        ],
+        "level": 1,
+        "if_right": "You got it! sunflower! Great job. Remember this trick: Two little words can hold hands and make one big word.",
+        "if_wrong": "Good try! The answer is sunflower. Remember this trick: Two little words can hold hands and make one big word. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What two words make up the word rainbow?",
+        "answer": "rain bow",
+        "accept": [
+          "rain and bow",
+          "rain, bow"
+        ],
+        "level": 2,
+        "if_right": "You got it! rain bow! Great job. Remember this trick: Two little words can hold hands and make one big word.",
+        "if_wrong": "Good try! The answer is rain bow. Remember this trick: Two little words can hold hands and make one big word. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What word do you get with base and ball?",
+        "answer": "baseball",
+        "accept": [
+          "base ball"
+        ],
+        "level": 2,
+        "if_right": "You got it! baseball! Great job. Remember this trick: Two little words can hold hands and make one big word.",
+        "if_wrong": "Good try! The answer is baseball. Remember this trick: Two little words can hold hands and make one big word. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What two words are hiding in butterfly?",
+        "answer": "butter fly",
+        "accept": [
+          "butter and fly",
+          "butter, fly"
+        ],
+        "level": 3,
+        "if_right": "You got it! butter fly! Great job. Remember this trick: Two little words can hold hands and make one big word.",
+        "if_wrong": "Good try! The answer is butter fly. Remember this trick: Two little words can hold hands and make one big word. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What word do you get with tooth and brush?",
+        "answer": "toothbrush",
+        "accept": [
+          "tooth brush"
+        ],
+        "level": 2,
+        "if_right": "You got it! toothbrush! Great job. Remember this trick: Two little words can hold hands and make one big word.",
+        "if_wrong": "Good try! The answer is toothbrush. Remember this trick: Two little words can hold hands and make one big word. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What word do you get with foot and ball?",
+        "answer": "football",
+        "accept": [
+          "foot ball"
+        ],
+        "level": 1,
+        "if_right": "You got it! football! Great job. Remember this trick: Two little words can hold hands and make one big word.",
+        "if_wrong": "Good try! The answer is football. Remember this trick: Two little words can hold hands and make one big word. Let us try another one."
+      }
+    ]
+  },
+  {
+    "id": "sa-rhyme",
+    "grade": 1,
+    "category": "sound_awareness",
+    "title": "Rhyming words",
+    "trick": "Rhyming words sound the same at the end, like cake and lake.",
+    "explain": "Cake and lake end with the same sound. That is a rhyme. The first sound changes, but the end stays the same.",
+    "examples": [
+      "cake, lake, bake",
+      "night, light, kite",
+      "train, rain, brain"
+    ],
+    "exceptions": [
+      "Words can rhyme even if they are spelled differently, like blue and shoe."
+    ],
+    "prereqs": [],
+    "i_can": "I can tell if words rhyme and make my own rhymes.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Which word rhymes with cake: lake or lock?",
+        "options": [
+          "lake",
+          "lock"
+        ],
+        "answer": "lake",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, lake! You are right. Remember this trick: Rhyming words sound the same at the end, like cake and lake.",
+        "if_wrong": "Nice try! The answer is lake. Remember this trick: Rhyming words sound the same at the end, like cake and lake. Let us try again."
+      },
+      {
+        "type": "say",
+        "prompt": "Tell me a word that rhymes with night.",
+        "answer": "light",
+        "accept": [
+          "right",
+          "kite",
+          "bite",
+          "fight",
+          "sight",
+          "tight",
+          "bright",
+          "flight",
+          "might",
+          "white",
+          "height"
+        ],
+        "level": 2,
+        "if_right": "You got it! light! Great job. Remember this trick: Rhyming words sound the same at the end, like cake and lake.",
+        "if_wrong": "Good try! The answer is light. Remember this trick: Rhyming words sound the same at the end, like cake and lake. Let us try another one."
+      },
+      {
+        "type": "choose",
+        "prompt": "Do blue and shoe rhyme? Yes or no?",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer": "yes",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, yes! You are right. Remember this trick: Rhyming words sound the same at the end, like cake and lake.",
+        "if_wrong": "Nice try! The answer is yes. Remember this trick: Rhyming words sound the same at the end, like cake and lake. Let us try again."
+      },
+      {
+        "type": "say",
+        "prompt": "Tell me a word that rhymes with train.",
+        "answer": "rain",
+        "accept": [
+          "brain",
+          "plane",
+          "chain",
+          "pain",
+          "main",
+          "gain",
+          "drain",
+          "stain",
+          "lane",
+          "cane"
+        ],
+        "level": 2,
+        "if_right": "You got it! rain! Great job. Remember this trick: Rhyming words sound the same at the end, like cake and lake.",
+        "if_wrong": "Good try! The answer is rain. Remember this trick: Rhyming words sound the same at the end, like cake and lake. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Tell me a word that rhymes with cat.",
+        "answer": "hat",
+        "accept": [
+          "bat",
+          "mat",
+          "rat",
+          "sat",
+          "fat",
+          "pat",
+          "flat",
+          "chat"
+        ],
+        "level": 1,
+        "if_right": "You got it! hat! Great job. Remember this trick: Rhyming words sound the same at the end, like cake and lake.",
+        "if_wrong": "Good try! The answer is hat. Remember this trick: Rhyming words sound the same at the end, like cake and lake. Let us try another one."
+      },
+      {
+        "type": "choose",
+        "prompt": "Do cat and dog rhyme? Yes or no?",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer": "no",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, no! You are right. Remember this trick: Rhyming words sound the same at the end, like cake and lake.",
+        "if_wrong": "Nice try! The answer is no. Remember this trick: Rhyming words sound the same at the end, like cake and lake. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "sa-word-families",
+    "grade": 1,
+    "category": "sound_awareness",
+    "title": "Word families",
+    "trick": "Keep the end. Change the first sound. Make a new word!",
+    "explain": "Light, night and right all end the same. If you can read light, you can read night. Change the first letter and you get a new word.",
+    "examples": [
+      "-ake: bake, make, take",
+      "-ill: hill, fill, spill",
+      "-ound: round, found, sound"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "sa-rhyme"
+    ],
+    "i_can": "I can use a word I know to read new words.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "Change the b in bake to m. What word do you get?",
+        "answer": "make",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! make! Great job. Remember this trick: Keep the end. Change the first sound. Make a new word!",
+        "if_wrong": "Good try! The answer is make. Remember this trick: Keep the end. Change the first sound. Make a new word! Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Change the h in hill to sp. What word do you get?",
+        "answer": "spill",
+        "accept": [],
+        "level": 2,
+        "if_right": "You got it! spill! Great job. Remember this trick: Keep the end. Change the first sound. Make a new word!",
+        "if_wrong": "Good try! The answer is spill. Remember this trick: Keep the end. Change the first sound. Make a new word! Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Change the r in round to f. What word do you get?",
+        "answer": "found",
+        "accept": [],
+        "level": 2,
+        "if_right": "You got it! found! Great job. Remember this trick: Keep the end. Change the first sound. Make a new word!",
+        "if_wrong": "Good try! The answer is found. Remember this trick: Keep the end. Change the first sound. Make a new word! Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Tell me one word in the ound family.",
+        "answer": "round",
+        "accept": [
+          "found",
+          "sound",
+          "ground",
+          "pound",
+          "hound",
+          "mound",
+          "bound"
+        ],
+        "level": 3,
+        "if_right": "You got it! round! Great job. Remember this trick: Keep the end. Change the first sound. Make a new word!",
+        "if_wrong": "Good try! The answer is round. Remember this trick: Keep the end. Change the first sound. Make a new word! Let us try another one."
+      }
+    ]
+  },
+  {
+    "id": "sa-segment-sounds",
+    "grade": 1,
+    "category": "sound_awareness",
+    "title": "Counting sounds in words",
+    "trick": "Tap one finger for each sound you hear.",
+    "explain": "Say the word slowly. Tap a finger for each sound. Ship has three sounds: sh, i, p. Sometimes two letters make just one sound.",
+    "examples": [
+      "ship (3 sounds)",
+      "stop (4 sounds)",
+      "chop (3 sounds)",
+      "frog (4 sounds)"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can count the sounds in a word.",
+    "questions": [
+      {
+        "type": "count",
+        "prompt": "How many sounds are in the word ship?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "accept": [
+          "three"
+        ],
+        "level": 1,
+        "if_right": "Yes, three! You are right. Remember this trick: Tap one finger for each sound you hear.",
+        "if_wrong": "Nice try! The answer is three. Remember this trick: Tap one finger for each sound you hear. Let us try again."
+      },
+      {
+        "type": "count",
+        "prompt": "How many sounds are in the word stop?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4",
+        "accept": [
+          "four"
+        ],
+        "level": 2,
+        "if_right": "Yes, four! You are right. Remember this trick: Tap one finger for each sound you hear.",
+        "if_wrong": "Nice try! The answer is four. Remember this trick: Tap one finger for each sound you hear. Let us try again."
+      },
+      {
+        "type": "count",
+        "prompt": "How many sounds are in the word chop?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "accept": [
+          "three"
+        ],
+        "level": 2,
+        "if_right": "Yes, three! You are right. Remember this trick: Tap one finger for each sound you hear.",
+        "if_wrong": "Nice try! The answer is three. Remember this trick: Tap one finger for each sound you hear. Let us try again."
+      },
+      {
+        "type": "count",
+        "prompt": "How many sounds are in the word street?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "5",
+        "accept": [
+          "five"
+        ],
+        "level": 4,
+        "if_right": "Yes, five! You are right. Remember this trick: Tap one finger for each sound you hear.",
+        "if_wrong": "Nice try! The answer is five. Remember this trick: Tap one finger for each sound you hear. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "sa-swap-sounds",
+    "grade": 1,
+    "category": "sound_awareness",
+    "title": "Changing sounds",
+    "trick": "Change one sound and you get a new word!",
+    "explain": "Say cat. Now change the first sound to h. You get hat! Take one sound out and put a new one in.",
+    "examples": [
+      "cat to hat",
+      "sun to fun",
+      "ship to chip",
+      "train to brain"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "sa-segment-sounds"
+    ],
+    "i_can": "I can change a sound to make a new word.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "Say cat. Now change the k sound to h. What word?",
+        "answer": "hat",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! hat! Great job. Remember this trick: Change one sound and you get a new word!",
+        "if_wrong": "Good try! The answer is hat. Remember this trick: Change one sound and you get a new word! Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Say ship. Change sh to ch. What word?",
+        "answer": "chip",
+        "accept": [],
+        "level": 2,
+        "if_right": "You got it! chip! Great job. Remember this trick: Change one sound and you get a new word!",
+        "if_wrong": "Good try! The answer is chip. Remember this trick: Change one sound and you get a new word! Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Say train. Change tr to br. What word?",
+        "answer": "brain",
+        "accept": [],
+        "level": 3,
+        "if_right": "You got it! brain! Great job. Remember this trick: Change one sound and you get a new word!",
+        "if_wrong": "Good try! The answer is brain. Remember this trick: Change one sound and you get a new word! Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Say lamp. Change the l to d. What word?",
+        "answer": "damp",
+        "accept": [
+          "camp",
+          "ramp"
+        ],
+        "level": 3,
+        "if_right": "You got it! damp! Great job. Remember this trick: Change one sound and you get a new word!",
+        "if_wrong": "Good try! The answer is damp. Remember this trick: Change one sound and you get a new word! Let us try another one."
+      }
+    ]
+  },
+  {
+    "id": "sa-vowels-consonants",
+    "grade": 1,
+    "category": "sound_awareness",
+    "title": "Vowels and consonants",
+    "trick": "The letters a, e, i, o and u are vowels. All the other letters are consonants.",
+    "explain": "Five letters are vowels. They are a, e, i, o and u. Every word needs a vowel. The other letters are consonants.",
+    "examples": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u"
+    ],
+    "exceptions": [
+      "The letter y is special. See the y card."
+    ],
+    "prereqs": [],
+    "i_can": "I can name the vowels.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Is the letter m a vowel or a consonant?",
+        "options": [
+          "vowel",
+          "consonant"
+        ],
+        "answer": "consonant",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, consonant! You are right. Remember this trick: The letters a, e, i, o and u are vowels. All the other letters are consonants.",
+        "if_wrong": "Nice try! The answer is consonant. Remember this trick: The letters a, e, i, o and u are vowels. All the other letters are consonants. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which letter is a vowel: b or e?",
+        "options": [
+          "b",
+          "e"
+        ],
+        "answer": "e",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, e! You are right. Remember this trick: The letters a, e, i, o and u are vowels. All the other letters are consonants.",
+        "if_wrong": "Nice try! The answer is e. Remember this trick: The letters a, e, i, o and u are vowels. All the other letters are consonants. Let us try again."
+      },
+      {
+        "type": "count",
+        "prompt": "How many vowels are in the word cat?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "1",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, one! You are right. Remember this trick: The letters a, e, i, o and u are vowels. All the other letters are consonants.",
+        "if_wrong": "Nice try! The answer is one. Remember this trick: The letters a, e, i, o and u are vowels. All the other letters are consonants. Let us try again."
+      },
+      {
+        "type": "count",
+        "prompt": "How many vowels are in the word tree?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "2",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, two! You are right. Remember this trick: The letters a, e, i, o and u are vowels. All the other letters are consonants.",
+        "if_wrong": "Nice try! The answer is two. Remember this trick: The letters a, e, i, o and u are vowels. All the other letters are consonants. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which letter is a vowel: o or t?",
+        "options": [
+          "o",
+          "t"
+        ],
+        "answer": "o",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, o! You are right. Remember this trick: The letters a, e, i, o and u are vowels. All the other letters are consonants.",
+        "if_wrong": "Nice try! The answer is o. Remember this trick: The letters a, e, i, o and u are vowels. All the other letters are consonants. Let us try again."
+      },
+      {
+        "type": "count",
+        "prompt": "How many vowels are in the word banana?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, three! You are right. Remember this trick: The letters a, e, i, o and u are vowels. All the other letters are consonants.",
+        "if_wrong": "Nice try! The answer is three. Remember this trick: The letters a, e, i, o and u are vowels. All the other letters are consonants. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "sa-y-special",
+    "grade": 1,
+    "category": "sound_awareness",
+    "title": "Y is a special letter",
+    "trick": "Y is special. At the start of a word, y is a consonant. At the end of a word, y is a vowel.",
+    "explain": "Y can be two things. In yes, y is a consonant. It is at the start. In my and happy, y is a vowel. It says its sound at the end.",
+    "examples": [
+      "yes",
+      "yellow",
+      "my",
+      "happy",
+      "sky"
+    ],
+    "exceptions": [
+      "In gym and myth, y says short i."
+    ],
+    "prereqs": [
+      "sa-vowels-consonants"
+    ],
+    "i_can": "I can tell if y is a vowel or not.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Is y a vowel or a consonant in the word yes?",
+        "options": [
+          "vowel",
+          "consonant"
+        ],
+        "answer": "consonant",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, consonant! You are right. Remember this trick: Y is special. At the start of a word, y is a consonant. At the end of a word, y is a vowel.",
+        "if_wrong": "Nice try! The answer is consonant. Remember this trick: Y is special. At the start of a word, y is a consonant. At the end of a word, y is a vowel. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Is y a vowel or a consonant in the word my?",
+        "options": [
+          "vowel",
+          "consonant"
+        ],
+        "answer": "vowel",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, vowel! You are right. Remember this trick: Y is special. At the start of a word, y is a consonant. At the end of a word, y is a vowel.",
+        "if_wrong": "Nice try! The answer is vowel. Remember this trick: Y is special. At the start of a word, y is a consonant. At the end of a word, y is a vowel. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that is the opposite of no.",
+        "answer": "yes",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled yes right! It is y, e, s. Remember this trick: Y is special. At the start of a word, y is a consonant. At the end of a word, y is a vowel.",
+        "if_wrong": "Good try! yes is spelled y, e, s. Remember this trick: Y is special. At the start of a word, y is a consonant. At the end of a word, y is a vowel. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word has y as a vowel: yellow or sky?",
+        "options": [
+          "yellow",
+          "sky"
+        ],
+        "answer": "sky",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, sky! You are right. Remember this trick: Y is special. At the start of a word, y is a consonant. At the end of a word, y is a vowel.",
+        "if_wrong": "Nice try! The answer is sky. Remember this trick: Y is special. At the start of a word, y is a consonant. At the end of a word, y is a vowel. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the color of the sun. It starts with the y sound.",
+        "answer": "yellow",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled yellow right! It is y, e, l, l, o, w. Remember this trick: Y is special. At the start of a word, y is a consonant. At the end of a word, y is a vowel.",
+        "if_wrong": "Good try! yellow is spelled y, e, l, l, o, w. Remember this trick: Y is special. At the start of a word, y is a consonant. At the end of a word, y is a vowel. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Is y a vowel or a consonant in the word happy?",
+        "options": [
+          "vowel",
+          "consonant"
+        ],
+        "answer": "vowel",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, vowel! You are right. Remember this trick: Y is special. At the start of a word, y is a consonant. At the end of a word, y is a vowel.",
+        "if_wrong": "Nice try! The answer is vowel. Remember this trick: Y is special. At the start of a word, y is a consonant. At the end of a word, y is a vowel. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word starts with the y sound: yak or cat?",
+        "options": [
+          "yak",
+          "cat"
+        ],
+        "answer": "yak",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, yak! You are right. Remember this trick: Y is special. At the start of a word, y is a consonant. At the end of a word, y is a vowel.",
+        "if_wrong": "Nice try! The answer is yak. Remember this trick: Y is special. At the start of a word, y is a consonant. At the end of a word, y is a vowel. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "sa-alphabet-order",
+    "grade": 1,
+    "category": "sound_awareness",
+    "title": "ABC order",
+    "trick": "Words in a dictionary go in ABC order. Look at the first letter.",
+    "explain": "The alphabet goes a, b, c, d and on. To put words in ABC order, look at the first letter. If it is the same, look at the next one.",
+    "examples": [
+      "ant, bat, cat",
+      "sea, sun"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can put words in ABC order.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Which word comes first in ABC order: dog or cat?",
+        "options": [
+          "dog",
+          "cat"
+        ],
+        "answer": "cat",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, cat! You are right. Remember this trick: Words in a dictionary go in ABC order. Look at the first letter.",
+        "if_wrong": "Nice try! The answer is cat. Remember this trick: Words in a dictionary go in ABC order. Look at the first letter. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word comes first in ABC order: bat or ant?",
+        "options": [
+          "bat",
+          "ant"
+        ],
+        "answer": "ant",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, ant! You are right. Remember this trick: Words in a dictionary go in ABC order. Look at the first letter.",
+        "if_wrong": "Nice try! The answer is ant. Remember this trick: Words in a dictionary go in ABC order. Look at the first letter. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word comes first in ABC order: sun or sea?",
+        "options": [
+          "sun",
+          "sea"
+        ],
+        "answer": "sea",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, sea! You are right. Remember this trick: Words in a dictionary go in ABC order. Look at the first letter.",
+        "if_wrong": "Nice try! The answer is sea. Remember this trick: Words in a dictionary go in ABC order. Look at the first letter. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word comes first in ABC order: zoo or apple?",
+        "options": [
+          "zoo",
+          "apple"
+        ],
+        "answer": "apple",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, apple! You are right. Remember this trick: Words in a dictionary go in ABC order. Look at the first letter.",
+        "if_wrong": "Nice try! The answer is apple. Remember this trick: Words in a dictionary go in ABC order. Look at the first letter. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "sa-begin-end-sounds",
+    "grade": 1,
+    "category": "sound_awareness",
+    "title": "First sound and last sound",
+    "trick": "Listen for the first sound and the last sound in a word.",
+    "explain": "Every word has a first sound. It also has a last sound. In dog, the first sound is d. The last sound is g.",
+    "examples": [
+      "dog: d ... g",
+      "cat: c ... t",
+      "ship: sh ... p"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can hear the first and last sounds.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "What is the first sound in dog?",
+        "answer": "d",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! d! Great job. Remember this trick: Listen for the first sound and the last sound in a word.",
+        "if_wrong": "Good try! The answer is d. Remember this trick: Listen for the first sound and the last sound in a word. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What is the last sound in cat?",
+        "answer": "t",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! t! Great job. Remember this trick: Listen for the first sound and the last sound in a word.",
+        "if_wrong": "Good try! The answer is t. Remember this trick: Listen for the first sound and the last sound in a word. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What is the last sound in bus?",
+        "answer": "s",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! s! Great job. Remember this trick: Listen for the first sound and the last sound in a word.",
+        "if_wrong": "Good try! The answer is s. Remember this trick: Listen for the first sound and the last sound in a word. Let us try another one."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word starts like moon: map or top?",
+        "options": [
+          "map",
+          "top"
+        ],
+        "answer": "map",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, map! You are right. Remember this trick: Listen for the first sound and the last sound in a word.",
+        "if_wrong": "Nice try! The answer is map. Remember this trick: Listen for the first sound and the last sound in a word. Let us try again."
+      },
+      {
+        "type": "say",
+        "prompt": "What is the first sound in ship?",
+        "answer": "sh",
+        "accept": [],
+        "level": 2,
+        "if_right": "You got it! sh! Great job. Remember this trick: Listen for the first sound and the last sound in a word.",
+        "if_wrong": "Good try! The answer is sh. Remember this trick: Listen for the first sound and the last sound in a word. Let us try another one."
+      }
+    ]
+  },
+  {
+    "id": "sa-blending",
+    "grade": 1,
+    "category": "sound_awareness",
+    "title": "Blending sounds into a word",
+    "trick": "Say each sound slowly. Then push the sounds together to make a word.",
+    "explain": "Say the sounds one by one. Then say them faster. c, a, t. Cat! You made a word.",
+    "examples": [
+      "c-a-t: cat",
+      "d-o-g: dog",
+      "s-t-o-p: stop"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "sa-segment-sounds"
+    ],
+    "i_can": "I can put sounds together to make a word.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "Put the sounds together: c, a, t. What word is it?",
+        "answer": "cat",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! cat! Great job. Remember this trick: Say each sound slowly. Then push the sounds together to make a word.",
+        "if_wrong": "Good try! The answer is cat. Remember this trick: Say each sound slowly. Then push the sounds together to make a word. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Put the sounds together: d, o, g. What word is it?",
+        "answer": "dog",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! dog! Great job. Remember this trick: Say each sound slowly. Then push the sounds together to make a word.",
+        "if_wrong": "Good try! The answer is dog. Remember this trick: Say each sound slowly. Then push the sounds together to make a word. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Put the sounds together: sh, i, p. What word is it?",
+        "answer": "ship",
+        "accept": [],
+        "level": 2,
+        "if_right": "You got it! ship! Great job. Remember this trick: Say each sound slowly. Then push the sounds together to make a word.",
+        "if_wrong": "Good try! The answer is ship. Remember this trick: Say each sound slowly. Then push the sounds together to make a word. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Put the sounds together: s, t, o, p. What word is it?",
+        "answer": "stop",
+        "accept": [],
+        "level": 2,
+        "if_right": "You got it! stop! Great job. Remember this trick: Say each sound slowly. Then push the sounds together to make a word.",
+        "if_wrong": "Good try! The answer is stop. Remember this trick: Say each sound slowly. Then push the sounds together to make a word. Let us try another one."
+      }
+    ]
+  },
+  {
+    "id": "sa-alliteration",
+    "grade": 1,
+    "category": "sound_awareness",
+    "title": "Words that start the same",
+    "trick": "Words that start the same are fun to say. Sally sells seashells!",
+    "explain": "Some words start with the same sound. Big, bear and banana all start with b. It is like a tongue twister.",
+    "examples": [
+      "Sally sells seashells",
+      "big brown bear"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "sa-begin-end-sounds"
+    ],
+    "i_can": "I can find words that start with the same sound.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Which word starts like snake: sun or tree?",
+        "options": [
+          "sun",
+          "tree"
+        ],
+        "answer": "sun",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, sun! You are right. Remember this trick: Words that start the same are fun to say. Sally sells seashells!",
+        "if_wrong": "Nice try! The answer is sun. Remember this trick: Words that start the same are fun to say. Sally sells seashells! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which one has words that start the same: red rose or red cat?",
+        "options": [
+          "red rose",
+          "red cat"
+        ],
+        "answer": "red rose",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, red rose! You are right. Remember this trick: Words that start the same are fun to say. Sally sells seashells!",
+        "if_wrong": "Nice try! The answer is red rose. Remember this trick: Words that start the same are fun to say. Sally sells seashells! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which one has words that start the same: big bear or big dog?",
+        "options": [
+          "big bear",
+          "big dog"
+        ],
+        "answer": "big bear",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, big bear! You are right. Remember this trick: Words that start the same are fun to say. Sally sells seashells!",
+        "if_wrong": "Nice try! The answer is big bear. Remember this trick: Words that start the same are fun to say. Sally sells seashells! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which one has words that start the same?",
+        "options": [
+          "Sam saw six seals",
+          "The dog ran home"
+        ],
+        "answer": "Sam saw six seals",
+        "accept": [
+          "1"
+        ],
+        "level": 2,
+        "if_right": "Yes, Sam saw six seals! You are right. Remember this trick: Words that start the same are fun to say. Sally sells seashells!",
+        "if_wrong": "Nice try! The answer is Sam saw six seals. Remember this trick: Words that start the same are fun to say. Sally sells seashells! Let us try again."
+      }
+    ]
+  }
+]

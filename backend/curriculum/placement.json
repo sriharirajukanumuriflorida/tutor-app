@@ -1,0 +1,313 @@
+[
+  {
+    "type": "count",
+    "prompt": "How many beats are in the word pumpkin?",
+    "answer": "2",
+    "accept": [
+      "two"
+    ],
+    "level": 1,
+    "concept": "sa-syllables-clap",
+    "if_right": "Yes, two! You are right. Remember this trick: Every word has beats, like a drum. Clap once for each beat.",
+    "if_wrong": "Nice try! The answer is two. Remember this trick: Every word has beats, like a drum. Clap once for each beat. Let us try again.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell the thing you wear on your head. It rhymes with cat.",
+    "answer": "hat",
+    "accept": [],
+    "level": 1,
+    "concept": "vt-short-vowels",
+    "if_right": "Yes! You spelled hat right! It is h, a, t. Remember this trick: One vowel in the middle of a word says a quick sound.",
+    "if_wrong": "Good try! hat is spelled h, a, t. Remember this trick: One vowel in the middle of a word says a quick sound. Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell the big boat on the sea. It starts with sh.",
+    "answer": "ship",
+    "accept": [],
+    "level": 1,
+    "concept": "ct-digraphs",
+    "if_right": "Yes! You spelled ship right! It is s, h, i, p. Remember this trick: Two letters hold hands and make one new sound.",
+    "if_wrong": "Good try! ship is spelled s, h, i, p. Remember this trick: Two letters hold hands and make one new sound. Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell the hard part of your body that rhymes with cone.",
+    "answer": "bone",
+    "accept": [],
+    "level": 2,
+    "concept": "vt-silent-e",
+    "if_right": "Yes! You spelled bone right! It is b, o, n, e. Remember this trick: Magic e is quiet, but it makes the vowel say its name!",
+    "if_wrong": "Good try! bone is spelled b, o, n, e. Remember this trick: Magic e is quiet, but it makes the vowel say its name! Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell the word that means to have fun. It rhymes with day.",
+    "answer": "play",
+    "accept": [],
+    "level": 2,
+    "concept": "vt-long-a",
+    "if_right": "Yes! You spelled play right! It is p, l, a, y. Remember this trick: Use ai in the middle. Use ay at the end.",
+    "if_wrong": "Good try! play is spelled p, l, a, y. Remember this trick: Use ai in the middle. Use ay at the end. Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell the insect that makes honey. It rhymes with see.",
+    "answer": "bee",
+    "accept": [],
+    "level": 2,
+    "concept": "vt-long-e",
+    "if_right": "Yes! You spelled bee right! It is b, e, e. Remember this trick: When two vowels walk together, the first one talks.",
+    "if_wrong": "Good try! bee is spelled b, e, e. Remember this trick: When two vowels walk together, the first one talks. Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell the bug that buzzes. It rhymes with high and starts with fl.",
+    "answer": "fly",
+    "accept": [],
+    "level": 2,
+    "concept": "vt-long-i-y",
+    "if_right": "Yes! You spelled fly right! It is f, l, y. Remember this trick: At the end of a short word, y says eye.",
+    "if_wrong": "Good try! fly is spelled f, l, y. Remember this trick: At the end of a short word, y says eye. Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell the thing you wear around your neck with a suit. It rhymes with pie.",
+    "answer": "tie",
+    "accept": [],
+    "level": 3,
+    "concept": "vt-long-i-ie",
+    "if_right": "Yes! You spelled tie right! It is t, i, e. Remember this trick: When ie is at the end of a word, it says eye. Pie, tie, lie!",
+    "if_wrong": "Good try! tie is spelled t, i, e. Remember this trick: When ie is at the end of a word, it says eye. Pie, tie, lie! Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell the word that rhymes with night and means not loose.",
+    "answer": "tight",
+    "accept": [],
+    "level": 3,
+    "concept": "vt-long-i-igh",
+    "if_right": "Yes! You spelled tight right! It is t, i, g, h, t. Remember this trick: I, G, H says eye! The g and h are quiet.",
+    "if_wrong": "Good try! tight is spelled t, i, g, h, t. Remember this trick: I, G, H says eye! The g and h are quiet. Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell the thing you wear on your foot before a shoe. It rhymes with rock.",
+    "answer": "sock",
+    "accept": [],
+    "level": 2,
+    "concept": "ct-ck",
+    "if_right": "Yes! You spelled sock right! It is s, o, c, k. Remember this trick: Use ck after a quick vowel, at the end of a word.",
+    "if_wrong": "Good try! sock is spelled s, o, c, k. Remember this trick: Use ck after a quick vowel, at the end of a word. Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell the word that rhymes with fluff and means things.",
+    "answer": "stuff",
+    "accept": [],
+    "level": 3,
+    "concept": "sr-floss",
+    "if_right": "Yes! You spelled stuff right! It is s, t, u, f, f. Remember this trick: At the end, double f, l, s and z. Think of the word floss!",
+    "if_wrong": "Good try! stuff is spelled s, t, u, f, f. Remember this trick: At the end, double f, l, s and z. Think of the word floss! Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell the shoe you wear in the rain. It rhymes with root.",
+    "answer": "boot",
+    "accept": [],
+    "level": 2,
+    "concept": "vt-oo",
+    "if_right": "Yes! You spelled boot right! It is b, o, o, t. Remember this trick: Oo can make two sounds. Try both!",
+    "if_wrong": "Good try! boot is spelled b, o, o, t. Remember this trick: Oo can make two sounds. Try both! Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell the animal that can fly and sing. It rhymes with third.",
+    "answer": "bird",
+    "accept": [],
+    "level": 2,
+    "concept": "vt-r-controlled-er-ir-ur",
+    "if_right": "Yes! You spelled bird right! It is b, i, r, d. Remember this trick: Er, ir and ur all say the same sound.",
+    "if_wrong": "Good try! bird is spelled b, i, r, d. Remember this trick: Er, ir and ur all say the same sound. Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell the little stick you strike to make a flame. It rhymes with batch.",
+    "answer": "match",
+    "accept": [],
+    "level": 3,
+    "concept": "ct-tch",
+    "if_right": "Yes! You spelled match right! It is m, a, t, c, h. Remember this trick: Use tch after a quick vowel, at the end of a word.",
+    "if_wrong": "Good try! match is spelled m, a, t, c, h. Remember this trick: Use tch after a quick vowel, at the end of a word. Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Add ing to hope. Spell the new word.",
+    "answer": "hoping",
+    "accept": [],
+    "level": 3,
+    "concept": "sr-drop-e",
+    "if_right": "Yes! You spelled hoping right! It is h, o, p, i, n, g. Remember this trick: Take off the quiet e before you add ing.",
+    "if_wrong": "Good try! hoping is spelled h, o, p, i, n, g. Remember this trick: Take off the quiet e before you add ing. Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Add ing to swim. Spell the new word.",
+    "answer": "swimming",
+    "accept": [],
+    "level": 3,
+    "concept": "sr-doubling",
+    "if_right": "Yes! You spelled swimming right! It is s, w, i, m, m, i, n, g. Remember this trick: Add ing to hop? Write the p two times first!",
+    "if_wrong": "Good try! swimming is spelled s, w, i, m, m, i, n, g. Remember this trick: Add ing to hop? Write the p two times first! Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Add un to kind. Spell the new word.",
+    "answer": "unkind",
+    "accept": [],
+    "level": 2,
+    "concept": "wp-prefix-un-re",
+    "if_right": "Yes! You spelled unkind right! It is u, n, k, i, n, d. Remember this trick: Un means not. Re means again.",
+    "if_wrong": "Good try! unkind is spelled u, n, k, i, n, d. Remember this trick: Un means not. Re means again. Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell more than one dress.",
+    "answer": "dresses",
+    "accept": [],
+    "level": 3,
+    "concept": "sr-plurals",
+    "if_right": "Yes! You spelled dresses right! It is d, r, e, s, s, e, s. Remember this trick: More than one? Add s. If it hisses, add es.",
+    "if_wrong": "Good try! dresses is spelled d, r, e, s, s, e, s. Remember this trick: More than one? Add s. If it hisses, add es. Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell the thing you write with that is not a pen. It starts with p and has a soft c.",
+    "answer": "pencil",
+    "accept": [],
+    "level": 4,
+    "concept": "ct-soft-c",
+    "if_right": "Yes! You spelled pencil right! It is p, e, n, c, i, l. Remember this trick: C says s before e, i and y.",
+    "if_wrong": "Good try! pencil is spelled p, e, n, c, i, l. Remember this trick: C says s before e, i and y. Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell the word that means not quiet. It rhymes with proud.",
+    "answer": "loud",
+    "accept": [],
+    "level": 3,
+    "concept": "vt-ou-ow",
+    "if_right": "Yes! You spelled loud right! It is l, o, u, d. Remember this trick: Ouch! Ou and ow can both say ow.",
+    "if_wrong": "Good try! loud is spelled l, o, u, d. Remember this trick: Ouch! Ou and ow can both say ow. Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell what you do with yarn and needles. It starts with kn.",
+    "answer": "knit",
+    "accept": [],
+    "level": 3,
+    "concept": "ct-silent-letters",
+    "if_right": "Yes! You spelled knit right! It is k, n, i, t. Remember this trick: Some letters are quiet. You do not say them!",
+    "if_wrong": "Good try! knit is spelled k, n, i, t. Remember this trick: Some letters are quiet. You do not say them! Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Add est to small. Spell the new word.",
+    "answer": "smallest",
+    "accept": [],
+    "level": 3,
+    "concept": "wp-suffix-er-est",
+    "if_right": "Yes! You spelled smallest right! It is s, m, a, l, l, e, s, t. Remember this trick: Er is for two. Est is for the most.",
+    "if_wrong": "Good try! smallest is spelled s, m, a, l, l, e, s, t. Remember this trick: Er is for two. Est is for the most. Let us try one more."
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell the slow animal with a shell. It ends with le.",
+    "answer": "turtle",
+    "accept": [],
+    "level": 4,
+    "concept": "wp-cle-syllable",
+    "if_right": "Yes! You spelled turtle right! It is t, u, r, t, l, e. Remember this trick: When a word ends in le, the letter before it joins in.",
+    "if_wrong": "Good try! turtle is spelled t, u, r, t, l, e. Remember this trick: When a word ends in le, the letter before it joins in. Let us try one more."
+  },
+  {
+    "type": "say",
+    "prompt": "Cut the word kitten into two parts.",
+    "answer": "kit ten",
+    "accept": [
+      "kit-ten",
+      "kit, ten",
+      "kit and ten"
+    ],
+    "level": 3,
+    "concept": "wp-divide-vccv",
+    "if_right": "You got it! kit ten! Great job. Remember this trick: Two letters in the middle? Cut the word between them.",
+    "if_wrong": "Good try! The answer is kit ten. Remember this trick: Two letters in the middle? Cut the word between them. Let us try another one."
+  },
+  {
+    "type": "choose",
+    "prompt": "Which word is the number: to, too or two? I have ___ eyes.",
+    "answer": "two",
+    "accept": [],
+    "level": 2,
+    "concept": "wp-homophones",
+    "if_right": "Yes, two! You are right. Remember this trick: Some words sound the same but look different. Think about what they mean.",
+    "if_wrong": "Nice try! The answer is two. Remember this trick: Some words sound the same but look different. Think about what they mean. Let us try again.",
+    "options": [
+      "to",
+      "too",
+      "two"
+    ]
+  },
+  {
+    "type": "spell",
+    "prompt": "Spell the word for a fun trip. It starts with va and ends with tion.",
+    "answer": "vacation",
+    "accept": [],
+    "level": 4,
+    "concept": "ct-tion",
+    "if_right": "Yes! You spelled vacation right! It is v, a, c, a, t, i, o, n. Remember this trick: Tion says shun. You see it at the end of words.",
+    "if_wrong": "Good try! vacation is spelled v, a, c, a, t, i, o, n. Remember this trick: Tion says shun. You see it at the end of words. Let us try one more."
+  },
+  {
+    "type": "choose",
+    "prompt": "Which is a fact: dogs bark or dogs are the best?",
+    "answer": "dogs bark",
+    "accept": [
+      "dogs bark."
+    ],
+    "level": 3,
+    "concept": "cg-fact-opinion",
+    "if_right": "Yes, dogs bark! You are right. Remember this trick: A fact is true. An opinion is what you think.",
+    "if_wrong": "Nice try! The answer is dogs bark. Remember this trick: A fact is true. An opinion is what you think. Let us try again.",
+    "options": [
+      "dogs bark",
+      "dogs are the best"
+    ]
+  },
+  {
+    "type": "choose",
+    "prompt": "Sam spilled the milk, so the floor got wet. What is the effect?",
+    "answer": "The floor got wet",
+    "accept": [
+      "floor got wet",
+      "2"
+    ],
+    "level": 3,
+    "concept": "cg-cause-effect",
+    "if_right": "Yes, The floor got wet! You are right. Remember this trick: Cause is why. Effect is what happened.",
+    "if_wrong": "Nice try! The answer is The floor got wet. Remember this trick: Cause is why. Effect is what happened. Let us try again.",
+    "options": [
+      "Sam spilled the milk",
+      "The floor got wet"
+    ]
+  }
+]

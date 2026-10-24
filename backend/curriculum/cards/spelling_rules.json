@@ -1,0 +1,688 @@
+[
+  {
+    "id": "sr-floss",
+    "grade": 1,
+    "category": "spelling_rules",
+    "title": "The FLOSS rule",
+    "trick": "At the end, double f, l, s and z. Think of the word floss!",
+    "explain": "Bell, stuff, miss and buzz end with two of the same letter. Each has a short vowel, like e in egg. Bus and yes are sneaky. They only have one s.",
+    "examples": [
+      "stuff",
+      "bell",
+      "miss",
+      "buzz",
+      "puff",
+      "hill"
+    ],
+    "exceptions": [
+      "Of, is, as, has, his, bus, gas, yes and pal are exceptions."
+    ],
+    "prereqs": [
+      "vt-short-vowels"
+    ],
+    "i_can": "I can double f, l, s and z after a short vowel.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word for what rings.",
+        "answer": "bell",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled bell right! It is b, e, l, l. Remember this trick: At the end, double f, l, s and z. Think of the word floss!",
+        "if_wrong": "Good try! bell is spelled b, e, l, l. Remember this trick: At the end, double f, l, s and z. Think of the word floss! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that a bee does.",
+        "answer": "buzz",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled buzz right! It is b, u, z, z. Remember this trick: At the end, double f, l, s and z. Think of the word floss!",
+        "if_wrong": "Good try! buzz is spelled b, u, z, z. Remember this trick: At the end, double f, l, s and z. Think of the word floss! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word puff.",
+        "answer": "puff",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled puff right! It is p, u, f, f. Remember this trick: At the end, double f, l, s and z. Think of the word floss!",
+        "if_wrong": "Good try! puff is spelled p, u, f, f. Remember this trick: At the end, double f, l, s and z. Think of the word floss! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word is sneaky and does not follow the floss trick: miss or bus?",
+        "options": [
+          "miss",
+          "bus"
+        ],
+        "answer": "bus",
+        "accept": [],
+        "level": 4,
+        "if_right": "Yes, bus! You are right. Remember this trick: At the end, double f, l, s and z. Think of the word floss!",
+        "if_wrong": "Nice try! The answer is bus. Remember this trick: At the end, double f, l, s and z. Think of the word floss! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the small mountain. It rhymes with fill.",
+        "answer": "hill",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled hill right! It is h, i, l, l. Remember this trick: At the end, double f, l, s and z. Think of the word floss!",
+        "if_wrong": "Good try! hill is spelled h, i, l, l. Remember this trick: At the end, double f, l, s and z. Think of the word floss! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that means to not hit your target. It rhymes with kiss.",
+        "answer": "miss",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled miss right! It is m, i, s, s. Remember this trick: At the end, double f, l, s and z. Think of the word floss!",
+        "if_wrong": "Good try! miss is spelled m, i, s, s. Remember this trick: At the end, double f, l, s and z. Think of the word floss! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "sr-doubling",
+    "grade": 2,
+    "category": "spelling_rules",
+    "title": "The doubling rule",
+    "trick": "Add ing to hop? Write the p two times first!",
+    "explain": "Hop becomes hopping. Run becomes running. Write the last letter two times. Then add ing. This works for short words with one vowel, like hop and run.",
+    "examples": [
+      "hop, hopping",
+      "run, running",
+      "stop, stopped",
+      "sit, sitting"
+    ],
+    "exceptions": [
+      "Do not double w, x or y. Snow becomes snowing."
+    ],
+    "prereqs": [
+      "vt-short-vowels",
+      "wp-suffix-ing-ed"
+    ],
+    "i_can": "I can double the last letter before adding ing or ed.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Add ing to hop. Spell the new word.",
+        "answer": "hopping",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled hopping right! It is h, o, p, p, i, n, g. Remember this trick: Add ing to hop? Write the p two times first!",
+        "if_wrong": "Good try! hopping is spelled h, o, p, p, i, n, g. Remember this trick: Add ing to hop? Write the p two times first! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ing to run. Spell the new word.",
+        "answer": "running",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled running right! It is r, u, n, n, i, n, g. Remember this trick: Add ing to hop? Write the p two times first!",
+        "if_wrong": "Good try! running is spelled r, u, n, n, i, n, g. Remember this trick: Add ing to hop? Write the p two times first! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ed to stop. Spell the new word.",
+        "answer": "stopped",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled stopped right! It is s, t, o, p, p, e, d. Remember this trick: Add ing to hop? Write the p two times first!",
+        "if_wrong": "Good try! stopped is spelled s, t, o, p, p, e, d. Remember this trick: Add ing to hop? Write the p two times first! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ing to snow. Do we double the w? Spell the new word.",
+        "answer": "snowing",
+        "accept": [],
+        "level": 4,
+        "if_right": "Yes! You spelled snowing right! It is s, n, o, w, i, n, g. Remember this trick: Add ing to hop? Write the p two times first!",
+        "if_wrong": "Good try! snowing is spelled s, n, o, w, i, n, g. Remember this trick: Add ing to hop? Write the p two times first! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ing to sit. Spell the new word.",
+        "answer": "sitting",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled sitting right! It is s, i, t, t, i, n, g. Remember this trick: Add ing to hop? Write the p two times first!",
+        "if_wrong": "Good try! sitting is spelled s, i, t, t, i, n, g. Remember this trick: Add ing to hop? Write the p two times first! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ed to hug. Spell the new word.",
+        "answer": "hugged",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled hugged right! It is h, u, g, g, e, d. Remember this trick: Add ing to hop? Write the p two times first!",
+        "if_wrong": "Good try! hugged is spelled h, u, g, g, e, d. Remember this trick: Add ing to hop? Write the p two times first! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "sr-drop-e",
+    "grade": 2,
+    "category": "spelling_rules",
+    "title": "Drop the silent e",
+    "trick": "Take off the quiet e before you add ing.",
+    "explain": "Make has a quiet e at the end. Take it off, then add ing. You get making. Ride becomes riding. Bake becomes baking.",
+    "examples": [
+      "make, making",
+      "bake, baking",
+      "hope, hoped",
+      "ride, riding"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "vt-silent-e",
+      "wp-suffix-ing-ed"
+    ],
+    "i_can": "I can drop the e before adding ing or ed.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Add ing to make. Spell the new word.",
+        "answer": "making",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled making right! It is m, a, k, i, n, g. Remember this trick: Take off the quiet e before you add ing.",
+        "if_wrong": "Good try! making is spelled m, a, k, i, n, g. Remember this trick: Take off the quiet e before you add ing. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ing to ride. Spell the new word.",
+        "answer": "riding",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled riding right! It is r, i, d, i, n, g. Remember this trick: Take off the quiet e before you add ing.",
+        "if_wrong": "Good try! riding is spelled r, i, d, i, n, g. Remember this trick: Take off the quiet e before you add ing. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ed to hope. Spell the new word.",
+        "answer": "hoped",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled hoped right! It is h, o, p, e, d. Remember this trick: Take off the quiet e before you add ing.",
+        "if_wrong": "Good try! hoped is spelled h, o, p, e, d. Remember this trick: Take off the quiet e before you add ing. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ing to bake. Spell the new word.",
+        "answer": "baking",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled baking right! It is b, a, k, i, n, g. Remember this trick: Take off the quiet e before you add ing.",
+        "if_wrong": "Good try! baking is spelled b, a, k, i, n, g. Remember this trick: Take off the quiet e before you add ing. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ing to dance. Spell the new word.",
+        "answer": "dancing",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled dancing right! It is d, a, n, c, i, n, g. Remember this trick: Take off the quiet e before you add ing.",
+        "if_wrong": "Good try! dancing is spelled d, a, n, c, i, n, g. Remember this trick: Take off the quiet e before you add ing. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ed to smile. Spell the new word.",
+        "answer": "smiled",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled smiled right! It is s, m, i, l, e, d. Remember this trick: Take off the quiet e before you add ing.",
+        "if_wrong": "Good try! smiled is spelled s, m, i, l, e, d. Remember this trick: Take off the quiet e before you add ing. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "sr-y-to-i",
+    "grade": 2,
+    "category": "spelling_rules",
+    "title": "Change y to i",
+    "trick": "Change y to i, then add es or ed.",
+    "explain": "Baby becomes babies. Cry becomes cried. Take off the y. Put an i. Then add es or ed.",
+    "examples": [
+      "baby, babies",
+      "cry, cried",
+      "puppy, puppies",
+      "boy, boys"
+    ],
+    "exceptions": [
+      "With ing, keep the y, as in crying."
+    ],
+    "prereqs": [
+      "wp-suffix-ing-ed",
+      "sr-plurals"
+    ],
+    "i_can": "I can change y to i to add es or ed.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell more than one baby.",
+        "answer": "babies",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled babies right! It is b, a, b, i, e, s. Remember this trick: Change y to i, then add es or ed.",
+        "if_wrong": "Good try! babies is spelled b, a, b, i, e, s. Remember this trick: Change y to i, then add es or ed. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell more than one puppy.",
+        "answer": "puppies",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled puppies right! It is p, u, p, p, i, e, s. Remember this trick: Change y to i, then add es or ed.",
+        "if_wrong": "Good try! puppies is spelled p, u, p, p, i, e, s. Remember this trick: Change y to i, then add es or ed. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell more than one boy.",
+        "answer": "boys",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled boys right! It is b, o, y, s. Remember this trick: Change y to i, then add es or ed.",
+        "if_wrong": "Good try! boys is spelled b, o, y, s. Remember this trick: Change y to i, then add es or ed. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ed to cry. Spell the new word.",
+        "answer": "cried",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled cried right! It is c, r, i, e, d. Remember this trick: Change y to i, then add es or ed.",
+        "if_wrong": "Good try! cried is spelled c, r, i, e, d. Remember this trick: Change y to i, then add es or ed. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "sr-plurals",
+    "grade": 1,
+    "category": "spelling_rules",
+    "title": "Making words plural: s and es",
+    "trick": "More than one? Add s. If it hisses, add es.",
+    "explain": "One cat, two cats. One dog, two dogs. If a word ends with s, x, ch or sh, add es. One box, two boxes. One wish, two wishes.",
+    "examples": [
+      "cat, cats",
+      "box, boxes",
+      "wish, wishes",
+      "bus, buses"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "ct-digraphs"
+    ],
+    "i_can": "I can make more than one with s or es.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell more than one dog.",
+        "answer": "dogs",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled dogs right! It is d, o, g, s. Remember this trick: More than one? Add s. If it hisses, add es.",
+        "if_wrong": "Good try! dogs is spelled d, o, g, s. Remember this trick: More than one? Add s. If it hisses, add es. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell more than one box.",
+        "answer": "boxes",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled boxes right! It is b, o, x, e, s. Remember this trick: More than one? Add s. If it hisses, add es.",
+        "if_wrong": "Good try! boxes is spelled b, o, x, e, s. Remember this trick: More than one? Add s. If it hisses, add es. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell more than one wish.",
+        "answer": "wishes",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled wishes right! It is w, i, s, h, e, s. Remember this trick: More than one? Add s. If it hisses, add es.",
+        "if_wrong": "Good try! wishes is spelled w, i, s, h, e, s. Remember this trick: More than one? Add s. If it hisses, add es. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell more than one bus.",
+        "answer": "buses",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled buses right! It is b, u, s, e, s. Remember this trick: More than one? Add s. If it hisses, add es.",
+        "if_wrong": "Good try! buses is spelled b, u, s, e, s. Remember this trick: More than one? Add s. If it hisses, add es. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell more than one dish.",
+        "answer": "dishes",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled dishes right! It is d, i, s, h, e, s. Remember this trick: More than one? Add s. If it hisses, add es.",
+        "if_wrong": "Good try! dishes is spelled d, i, s, h, e, s. Remember this trick: More than one? Add s. If it hisses, add es. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell more than one fox.",
+        "answer": "foxes",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled foxes right! It is f, o, x, e, s. Remember this trick: More than one? Add s. If it hisses, add es.",
+        "if_wrong": "Good try! foxes is spelled f, o, x, e, s. Remember this trick: More than one? Add s. If it hisses, add es. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "sr-irregular-plurals",
+    "grade": 2,
+    "category": "spelling_rules",
+    "title": "Funny plurals",
+    "trick": "Some words change in a funny way for more than one.",
+    "explain": "One foot, two feet. One child, two children. One mouse, two mice. Sheep stays sheep! You just have to remember these.",
+    "examples": [
+      "child, children",
+      "foot, feet",
+      "mouse, mice",
+      "man, men",
+      "sheep, sheep"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "sr-plurals"
+    ],
+    "i_can": "I can remember funny plurals.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "What do we call more than one foot?",
+        "answer": "feet",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! feet! Great job. Remember this trick: Some words change in a funny way for more than one.",
+        "if_wrong": "Good try! The answer is feet. Remember this trick: Some words change in a funny way for more than one. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What do we call more than one child?",
+        "answer": "children",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! children! Great job. Remember this trick: Some words change in a funny way for more than one.",
+        "if_wrong": "Good try! The answer is children. Remember this trick: Some words change in a funny way for more than one. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What do we call more than one mouse?",
+        "answer": "mice",
+        "accept": [],
+        "level": 2,
+        "if_right": "You got it! mice! Great job. Remember this trick: Some words change in a funny way for more than one.",
+        "if_wrong": "Good try! The answer is mice. Remember this trick: Some words change in a funny way for more than one. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What do we call more than one sheep?",
+        "answer": "sheep",
+        "accept": [],
+        "level": 3,
+        "if_right": "You got it! sheep! Great job. Remember this trick: Some words change in a funny way for more than one.",
+        "if_wrong": "Good try! The answer is sheep. Remember this trick: Some words change in a funny way for more than one. Let us try another one."
+      }
+    ]
+  },
+  {
+    "id": "sr-no-v-end",
+    "grade": 2,
+    "category": "spelling_rules",
+    "title": "English words do not end in v",
+    "trick": "English words do not end in v. Add a quiet e!",
+    "explain": "Have, give and love all end with ve. The e is quiet. It is just there so the word does not end in v.",
+    "examples": [
+      "have",
+      "give",
+      "love",
+      "live",
+      "above"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "vt-silent-e"
+    ],
+    "i_can": "I can add e after v at the end of a word.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word that rhymes with dove and means to like a lot.",
+        "answer": "love",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled love right! It is l, o, v, e. Remember this trick: English words do not end in v. Add a quiet e!",
+        "if_wrong": "Good try! love is spelled l, o, v, e. Remember this trick: English words do not end in v. Add a quiet e! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word give.",
+        "answer": "give",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled give right! It is g, i, v, e. Remember this trick: English words do not end in v. Add a quiet e!",
+        "if_wrong": "Good try! give is spelled g, i, v, e. Remember this trick: English words do not end in v. Add a quiet e! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the word have end with v or ve?",
+        "options": [
+          "v",
+          "ve"
+        ],
+        "answer": "ve",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, ve! You are right. Remember this trick: English words do not end in v. Add a quiet e!",
+        "if_wrong": "Nice try! The answer is ve. Remember this trick: English words do not end in v. Add a quiet e! Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word above.",
+        "answer": "above",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled above right! It is a, b, o, v, e. Remember this trick: English words do not end in v. Add a quiet e!",
+        "if_wrong": "Good try! above is spelled a, b, o, v, e. Remember this trick: English words do not end in v. Add a quiet e! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "sr-q-u",
+    "grade": 1,
+    "category": "spelling_rules",
+    "title": "Q always needs u",
+    "trick": "Q is shy. It always has u next to it.",
+    "explain": "Q and u go together. They say kw. Queen, quick and quack all have qu.",
+    "examples": [
+      "queen",
+      "quick",
+      "quiet",
+      "quack"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can spell words with qu.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Which letter always comes after q?",
+        "options": [
+          "a",
+          "o",
+          "u"
+        ],
+        "answer": "u",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, u! You are right. Remember this trick: Q is shy. It always has u next to it.",
+        "if_wrong": "Nice try! The answer is u. Remember this trick: Q is shy. It always has u next to it. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that a duck says.",
+        "answer": "quack",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled quack right! It is q, u, a, c, k. Remember this trick: Q is shy. It always has u next to it.",
+        "if_wrong": "Good try! quack is spelled q, u, a, c, k. Remember this trick: Q is shy. It always has u next to it. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word queen.",
+        "answer": "queen",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled queen right! It is q, u, e, e, n. Remember this trick: Q is shy. It always has u next to it.",
+        "if_wrong": "Good try! queen is spelled q, u, e, e, n. Remember this trick: Q is shy. It always has u next to it. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that means fast.",
+        "answer": "quick",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled quick right! It is q, u, i, c, k. Remember this trick: Q is shy. It always has u next to it.",
+        "if_wrong": "Good try! quick is spelled q, u, i, c, k. Remember this trick: Q is shy. It always has u next to it. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "sr-i-before-e",
+    "grade": 2,
+    "category": "spelling_rules",
+    "title": "I before e",
+    "trick": "I comes before e. But after c, e comes before i.",
+    "explain": "Friend and field have i before e. Receive and ceiling have c, then e, then i. Some words are sneaky, like weird. Eight says ay and uses ei.",
+    "examples": [
+      "friend, field, piece",
+      "receive, ceiling",
+      "eight, weigh"
+    ],
+    "exceptions": [
+      "weird, science, either, neither"
+    ],
+    "prereqs": [
+      "vt-long-e",
+      "vt-long-a"
+    ],
+    "i_can": "I can use the i before e rule.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Is friend spelled ie or ei?",
+        "options": [
+          "ie",
+          "ei"
+        ],
+        "answer": "ie",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, ie! You are right. Remember this trick: I comes before e. But after c, e comes before i.",
+        "if_wrong": "Nice try! The answer is ie. Remember this trick: I comes before e. But after c, e comes before i. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Is receive spelled ie or ei after the c?",
+        "options": [
+          "ie",
+          "ei"
+        ],
+        "answer": "ei",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, ei! You are right. Remember this trick: I comes before e. But after c, e comes before i.",
+        "if_wrong": "Nice try! The answer is ei. Remember this trick: I comes before e. But after c, e comes before i. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for the number after seven.",
+        "answer": "eight",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled eight right! It is e, i, g, h, t. Remember this trick: I comes before e. But after c, e comes before i.",
+        "if_wrong": "Good try! eight is spelled e, i, g, h, t. Remember this trick: I comes before e. But after c, e comes before i. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word piece.",
+        "answer": "piece",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled piece right! It is p, i, e, c, e. Remember this trick: I comes before e. But after c, e comes before i.",
+        "if_wrong": "Good try! piece is spelled p, i, e, c, e. Remember this trick: I comes before e. But after c, e comes before i. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "sr-plural-ves",
+    "grade": 2,
+    "category": "spelling_rules",
+    "title": "Leaf to leaves",
+    "trick": "For some words, change f to v and add es.",
+    "explain": "One leaf, two leaves. One knife, two knives. One wolf, two wolves. Change the f to v. Then add es.",
+    "examples": [
+      "leaves",
+      "knives",
+      "wolves",
+      "shelves",
+      "lives"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "sr-plurals"
+    ],
+    "i_can": "I can change f to v for more than one.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell more than one leaf.",
+        "answer": "leaves",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled leaves right! It is l, e, a, v, e, s. Remember this trick: For some words, change f to v and add es.",
+        "if_wrong": "Good try! leaves is spelled l, e, a, v, e, s. Remember this trick: For some words, change f to v and add es. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell more than one knife.",
+        "answer": "knives",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled knives right! It is k, n, i, v, e, s. Remember this trick: For some words, change f to v and add es.",
+        "if_wrong": "Good try! knives is spelled k, n, i, v, e, s. Remember this trick: For some words, change f to v and add es. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell more than one wolf.",
+        "answer": "wolves",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled wolves right! It is w, o, l, v, e, s. Remember this trick: For some words, change f to v and add es.",
+        "if_wrong": "Good try! wolves is spelled w, o, l, v, e, s. Remember this trick: For some words, change f to v and add es. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell more than one shelf.",
+        "answer": "shelves",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled shelves right! It is s, h, e, l, v, e, s. Remember this trick: For some words, change f to v and add es.",
+        "if_wrong": "Good try! shelves is spelled s, h, e, l, v, e, s. Remember this trick: For some words, change f to v and add es. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell more than one life.",
+        "answer": "lives",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled lives right! It is l, i, v, e, s. Remember this trick: For some words, change f to v and add es.",
+        "if_wrong": "Good try! lives is spelled l, i, v, e, s. Remember this trick: For some words, change f to v and add es. Let us try one more."
+      }
+    ]
+  }
+]

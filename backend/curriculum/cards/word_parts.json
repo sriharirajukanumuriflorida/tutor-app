@@ -1,0 +1,1659 @@
+[
+  {
+    "id": "wp-closed-open-syllables",
+    "grade": 1,
+    "category": "word_parts",
+    "title": "Closed and open syllables",
+    "trick": "Look at the last letter. If it is a vowel, say its name!",
+    "explain": "Go ends with o. The o says oh. Me ends with e. The e says ee. Hat ends with t. So the a is short, like in apple. Now you try!",
+    "examples": [
+      "hat, sit, stop",
+      "go, me, no, hi"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "vt-short-vowels"
+    ],
+    "i_can": "I can tell when a vowel says its name.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the o in go say its name, oh, or a short sound?",
+        "options": [
+          "its name",
+          "short sound"
+        ],
+        "answer": "its name",
+        "accept": [
+          "oh",
+          "name"
+        ],
+        "level": 1,
+        "if_right": "Yes, its name! You are right. Remember this trick: Look at the last letter. If it is a vowel, say its name!",
+        "if_wrong": "Nice try! The answer is its name. Remember this trick: Look at the last letter. If it is a vowel, say its name! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the a in hat say its name or a short sound?",
+        "options": [
+          "its name",
+          "short sound"
+        ],
+        "answer": "short sound",
+        "accept": [
+          "short"
+        ],
+        "level": 1,
+        "if_right": "Yes, short sound! You are right. Remember this trick: Look at the last letter. If it is a vowel, say its name!",
+        "if_wrong": "Nice try! The answer is short sound. Remember this trick: Look at the last letter. If it is a vowel, say its name! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the e in me say its name, ee, or a short sound?",
+        "options": [
+          "its name",
+          "short sound"
+        ],
+        "answer": "its name",
+        "accept": [
+          "ee",
+          "name"
+        ],
+        "level": 2,
+        "if_right": "Yes, its name! You are right. Remember this trick: Look at the last letter. If it is a vowel, say its name!",
+        "if_wrong": "Nice try! The answer is its name. Remember this trick: Look at the last letter. If it is a vowel, say its name! Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the o in no say oh or a short sound like in hot?",
+        "options": [
+          "oh",
+          "short sound"
+        ],
+        "answer": "oh",
+        "accept": [
+          "its name",
+          "name"
+        ],
+        "level": 2,
+        "if_right": "Yes, oh! You are right. Remember this trick: Look at the last letter. If it is a vowel, say its name!",
+        "if_wrong": "Nice try! The answer is oh. Remember this trick: Look at the last letter. If it is a vowel, say its name! Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "wp-divide-vccv",
+    "grade": 2,
+    "category": "word_parts",
+    "title": "Splitting words: rabbit rule",
+    "trick": "Two letters in the middle? Cut the word between them.",
+    "explain": "Look at rabbit. It has two b letters in the middle. Cut between them. You get rab and bit. Read each part. Then say them fast: rabbit!",
+    "examples": [
+      "rab-bit",
+      "bas-ket",
+      "pen-cil",
+      "sud-den",
+      "hap-pen"
+    ],
+    "exceptions": [
+      "Never split a digraph like th or sh."
+    ],
+    "prereqs": [
+      "wp-closed-open-syllables",
+      "sa-syllables-clap"
+    ],
+    "i_can": "I can cut a long word into parts.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "Cut the word rabbit into two parts.",
+        "answer": "rab bit",
+        "accept": [
+          "rab-bit",
+          "rab, bit",
+          "rab and bit"
+        ],
+        "level": 1,
+        "if_right": "You got it! rab bit! Great job. Remember this trick: Two letters in the middle? Cut the word between them.",
+        "if_wrong": "Good try! The answer is rab bit. Remember this trick: Two letters in the middle? Cut the word between them. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Cut the word basket into two parts.",
+        "answer": "bas ket",
+        "accept": [
+          "bas-ket",
+          "bas, ket",
+          "bas and ket"
+        ],
+        "level": 2,
+        "if_right": "You got it! bas ket! Great job. Remember this trick: Two letters in the middle? Cut the word between them.",
+        "if_wrong": "Good try! The answer is bas ket. Remember this trick: Two letters in the middle? Cut the word between them. Let us try another one."
+      },
+      {
+        "type": "count",
+        "prompt": "How many beats are in the word happen? Clap it!",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "2",
+        "accept": [
+          "two"
+        ],
+        "level": 2,
+        "if_right": "Yes, two! You are right. Remember this trick: Two letters in the middle? Cut the word between them.",
+        "if_wrong": "Nice try! The answer is two. Remember this trick: Two letters in the middle? Cut the word between them. Let us try again."
+      },
+      {
+        "type": "say",
+        "prompt": "Cut the word pencil into two parts.",
+        "answer": "pen cil",
+        "accept": [
+          "pen-cil",
+          "pen, cil",
+          "pen and cil"
+        ],
+        "level": 3,
+        "if_right": "You got it! pen cil! Great job. Remember this trick: Two letters in the middle? Cut the word between them.",
+        "if_wrong": "Good try! The answer is pen cil. Remember this trick: Two letters in the middle? Cut the word between them. Let us try another one."
+      }
+    ]
+  },
+  {
+    "id": "wp-divide-vcv",
+    "grade": 2,
+    "category": "word_parts",
+    "title": "Splitting words: tiger rule",
+    "trick": "One letter in the middle? Cut before it. Try it!",
+    "explain": "Look at tiger. Cut before the g. You get ti and ger. The i says its name. Say it: tiger! If it sounds wrong, cut after the letter. Cabin is cab and in.",
+    "examples": [
+      "ti-ger",
+      "ro-bot",
+      "pa-per",
+      "cab-in",
+      "lem-on"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "wp-divide-vccv"
+    ],
+    "i_can": "I can try two ways to cut a word.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "Cut the word tiger into two parts.",
+        "answer": "ti ger",
+        "accept": [
+          "ti-ger",
+          "ti, ger",
+          "ti and ger"
+        ],
+        "level": 1,
+        "if_right": "You got it! ti ger! Great job. Remember this trick: One letter in the middle? Cut before it. Try it!",
+        "if_wrong": "Good try! The answer is ti ger. Remember this trick: One letter in the middle? Cut before it. Try it! Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Cut the word robot into two parts.",
+        "answer": "ro bot",
+        "accept": [
+          "ro-bot",
+          "ro, bot",
+          "ro and bot"
+        ],
+        "level": 2,
+        "if_right": "You got it! ro bot! Great job. Remember this trick: One letter in the middle? Cut before it. Try it!",
+        "if_wrong": "Good try! The answer is ro bot. Remember this trick: One letter in the middle? Cut before it. Try it! Let us try another one."
+      },
+      {
+        "type": "choose",
+        "prompt": "In the word paper, does the first a say long a or short a?",
+        "options": [
+          "long a",
+          "short a"
+        ],
+        "answer": "long a",
+        "accept": [
+          "long"
+        ],
+        "level": 2,
+        "if_right": "Yes, long a! You are right. Remember this trick: One letter in the middle? Cut before it. Try it!",
+        "if_wrong": "Nice try! The answer is long a. Remember this trick: One letter in the middle? Cut before it. Try it! Let us try again."
+      },
+      {
+        "type": "say",
+        "prompt": "Cut the word lemon into two parts. Cut after the m.",
+        "answer": "lem on",
+        "accept": [
+          "lem-on",
+          "lem, on",
+          "lem and on"
+        ],
+        "level": 4,
+        "if_right": "You got it! lem on! Great job. Remember this trick: One letter in the middle? Cut before it. Try it!",
+        "if_wrong": "Good try! The answer is lem on. Remember this trick: One letter in the middle? Cut before it. Try it! Let us try another one."
+      }
+    ]
+  },
+  {
+    "id": "wp-cle-syllable",
+    "grade": 2,
+    "category": "word_parts",
+    "title": "Consonant plus le",
+    "trick": "When a word ends in le, the letter before it joins in.",
+    "explain": "Look at table. The b goes with le. You get ta and ble. Apple is ap and ple. Say each part. Then say it fast.",
+    "examples": [
+      "ta-ble",
+      "lit-tle",
+      "puz-zle",
+      "ap-ple",
+      "can-dle"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "wp-divide-vccv"
+    ],
+    "i_can": "I can read and spell words that end in le.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "Cut the word table into two parts.",
+        "answer": "ta ble",
+        "accept": [
+          "ta-ble",
+          "ta, ble",
+          "ta and ble"
+        ],
+        "level": 1,
+        "if_right": "You got it! ta ble! Great job. Remember this trick: When a word ends in le, the letter before it joins in.",
+        "if_wrong": "Good try! The answer is ta ble. Remember this trick: When a word ends in le, the letter before it joins in. Let us try another one."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a red fruit that grows on trees.",
+        "answer": "apple",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled apple right! It is a, p, p, l, e. Remember this trick: When a word ends in le, the letter before it joins in.",
+        "if_wrong": "Good try! apple is spelled a, p, p, l, e. Remember this trick: When a word ends in le, the letter before it joins in. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word little.",
+        "answer": "little",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled little right! It is l, i, t, t, l, e. Remember this trick: When a word ends in le, the letter before it joins in.",
+        "if_wrong": "Good try! little is spelled l, i, t, t, l, e. Remember this trick: When a word ends in le, the letter before it joins in. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word candle.",
+        "answer": "candle",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled candle right! It is c, a, n, d, l, e. Remember this trick: When a word ends in le, the letter before it joins in.",
+        "if_wrong": "Good try! candle is spelled c, a, n, d, l, e. Remember this trick: When a word ends in le, the letter before it joins in. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "wp-prefix-un-re",
+    "grade": 1,
+    "category": "word_parts",
+    "title": "Prefixes: un and re",
+    "trick": "Un means not. Re means again.",
+    "explain": "Un goes at the start of a word. Unhappy means not happy. Re goes at the start too. Replay means play again. Cover the little part. Read the big word. Then add it back.",
+    "examples": [
+      "unhappy, unlock, untie",
+      "redo, replay, rewrite"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "vt-long-i-ie"
+    ],
+    "i_can": "I can use un and re to change a word.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "What does unhappy mean?",
+        "answer": "not happy",
+        "accept": [
+          "sad"
+        ],
+        "level": 1,
+        "if_right": "You got it! not happy! Great job. Remember this trick: Un means not. Re means again.",
+        "if_wrong": "Good try! The answer is not happy. Remember this trick: Un means not. Re means again. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What does replay mean?",
+        "answer": "play again",
+        "accept": [
+          "to play again"
+        ],
+        "level": 1,
+        "if_right": "You got it! play again! Great job. Remember this trick: Un means not. Re means again.",
+        "if_wrong": "Good try! The answer is play again. Remember this trick: Un means not. Re means again. Let us try another one."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add un to lock. Spell the new word.",
+        "answer": "unlock",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled unlock right! It is u, n, l, o, c, k. Remember this trick: Un means not. Re means again.",
+        "if_wrong": "Good try! unlock is spelled u, n, l, o, c, k. Remember this trick: Un means not. Re means again. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add re to write. Spell the new word.",
+        "answer": "rewrite",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled rewrite right! It is r, e, w, r, i, t, e. Remember this trick: Un means not. Re means again.",
+        "if_wrong": "Good try! rewrite is spelled r, e, w, r, i, t, e. Remember this trick: Un means not. Re means again. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add un to fair. Spell the new word.",
+        "answer": "unfair",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled unfair right! It is u, n, f, a, i, r. Remember this trick: Un means not. Re means again.",
+        "if_wrong": "Good try! unfair is spelled u, n, f, a, i, r. Remember this trick: Un means not. Re means again. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add re to turn. Spell the new word.",
+        "answer": "return",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled return right! It is r, e, t, u, r, n. Remember this trick: Un means not. Re means again.",
+        "if_wrong": "Good try! return is spelled r, e, t, u, r, n. Remember this trick: Un means not. Re means again. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "wp-prefix-pre-dis",
+    "grade": 2,
+    "category": "word_parts",
+    "title": "Prefixes: pre, dis and mis",
+    "trick": "Pre means before. Dis means not. Mis means wrong.",
+    "explain": "These little parts go at the start of a word. Preheat means heat first. Dislike means not like. Misspell means spell it wrong. The start of the word is a clue!",
+    "examples": [
+      "preheat, preview",
+      "dislike, disagree",
+      "misspell, mistake"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "wp-prefix-un-re"
+    ],
+    "i_can": "I can use pre, dis and mis to figure out new words.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "What does dislike mean?",
+        "answer": "not like",
+        "accept": [
+          "do not like",
+          "to not like"
+        ],
+        "level": 1,
+        "if_right": "You got it! not like! Great job. Remember this trick: Pre means before. Dis means not. Mis means wrong.",
+        "if_wrong": "Good try! The answer is not like. Remember this trick: Pre means before. Dis means not. Mis means wrong. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What does misspell mean?",
+        "answer": "spell wrong",
+        "accept": [
+          "to spell wrong",
+          "spell it wrong",
+          "spell incorrectly"
+        ],
+        "level": 2,
+        "if_right": "You got it! spell wrong! Great job. Remember this trick: Pre means before. Dis means not. Mis means wrong.",
+        "if_wrong": "Good try! The answer is spell wrong. Remember this trick: Pre means before. Dis means not. Mis means wrong. Let us try another one."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add dis to agree. Spell the new word.",
+        "answer": "disagree",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled disagree right! It is d, i, s, a, g, r, e, e. Remember this trick: Pre means before. Dis means not. Mis means wrong.",
+        "if_wrong": "Good try! disagree is spelled d, i, s, a, g, r, e, e. Remember this trick: Pre means before. Dis means not. Mis means wrong. Let us try one more."
+      },
+      {
+        "type": "say",
+        "prompt": "What does preheat mean?",
+        "answer": "heat before",
+        "accept": [
+          "to heat before",
+          "heat first"
+        ],
+        "level": 3,
+        "if_right": "You got it! heat before! Great job. Remember this trick: Pre means before. Dis means not. Mis means wrong.",
+        "if_wrong": "Good try! The answer is heat before. Remember this trick: Pre means before. Dis means not. Mis means wrong. Let us try another one."
+      }
+    ]
+  },
+  {
+    "id": "wp-suffix-ing-ed",
+    "grade": 1,
+    "category": "word_parts",
+    "title": "Endings: ing and ed",
+    "trick": "Ing means it is happening now. Ed means it happened already.",
+    "explain": "I am jumping right now. Jump, jumping! I jumped yesterday. Jump, jumped! Ing is for now. Ed is for before.",
+    "examples": [
+      "jump, jumping, jumped",
+      "play, playing, played"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "vt-short-vowels"
+    ],
+    "i_can": "I can add ing and ed to words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Add ing to jump. Spell the new word.",
+        "answer": "jumping",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled jumping right! It is j, u, m, p, i, n, g. Remember this trick: Ing means it is happening now. Ed means it happened already.",
+        "if_wrong": "Good try! jumping is spelled j, u, m, p, i, n, g. Remember this trick: Ing means it is happening now. Ed means it happened already. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ed to play. Spell the new word.",
+        "answer": "played",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled played right! It is p, l, a, y, e, d. Remember this trick: Ing means it is happening now. Ed means it happened already.",
+        "if_wrong": "Good try! played is spelled p, l, a, y, e, d. Remember this trick: Ing means it is happening now. Ed means it happened already. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which means it already happened: walking or walked?",
+        "options": [
+          "walking",
+          "walked"
+        ],
+        "answer": "walked",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, walked! You are right. Remember this trick: Ing means it is happening now. Ed means it happened already.",
+        "if_wrong": "Nice try! The answer is walked. Remember this trick: Ing means it is happening now. Ed means it happened already. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ing to help. Spell the new word.",
+        "answer": "helping",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled helping right! It is h, e, l, p, i, n, g. Remember this trick: Ing means it is happening now. Ed means it happened already.",
+        "if_wrong": "Good try! helping is spelled h, e, l, p, i, n, g. Remember this trick: Ing means it is happening now. Ed means it happened already. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ed to walk. Spell the new word.",
+        "answer": "walked",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled walked right! It is w, a, l, k, e, d. Remember this trick: Ing means it is happening now. Ed means it happened already.",
+        "if_wrong": "Good try! walked is spelled w, a, l, k, e, d. Remember this trick: Ing means it is happening now. Ed means it happened already. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ing to play. Spell the new word.",
+        "answer": "playing",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled playing right! It is p, l, a, y, i, n, g. Remember this trick: Ing means it is happening now. Ed means it happened already.",
+        "if_wrong": "Good try! playing is spelled p, l, a, y, i, n, g. Remember this trick: Ing means it is happening now. Ed means it happened already. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "wp-ed-sounds",
+    "grade": 2,
+    "category": "word_parts",
+    "title": "The three sounds of ed",
+    "trick": "Ed can sound like t, d or id. Listen to the end.",
+    "explain": "Jumped ends with t. Called ends with d. Wanted ends with id. Say the word. Listen to the last sound. Which one do you hear?",
+    "examples": [
+      "jumped (t)",
+      "called (d)",
+      "wanted (id)",
+      "planted (id)"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "wp-suffix-ing-ed"
+    ],
+    "i_can": "I can hear the three sounds of ed.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "What sound does ed make in jumped: t, d or id?",
+        "options": [
+          "t",
+          "d",
+          "id"
+        ],
+        "answer": "t",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, t! You are right. Remember this trick: Ed can sound like t, d or id. Listen to the end.",
+        "if_wrong": "Nice try! The answer is t. Remember this trick: Ed can sound like t, d or id. Listen to the end. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "What sound does ed make in wanted: t, d or id?",
+        "options": [
+          "t",
+          "d",
+          "id"
+        ],
+        "answer": "id",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, id! You are right. Remember this trick: Ed can sound like t, d or id. Listen to the end.",
+        "if_wrong": "Nice try! The answer is id. Remember this trick: Ed can sound like t, d or id. Listen to the end. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "What sound does ed make in called: t, d or id?",
+        "options": [
+          "t",
+          "d",
+          "id"
+        ],
+        "answer": "d",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, d! You are right. Remember this trick: Ed can sound like t, d or id. Listen to the end.",
+        "if_wrong": "Nice try! The answer is d. Remember this trick: Ed can sound like t, d or id. Listen to the end. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "What sound does ed make in helped: t, d or id?",
+        "options": [
+          "t",
+          "d",
+          "id"
+        ],
+        "answer": "t",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, t! You are right. Remember this trick: Ed can sound like t, d or id. Listen to the end.",
+        "if_wrong": "Nice try! The answer is t. Remember this trick: Ed can sound like t, d or id. Listen to the end. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "wp-suffix-er-est",
+    "grade": 2,
+    "category": "word_parts",
+    "title": "Endings: er and est",
+    "trick": "Er is for two. Est is for the most.",
+    "explain": "This dog is taller than that dog. Tall, taller! This dog is taller than all the dogs. Tall, tallest! Er is for two. Est is for the most.",
+    "examples": [
+      "tall, taller, tallest",
+      "fast, faster, fastest",
+      "teach, teacher"
+    ],
+    "exceptions": [
+      "Big becomes bigger and biggest by the doubling rule."
+    ],
+    "prereqs": [
+      "wp-suffix-ing-ed"
+    ],
+    "i_can": "I can use er and est to tell how things are different.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Add er to fast. Spell the new word.",
+        "answer": "faster",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled faster right! It is f, a, s, t, e, r. Remember this trick: Er is for two. Est is for the most.",
+        "if_wrong": "Good try! faster is spelled f, a, s, t, e, r. Remember this trick: Er is for two. Est is for the most. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add est to tall. Spell the new word.",
+        "answer": "tallest",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled tallest right! It is t, a, l, l, e, s, t. Remember this trick: Er is for two. Est is for the most.",
+        "if_wrong": "Good try! tallest is spelled t, a, l, l, e, s, t. Remember this trick: Er is for two. Est is for the most. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "One dog is bigger than another. Is that er or est?",
+        "options": [
+          "er",
+          "est"
+        ],
+        "answer": "er",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, er! You are right. Remember this trick: Er is for two. Est is for the most.",
+        "if_wrong": "Nice try! The answer is er. Remember this trick: Er is for two. Est is for the most. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add er to big. Spell the new word. Remember the doubling rule.",
+        "answer": "bigger",
+        "accept": [],
+        "level": 4,
+        "if_right": "Yes! You spelled bigger right! It is b, i, g, g, e, r. Remember this trick: Er is for two. Est is for the most.",
+        "if_wrong": "Good try! bigger is spelled b, i, g, g, e, r. Remember this trick: Er is for two. Est is for the most. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "wp-suffix-ful-less",
+    "grade": 2,
+    "category": "word_parts",
+    "title": "Endings: ful and less",
+    "trick": "Ful means full of. Less means without.",
+    "explain": "Help, helpful. Helpful means full of help. Help, helpless. Helpless means no help. Careful means full of care. Ful has just one l.",
+    "examples": [
+      "helpful, careful, joyful",
+      "helpless, careless, homeless"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "wp-suffix-ing-ed"
+    ],
+    "i_can": "I can use ful and less to figure out new words.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "What does careful mean?",
+        "answer": "full of care",
+        "accept": [
+          "with care",
+          "being careful",
+          "full of caring"
+        ],
+        "level": 1,
+        "if_right": "You got it! full of care! Great job. Remember this trick: Ful means full of. Less means without.",
+        "if_wrong": "Good try! The answer is full of care. Remember this trick: Ful means full of. Less means without. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What does homeless mean?",
+        "answer": "without a home",
+        "accept": [
+          "no home",
+          "does not have a home"
+        ],
+        "level": 2,
+        "if_right": "You got it! without a home! Great job. Remember this trick: Ful means full of. Less means without.",
+        "if_wrong": "Good try! The answer is without a home. Remember this trick: Ful means full of. Less means without. Let us try another one."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ful to help. Spell the new word.",
+        "answer": "helpful",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled helpful right! It is h, e, l, p, f, u, l. Remember this trick: Ful means full of. Less means without.",
+        "if_wrong": "Good try! helpful is spelled h, e, l, p, f, u, l. Remember this trick: Ful means full of. Less means without. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add less to care. Spell the new word.",
+        "answer": "careless",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled careless right! It is c, a, r, e, l, e, s, s. Remember this trick: Ful means full of. Less means without.",
+        "if_wrong": "Good try! careless is spelled c, a, r, e, l, e, s, s. Remember this trick: Ful means full of. Less means without. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "wp-contractions",
+    "grade": 2,
+    "category": "word_parts",
+    "title": "Contractions",
+    "trick": "Two words squish into one. A little mark shows what is missing.",
+    "explain": "Do not becomes don't. The o is gone. The little mark takes its place. It is becomes it's. I am becomes I'm.",
+    "examples": [
+      "don't",
+      "can't",
+      "it's",
+      "I'm",
+      "we're"
+    ],
+    "exceptions": [
+      "Will not becomes won't, which changes the spelling."
+    ],
+    "prereqs": [],
+    "i_can": "I can squish two words into one.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "What two words make the word don't?",
+        "answer": "do not",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! do not! Great job. Remember this trick: Two words squish into one. A little mark shows what is missing.",
+        "if_wrong": "Good try! The answer is do not. Remember this trick: Two words squish into one. A little mark shows what is missing. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What contraction can we make from it is?",
+        "answer": "it's",
+        "accept": [
+          "its",
+          "it s"
+        ],
+        "level": 1,
+        "if_right": "You got it! it's! Great job. Remember this trick: Two words squish into one. A little mark shows what is missing.",
+        "if_wrong": "Good try! The answer is it's. Remember this trick: Two words squish into one. A little mark shows what is missing. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What two words make the word can't?",
+        "answer": "can not",
+        "accept": [
+          "cannot"
+        ],
+        "level": 2,
+        "if_right": "You got it! can not! Great job. Remember this trick: Two words squish into one. A little mark shows what is missing.",
+        "if_wrong": "Good try! The answer is can not. Remember this trick: Two words squish into one. A little mark shows what is missing. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What contraction can we make from will not?",
+        "answer": "won't",
+        "accept": [
+          "wont"
+        ],
+        "level": 4,
+        "if_right": "You got it! won't! Great job. Remember this trick: Two words squish into one. A little mark shows what is missing.",
+        "if_wrong": "Good try! The answer is won't. Remember this trick: Two words squish into one. A little mark shows what is missing. Let us try another one."
+      }
+    ]
+  },
+  {
+    "id": "wp-homophones",
+    "grade": 2,
+    "category": "word_parts",
+    "title": "Homophones",
+    "trick": "Some words sound the same but look different. Think about what they mean.",
+    "explain": "See and sea sound the same. One is for your eyes. One is the water. To, too and two sound the same too. Think about what you want to say.",
+    "examples": [
+      "see, sea",
+      "to, too, two",
+      "their, there, they're",
+      "here, hear"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "vt-long-e"
+    ],
+    "i_can": "I can pick the right word when two words sound the same.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Which one is the body part you use to see: eye or I?",
+        "options": [
+          "eye",
+          "I"
+        ],
+        "answer": "eye",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, eye! You are right. Remember this trick: Some words sound the same but look different. Think about what they mean.",
+        "if_wrong": "Nice try! The answer is eye. Remember this trick: Some words sound the same but look different. Think about what they mean. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which spelling goes with the water at the beach: see or sea?",
+        "options": [
+          "see",
+          "sea"
+        ],
+        "answer": "sea",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, sea! You are right. Remember this trick: Some words sound the same but look different. Think about what they mean.",
+        "if_wrong": "Nice try! The answer is sea. Remember this trick: Some words sound the same but look different. Think about what they mean. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "I have two cats. I have a dog, too. Which word means also: to, too or two?",
+        "options": [
+          "to",
+          "too",
+          "two"
+        ],
+        "answer": "too",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, too! You are right. Remember this trick: Some words sound the same but look different. Think about what they mean.",
+        "if_wrong": "Nice try! The answer is too. Remember this trick: Some words sound the same but look different. Think about what they mean. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which one means belongs to them: their or there?",
+        "options": [
+          "their",
+          "there"
+        ],
+        "answer": "their",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, their! You are right. Remember this trick: Some words sound the same but look different. Think about what they mean.",
+        "if_wrong": "Nice try! The answer is their. Remember this trick: Some words sound the same but look different. Think about what they mean. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "wp-heart-words",
+    "grade": 1,
+    "category": "word_parts",
+    "title": "Heart words",
+    "trick": "Some words have a tricky part. Learn that part by heart!",
+    "explain": "Said sounds like sed. The ai is tricky. Sound out s and d. Learn ai by heart. Was, of, you and they are tricky too.",
+    "examples": [
+      "said",
+      "was",
+      "of",
+      "you",
+      "they",
+      "friend"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can find the tricky part and learn it by heart.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word said.",
+        "answer": "said",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled said right! It is s, a, i, d. Remember this trick: Some words have a tricky part. Learn that part by heart!",
+        "if_wrong": "Good try! said is spelled s, a, i, d. Remember this trick: Some words have a tricky part. Learn that part by heart! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word they.",
+        "answer": "they",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled they right! It is t, h, e, y. Remember this trick: Some words have a tricky part. Learn that part by heart!",
+        "if_wrong": "Good try! they is spelled t, h, e, y. Remember this trick: Some words have a tricky part. Learn that part by heart! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word friend.",
+        "answer": "friend",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled friend right! It is f, r, i, e, n, d. Remember this trick: Some words have a tricky part. Learn that part by heart!",
+        "if_wrong": "Good try! friend is spelled f, r, i, e, n, d. Remember this trick: Some words have a tricky part. Learn that part by heart! Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "In the word said, which part is the tricky part: ai or s?",
+        "options": [
+          "ai",
+          "s"
+        ],
+        "answer": "ai",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, ai! You are right. Remember this trick: Some words have a tricky part. Learn that part by heart!",
+        "if_wrong": "Nice try! The answer is ai. Remember this trick: Some words have a tricky part. Learn that part by heart! Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "wp-schwa",
+    "grade": 2,
+    "category": "word_parts",
+    "title": "The uh sound",
+    "trick": "Some quiet vowels just say uh.",
+    "explain": "In about, the first a says uh. In lemon, the o says uh. In a long word, a quiet vowel often says uh.",
+    "examples": [
+      "about",
+      "above",
+      "lemon",
+      "banana",
+      "pencil"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "wp-divide-vcv"
+    ],
+    "i_can": "I can hear the uh sound in long words.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Does the a in about say a like cat, or uh?",
+        "options": [
+          "cat",
+          "uh"
+        ],
+        "answer": "uh",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, uh! You are right. Remember this trick: Some quiet vowels just say uh.",
+        "if_wrong": "Nice try! The answer is uh. Remember this trick: Some quiet vowels just say uh. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the first a in banana say uh or a like in cat?",
+        "options": [
+          "uh",
+          "a like cat"
+        ],
+        "answer": "uh",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, uh! You are right. Remember this trick: Some quiet vowels just say uh.",
+        "if_wrong": "Nice try! The answer is uh. Remember this trick: Some quiet vowels just say uh. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word that means over. It rhymes with love.",
+        "answer": "above",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled above right! It is a, b, o, v, e. Remember this trick: Some quiet vowels just say uh.",
+        "if_wrong": "Good try! above is spelled a, b, o, v, e. Remember this trick: Some quiet vowels just say uh. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the yellow fruit that monkeys love. It has three beats.",
+        "answer": "banana",
+        "accept": [],
+        "level": 4,
+        "if_right": "Yes! You spelled banana right! It is b, a, n, a, n, a. Remember this trick: Some quiet vowels just say uh.",
+        "if_wrong": "Good try! banana is spelled b, a, n, a, n, a. Remember this trick: Some quiet vowels just say uh. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the o in lemon say oh or uh?",
+        "options": [
+          "oh",
+          "uh"
+        ],
+        "answer": "uh",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, uh! You are right. Remember this trick: Some quiet vowels just say uh.",
+        "if_wrong": "Nice try! The answer is uh. Remember this trick: Some quiet vowels just say uh. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "wp-possessives",
+    "grade": 2,
+    "category": "word_parts",
+    "title": "Whose is it? 's",
+    "trick": "Add a little mark and s to show who owns it.",
+    "explain": "Tom has a hat. It is Tom's hat. Put a little mark and s after the name. The mark shows who owns it.",
+    "examples": [
+      "Tom's hat",
+      "dog's bone",
+      "Mia's bike"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "wp-contractions"
+    ],
+    "i_can": "I can show who owns something.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "The bone belongs to the dog. Type the word dog with a mark and s.",
+        "answer": "dog's",
+        "accept": [
+          "dogs"
+        ],
+        "level": 1,
+        "if_right": "You got it! dog's! Great job. Remember this trick: Add a little mark and s to show who owns it.",
+        "if_wrong": "Good try! The answer is dog's. Remember this trick: Add a little mark and s to show who owns it. Let us try another one."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which shows the toy belongs to the cat: cat's or cats?",
+        "options": [
+          "cat's",
+          "cats"
+        ],
+        "answer": "cat's",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, cat's! You are right. Remember this trick: Add a little mark and s to show who owns it.",
+        "if_wrong": "Nice try! The answer is cat's. Remember this trick: Add a little mark and s to show who owns it. Let us try again."
+      },
+      {
+        "type": "say",
+        "prompt": "The ball belongs to Sam. Type Sam with a mark and s.",
+        "answer": "sam's",
+        "accept": [
+          "sams"
+        ],
+        "level": 2,
+        "if_right": "You got it! sam's! Great job. Remember this trick: Add a little mark and s to show who owns it.",
+        "if_wrong": "Good try! The answer is sam's. Remember this trick: Add a little mark and s to show who owns it. Let us try another one."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which shows the bike belongs to Mia: Mia's bike or Mias bike?",
+        "options": [
+          "mia's bike",
+          "Mias bike"
+        ],
+        "answer": "mia's bike",
+        "accept": [
+          "mia's"
+        ],
+        "level": 3,
+        "if_right": "Yes, mia's bike! You are right. Remember this trick: Add a little mark and s to show who owns it.",
+        "if_wrong": "Nice try! The answer is mia's bike. Remember this trick: Add a little mark and s to show who owns it. Let us try again."
+      },
+      {
+        "type": "say",
+        "prompt": "The hat belongs to Dad. Type Dad with a mark and s.",
+        "answer": "dad's",
+        "accept": [
+          "dads"
+        ],
+        "level": 2,
+        "if_right": "You got it! dad's! Great job. Remember this trick: Add a little mark and s to show who owns it.",
+        "if_wrong": "Good try! The answer is dad's. Remember this trick: Add a little mark and s to show who owns it. Let us try another one."
+      }
+    ]
+  },
+  {
+    "id": "wp-root-words",
+    "grade": 2,
+    "category": "word_parts",
+    "title": "Find the little word inside",
+    "trick": "Cover the little parts. Find the word you know.",
+    "explain": "Unhappy has un and happy. Cover un. You see happy. Helpful has help and ful. Cover ful. You see help.",
+    "examples": [
+      "unhappy",
+      "helpful",
+      "replay",
+      "jumping"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "wp-prefix-un-re",
+      "wp-suffix-ful-less"
+    ],
+    "i_can": "I can find the small word inside a big word.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "What word is hiding in unhappy?",
+        "answer": "happy",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! happy! Great job. Remember this trick: Cover the little parts. Find the word you know.",
+        "if_wrong": "Good try! The answer is happy. Remember this trick: Cover the little parts. Find the word you know. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What word is hiding in helpful?",
+        "answer": "help",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! help! Great job. Remember this trick: Cover the little parts. Find the word you know.",
+        "if_wrong": "Good try! The answer is help. Remember this trick: Cover the little parts. Find the word you know. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What word is hiding in replay?",
+        "answer": "play",
+        "accept": [],
+        "level": 2,
+        "if_right": "You got it! play! Great job. Remember this trick: Cover the little parts. Find the word you know.",
+        "if_wrong": "Good try! The answer is play. Remember this trick: Cover the little parts. Find the word you know. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What word is hiding in jumping?",
+        "answer": "jump",
+        "accept": [],
+        "level": 2,
+        "if_right": "You got it! jump! Great job. Remember this trick: Cover the little parts. Find the word you know.",
+        "if_wrong": "Good try! The answer is jump. Remember this trick: Cover the little parts. Find the word you know. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "What word is hiding in careless?",
+        "answer": "care",
+        "accept": [],
+        "level": 3,
+        "if_right": "You got it! care! Great job. Remember this trick: Cover the little parts. Find the word you know.",
+        "if_wrong": "Good try! The answer is care. Remember this trick: Cover the little parts. Find the word you know. Let us try another one."
+      }
+    ]
+  },
+  {
+    "id": "wp-ly-ness",
+    "grade": 2,
+    "category": "word_parts",
+    "title": "Endings: ly and ness",
+    "trick": "Ly tells how. Ness names a way of being.",
+    "explain": "Slow, slowly. Ly tells how you do something. Kind, kindness. Ness names a way of being.",
+    "examples": [
+      "slowly",
+      "quickly",
+      "softly",
+      "kindness",
+      "darkness"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "wp-suffix-ful-less"
+    ],
+    "i_can": "I can add ly and ness to words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Add ly to slow. Spell the new word.",
+        "answer": "slowly",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled slowly right! It is s, l, o, w, l, y. Remember this trick: Ly tells how. Ness names a way of being.",
+        "if_wrong": "Good try! slowly is spelled s, l, o, w, l, y. Remember this trick: Ly tells how. Ness names a way of being. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ly to quick. Spell the new word.",
+        "answer": "quickly",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled quickly right! It is q, u, i, c, k, l, y. Remember this trick: Ly tells how. Ness names a way of being.",
+        "if_wrong": "Good try! quickly is spelled q, u, i, c, k, l, y. Remember this trick: Ly tells how. Ness names a way of being. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ness to kind. Spell the new word.",
+        "answer": "kindness",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled kindness right! It is k, i, n, d, n, e, s, s. Remember this trick: Ly tells how. Ness names a way of being.",
+        "if_wrong": "Good try! kindness is spelled k, i, n, d, n, e, s, s. Remember this trick: Ly tells how. Ness names a way of being. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ly to soft. Spell the new word.",
+        "answer": "softly",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled softly right! It is s, o, f, t, l, y. Remember this trick: Ly tells how. Ness names a way of being.",
+        "if_wrong": "Good try! softly is spelled s, o, f, t, l, y. Remember this trick: Ly tells how. Ness names a way of being. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ness to dark. Spell the new word.",
+        "answer": "darkness",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled darkness right! It is d, a, r, k, n, e, s, s. Remember this trick: Ly tells how. Ness names a way of being.",
+        "if_wrong": "Good try! darkness is spelled d, a, r, k, n, e, s, s. Remember this trick: Ly tells how. Ness names a way of being. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "wp-multisyllable-chunks",
+    "grade": 2,
+    "category": "word_parts",
+    "title": "Read big words in parts",
+    "trick": "Read a big word one part at a time.",
+    "explain": "Look at fantastic. Cover all but the first part. Read fan. Then tas. Then tic. Put them together.",
+    "examples": [
+      "fan-tas-tic",
+      "din-o-saur",
+      "um-brel-la"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "wp-divide-vccv",
+      "wp-divide-vcv"
+    ],
+    "i_can": "I can read big words in parts.",
+    "questions": [
+      {
+        "type": "count",
+        "prompt": "How many beats are in the word dinosaur?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "accept": [
+          "three"
+        ],
+        "level": 1,
+        "if_right": "Yes, three! You are right. Remember this trick: Read a big word one part at a time.",
+        "if_wrong": "Nice try! The answer is three. Remember this trick: Read a big word one part at a time. Let us try again."
+      },
+      {
+        "type": "count",
+        "prompt": "How many beats are in the word umbrella?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "accept": [
+          "three"
+        ],
+        "level": 2,
+        "if_right": "Yes, three! You are right. Remember this trick: Read a big word one part at a time.",
+        "if_wrong": "Nice try! The answer is three. Remember this trick: Read a big word one part at a time. Let us try again."
+      },
+      {
+        "type": "count",
+        "prompt": "How many beats are in the word caterpillar?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4",
+        "accept": [
+          "four"
+        ],
+        "level": 3,
+        "if_right": "Yes, four! You are right. Remember this trick: Read a big word one part at a time.",
+        "if_wrong": "Nice try! The answer is four. Remember this trick: Read a big word one part at a time. Let us try again."
+      },
+      {
+        "type": "count",
+        "prompt": "How many beats are in the word hippopotamus?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "5",
+        "accept": [
+          "five"
+        ],
+        "level": 4,
+        "if_right": "Yes, five! You are right. Remember this trick: Read a big word one part at a time.",
+        "if_wrong": "Nice try! The answer is five. Remember this trick: Read a big word one part at a time. Let us try again."
+      },
+      {
+        "type": "say",
+        "prompt": "Cut the word picnic into two parts.",
+        "answer": "pic nic",
+        "accept": [
+          "pic-nic",
+          "pic, nic",
+          "pic and nic"
+        ],
+        "level": 3,
+        "if_right": "You got it! pic nic! Great job. Remember this trick: Read a big word one part at a time.",
+        "if_wrong": "Good try! The answer is pic nic. Remember this trick: Read a big word one part at a time. Let us try another one."
+      }
+    ]
+  },
+  {
+    "id": "wp-homophones-2",
+    "grade": 2,
+    "category": "word_parts",
+    "title": "More words that sound the same",
+    "trick": "Think about what the word means. Then pick.",
+    "explain": "Hear and here sound the same. One is for your ears. Right and write sound the same. Know and no sound the same too.",
+    "examples": [
+      "hear, here",
+      "right, write",
+      "know, no",
+      "new, knew"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "wp-homophones"
+    ],
+    "i_can": "I can pick the right word when two words sound the same.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Which word is for hearing with your ears: hear or here?",
+        "options": [
+          "hear",
+          "here"
+        ],
+        "answer": "hear",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, hear! You are right. Remember this trick: Think about what the word means. Then pick.",
+        "if_wrong": "Nice try! The answer is hear. Remember this trick: Think about what the word means. Then pick. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word means the opposite of left: right or write?",
+        "options": [
+          "right",
+          "write"
+        ],
+        "answer": "right",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, right! You are right. Remember this trick: Think about what the word means. Then pick.",
+        "if_wrong": "Nice try! The answer is right. Remember this trick: Think about what the word means. Then pick. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word means to have learned something: no or know?",
+        "options": [
+          "no",
+          "know"
+        ],
+        "answer": "know",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, know! You are right. Remember this trick: Think about what the word means. Then pick.",
+        "if_wrong": "Nice try! The answer is know. Remember this trick: Think about what the word means. Then pick. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word means not old: new or knew?",
+        "options": [
+          "new",
+          "knew"
+        ],
+        "answer": "new",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, new! You are right. Remember this trick: Think about what the word means. Then pick.",
+        "if_wrong": "Nice try! The answer is new. Remember this trick: Think about what the word means. Then pick. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word means not yes: no or know?",
+        "options": [
+          "no",
+          "know"
+        ],
+        "answer": "no",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, no! You are right. Remember this trick: Think about what the word means. Then pick.",
+        "if_wrong": "Nice try! The answer is no. Remember this trick: Think about what the word means. Then pick. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "wp-heart-words-2",
+    "grade": 1,
+    "category": "word_parts",
+    "title": "More heart words",
+    "trick": "Some words are tricky. Learn them by heart!",
+    "explain": "Because, where, would, people and again are tricky. Look at each word. Say the letters. Cover it. Write it.",
+    "examples": [
+      "because",
+      "where",
+      "would",
+      "people",
+      "again"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "wp-heart-words"
+    ],
+    "i_can": "I can spell tricky words by heart.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word because. I am happy because it is Friday.",
+        "answer": "because",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled because right! It is b, e, c, a, u, s, e. Remember this trick: Some words are tricky. Learn them by heart!",
+        "if_wrong": "Good try! because is spelled b, e, c, a, u, s, e. Remember this trick: Some words are tricky. Learn them by heart! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word where. Where is my hat?",
+        "answer": "where",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled where right! It is w, h, e, r, e. Remember this trick: Some words are tricky. Learn them by heart!",
+        "if_wrong": "Good try! where is spelled w, h, e, r, e. Remember this trick: Some words are tricky. Learn them by heart! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word would. I would like a cookie.",
+        "answer": "would",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled would right! It is w, o, u, l, d. Remember this trick: Some words are tricky. Learn them by heart!",
+        "if_wrong": "Good try! would is spelled w, o, u, l, d. Remember this trick: Some words are tricky. Learn them by heart! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word people. Many people came to the party.",
+        "answer": "people",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled people right! It is p, e, o, p, l, e. Remember this trick: Some words are tricky. Learn them by heart!",
+        "if_wrong": "Good try! people is spelled p, e, o, p, l, e. Remember this trick: Some words are tricky. Learn them by heart! Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word again. Let us read it again.",
+        "answer": "again",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled again right! It is a, g, a, i, n. Remember this trick: Some words are tricky. Learn them by heart!",
+        "if_wrong": "Good try! again is spelled a, g, a, i, n. Remember this trick: Some words are tricky. Learn them by heart! Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "wp-er-or",
+    "grade": 2,
+    "category": "word_parts",
+    "title": "Endings: er and or for a person",
+    "trick": "Add er or or to tell who does a job. Teach becomes teacher.",
+    "explain": "A teacher teaches. A player plays. An actor acts. The ending er or or means a person who does it.",
+    "examples": [
+      "teacher",
+      "player",
+      "actor",
+      "doctor"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "wp-suffix-er-est"
+    ],
+    "i_can": "I can add er or or to name a person.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a person who teaches.",
+        "answer": "teacher",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled teacher right! It is t, e, a, c, h, e, r. Remember this trick: Add er or or to tell who does a job. Teach becomes teacher.",
+        "if_wrong": "Good try! teacher is spelled t, e, a, c, h, e, r. Remember this trick: Add er or or to tell who does a job. Teach becomes teacher. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a person who plays.",
+        "answer": "player",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled player right! It is p, l, a, y, e, r. Remember this trick: Add er or or to tell who does a job. Teach becomes teacher.",
+        "if_wrong": "Good try! player is spelled p, l, a, y, e, r. Remember this trick: Add er or or to tell who does a job. Teach becomes teacher. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the word for a person who acts in movies.",
+        "answer": "actor",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled actor right! It is a, c, t, o, r. Remember this trick: Add er or or to tell who does a job. Teach becomes teacher.",
+        "if_wrong": "Good try! actor is spelled a, c, t, o, r. Remember this trick: Add er or or to tell who does a job. Teach becomes teacher. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which is spelled right: doctor or docter?",
+        "options": [
+          "doctor",
+          "docter"
+        ],
+        "answer": "doctor",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, doctor! You are right. Remember this trick: Add er or or to tell who does a job. Teach becomes teacher.",
+        "if_wrong": "Nice try! The answer is doctor. Remember this trick: Add er or or to tell who does a job. Teach becomes teacher. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "wp-y-ending",
+    "grade": 2,
+    "category": "word_parts",
+    "title": "Adding y to a word",
+    "trick": "Add y to a word to tell what it is like. Rain becomes rainy. Sun becomes sunny.",
+    "explain": "Rainy means it has rain. With a short vowel, double the last letter. Sun becomes sunny.",
+    "examples": [
+      "rainy",
+      "sunny",
+      "funny",
+      "dirty"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "sr-doubling"
+    ],
+    "i_can": "I can add y to a word.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Add y to rain. What is the new word?",
+        "answer": "rainy",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled rainy right! It is r, a, i, n, y. Remember this trick: Add y to a word to tell what it is like. Rain becomes rainy. Sun becomes sunny.",
+        "if_wrong": "Good try! rainy is spelled r, a, i, n, y. Remember this trick: Add y to a word to tell what it is like. Rain becomes rainy. Sun becomes sunny. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add y to sun. What is the new word?",
+        "answer": "sunny",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled sunny right! It is s, u, n, n, y. Remember this trick: Add y to a word to tell what it is like. Rain becomes rainy. Sun becomes sunny.",
+        "if_wrong": "Good try! sunny is spelled s, u, n, n, y. Remember this trick: Add y to a word to tell what it is like. Rain becomes rainy. Sun becomes sunny. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add y to fun. What is the new word?",
+        "answer": "funny",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled funny right! It is f, u, n, n, y. Remember this trick: Add y to a word to tell what it is like. Rain becomes rainy. Sun becomes sunny.",
+        "if_wrong": "Good try! funny is spelled f, u, n, n, y. Remember this trick: Add y to a word to tell what it is like. Rain becomes rainy. Sun becomes sunny. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which is spelled right: suny or sunny?",
+        "options": [
+          "suny",
+          "sunny"
+        ],
+        "answer": "sunny",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, sunny! You are right. Remember this trick: Add y to a word to tell what it is like. Rain becomes rainy. Sun becomes sunny.",
+        "if_wrong": "Nice try! The answer is sunny. Remember this trick: Add y to a word to tell what it is like. Rain becomes rainy. Sun becomes sunny. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "wp-ment",
+    "grade": 2,
+    "category": "word_parts",
+    "title": "Ending: ment",
+    "trick": "Add ment to a word to make a new word. Pay becomes payment.",
+    "explain": "Ment makes a thing from a word. Pay becomes payment. Move becomes movement.",
+    "examples": [
+      "payment",
+      "movement",
+      "enjoyment",
+      "agreement"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can add ment to a word.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Add ment to pay. What is the new word?",
+        "answer": "payment",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled payment right! It is p, a, y, m, e, n, t. Remember this trick: Add ment to a word to make a new word. Pay becomes payment.",
+        "if_wrong": "Good try! payment is spelled p, a, y, m, e, n, t. Remember this trick: Add ment to a word to make a new word. Pay becomes payment. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ment to enjoy. What is the new word?",
+        "answer": "enjoyment",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled enjoyment right! It is e, n, j, o, y, m, e, n, t. Remember this trick: Add ment to a word to make a new word. Pay becomes payment.",
+        "if_wrong": "Good try! enjoyment is spelled e, n, j, o, y, m, e, n, t. Remember this trick: Add ment to a word to make a new word. Pay becomes payment. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ment to move. What is the new word?",
+        "answer": "movement",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled movement right! It is m, o, v, e, m, e, n, t. Remember this trick: Add ment to a word to make a new word. Pay becomes payment.",
+        "if_wrong": "Good try! movement is spelled m, o, v, e, m, e, n, t. Remember this trick: Add ment to a word to make a new word. Pay becomes payment. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which is spelled right: payment or paymint?",
+        "options": [
+          "payment",
+          "paymint"
+        ],
+        "answer": "payment",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, payment! You are right. Remember this trick: Add ment to a word to make a new word. Pay becomes payment.",
+        "if_wrong": "Nice try! The answer is payment. Remember this trick: Add ment to a word to make a new word. Pay becomes payment. Let us try again."
+      }
+    ]
+  }
+]

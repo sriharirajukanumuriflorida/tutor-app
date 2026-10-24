@@ -28,7 +28,43 @@ export class ApiService {
     );
   }
 
+  getQuestion(cardId: string, index: number): Observable<any> {
+    return this.http.get(`${this.baseUrl}/curriculum/question/${cardId}/${index}`);
+  }
+
+  checkAnswer(cardId: string, index: number, answer: string, reveal = false): Observable<any> {
+    return this.http.post(`${this.baseUrl}/curriculum/check`, { card_id: cardId, index, answer, reveal });
+  }
+
   getProgress(sessionId: string): Observable<any> {
     return this.http.get(`${this.baseUrl}/progress/${sessionId}`);
+  }
+
+  listChildren(): Observable<any[]> {
+    return this.http.get<any[]>(`${this.baseUrl}/children`);
+  }
+
+  createChild(name: string): Observable<any> {
+    return this.http.post(`${this.baseUrl}/children`, { name });
+  }
+
+  childProgress(childId: string): Observable<any> {
+    return this.http.get(`${this.baseUrl}/children/${childId}/progress`);
+  }
+
+  placementQuestion(childId: string, position: number): Observable<any> {
+    return this.http.get(`${this.baseUrl}/children/${childId}/placement/${position}`);
+  }
+
+  placementAnswer(childId: string, position: number, answer: string, misses: number): Observable<any> {
+    return this.http.post(`${this.baseUrl}/children/${childId}/placement/${position}`, { answer, misses });
+  }
+
+  nextLesson(childId: string): Observable<any> {
+    return this.http.get(`${this.baseUrl}/children/${childId}/next`);
+  }
+
+  lessonAnswer(childId: string, conceptId: string, index: number, answer: string, reveal = false): Observable<any> {
+    return this.http.post(`${this.baseUrl}/children/${childId}/answer`, { concept_id: conceptId, index, answer, reveal });
   }
 }

@@ -3,37 +3,55 @@
     <img src="/assets/aria.jpeg" alt="Aria" class="avatar-image">
   </div>
 
-  <div class="display-area">
+  <div class="display-area" *ngIf="phase !== 'lesson'">
     <div class="display-text">{{ displayText }}</div>
     <div class="user-text" *ngIf="userText">You said: {{ userText }}</div>
   </div>
 
-  <div class="subject-pills" *ngIf="!subject">
-    <button class="pill math-pill" (click)="selectSubject('math')">
-      🧮 Math
-    </button>
-    <button class="pill english-pill" (click)="selectSubject('english')">
-      📚 English
-    </button>
+  <button class="start-button" *ngIf="phase === 'start'" (click)="begin()">👋 Meet Aria</button>
+
+  <div class="subject-pills" *ngIf="phase === 'subject'">
+    <button class="pill english-pill" (click)="chooseSubject('english')">📚 English</button>
+    <button class="pill math-pill" (click)="chooseSubject('math')">🧮 Math</button>
   </div>
 
-  <div class="subject-display" *ngIf="subject">
-    <div class="selected-subject">Learning: {{ subject }}</div>
-  </div>
+  <app-learn *ngIf="phase === 'lesson' && child"
+             [child]="child" [isNew]="isNewChild" [greeting]="greeting" [locked]="state !== 'idle'"
+             (speak)="onPanelSpeak($event)" (notMe)="notMe()" (chat)="openChat()"></app-learn>
 
-  <button class="mic-button"
+  <ng-container *ngIf="phase === 'chat'">
+    <div class="subject-pills" *ngIf="!subject">
+      <button class="pill math-pill" (click)="selectSubject('math')">
+        🧮 Math
+      </button>
+      <button class="pill english-pill" (click)="selectSubject('english')">
+        📚 English
+      </button>
+    </div>
+
+    <div class="subject-display" *ngIf="subject">
+      <div class="selected-subject">Learning: {{ subject }}</div>
+    </div>
+    <button class="link-button" *ngIf="child" (click)="backToLessons()">Back to my lessons</button>
+  </ng-container>
+
+  <button class="mic-button" *ngIf="phase !== 'start'"
           [class.active]="state === 'listening'"
           (click)="onMicClick()"
           [disabled]="state === 'thinking' || state === 'speaking'">
     <span class="mic-icon">{{ state === 'listening' && !speechSupported ? '⏹️' : '🎤' }}</span>
   </button>
 
-  <div class="text-fallback">
+  <button class="repeat-button" *ngIf="phase !== 'start'" (click)="repeat()" [disabled]="state !== 'idle' || !hasAudio()">
+    🔁 Say it again
+  </button>
+
+  <div class="text-fallback" *ngIf="phase === 'name' || phase === 'ready' || phase === 'subject' || phase === 'chat'">
     <input
       type="text"
       [(ngModel)]="typedText"
       (keyup.enter)="submitTyped()"
-      placeholder="Or type here..."
+      [placeholder]="phase === 'name' ? 'Type your name here...' : phase === 'ready' ? 'Type yes when you are ready...' : phase === 'subject' ? 'Type English or math...' : 'Type your answer here...'"
       [disabled]="state !== 'idle'"
       aria-label="Type your answer">
     <button (click)="submitTyped()" [disabled]="state !== 'idle' || !typedText.trim()">Send</button>

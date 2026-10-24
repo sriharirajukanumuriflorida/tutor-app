@@ -6,7 +6,13 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto; // lessons can be taller than a phone screen
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  touch-action: manipulation; // no double-tap zoom or tap delay
 }
 
 html, body {

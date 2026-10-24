@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: 100dvh; // phone browsers: ignore the collapsing address bar
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   font-family: 'Arial', sans-serif;
   color: white;
@@ -217,4 +218,50 @@
   border-radius: 10px;
   word-break: break-word;
   text-align: center;
+}
+
+.repeat-button {
+  margin-bottom: 12px;
+  padding: 12px 22px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background: #4D96FF;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+
+  &:disabled { opacity: 0.5; cursor: default; }
+}
+
+.start-button {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 50px;
+  background: #FF6B6B;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: #fff;
+  text-decoration: underline;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+// small phones: shrink the avatar and mic so the lesson fits
+@media (max-width: 600px), (max-height: 700px) {
+  .tutor-container { justify-content: flex-start; padding: 12px; }
+  .avatar { width: 72px; height: 72px; margin-bottom: 12px; }
+  .display-area { margin-bottom: 16px; }
+  .display-text { font-size: 22px; }
+  .mic-button { width: 72px; height: 72px; font-size: 32px; margin-bottom: 14px; }
+  .pill { padding: 14px 22px; }
 }

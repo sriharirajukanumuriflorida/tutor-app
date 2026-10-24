@@ -1,0 +1,2005 @@
+[
+  {
+    "id": "cg-sentences",
+    "grade": 1,
+    "category": "comprehension_grammar",
+    "title": "Capital letters and end marks",
+    "trick": "A sentence starts with a big letter. It ends with a mark.",
+    "explain": "Every sentence starts with a big letter. At the end, it gets a mark. A period is a dot. It ends a telling sentence. A question mark ends an asking sentence. An exclamation mark shows big feeling!",
+    "examples": [
+      "I like pizza.",
+      "Do you like pizza?",
+      "I love pizza!"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can start with a big letter and end with a mark.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "What mark goes at the end of: Where is my hat. Period or question mark?",
+        "options": [
+          "hat. Period",
+          "question mark"
+        ],
+        "answer": "question mark",
+        "accept": [
+          "a question mark"
+        ],
+        "level": 1,
+        "if_right": "Yes, question mark! You are right. Remember this trick: A sentence starts with a big letter. It ends with a mark.",
+        "if_wrong": "Nice try! The answer is question mark. Remember this trick: A sentence starts with a big letter. It ends with a mark. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "What kind of letter starts every sentence: capital or small?",
+        "options": [
+          "capital",
+          "small"
+        ],
+        "answer": "capital",
+        "accept": [
+          "big"
+        ],
+        "level": 1,
+        "if_right": "Yes, capital! You are right. Remember this trick: A sentence starts with a big letter. It ends with a mark.",
+        "if_wrong": "Nice try! The answer is capital. Remember this trick: A sentence starts with a big letter. It ends with a mark. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "What mark goes at the end of: Wow, that is huge. Period or exclamation mark?",
+        "options": [
+          "period",
+          "exclamation mark"
+        ],
+        "answer": "exclamation mark",
+        "accept": [
+          "an exclamation mark",
+          "exclamation point"
+        ],
+        "level": 2,
+        "if_right": "Yes, exclamation mark! You are right. Remember this trick: A sentence starts with a big letter. It ends with a mark.",
+        "if_wrong": "Nice try! The answer is exclamation mark. Remember this trick: A sentence starts with a big letter. It ends with a mark. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word needs a capital: my friend is named sam. Which one: friend or sam?",
+        "options": [
+          "friend",
+          "sam"
+        ],
+        "answer": "sam",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, sam! You are right. Remember this trick: A sentence starts with a big letter. It ends with a mark.",
+        "if_wrong": "Nice try! The answer is sam. Remember this trick: A sentence starts with a big letter. It ends with a mark. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-nouns",
+    "grade": 1,
+    "category": "comprehension_grammar",
+    "title": "Nouns",
+    "trick": "A noun is a person, a place or a thing.",
+    "explain": "A girl is a noun. A park is a noun. A ball is a noun. A noun is something you can see or visit. Can you tell me a noun?",
+    "examples": [
+      "girl, teacher",
+      "park, school",
+      "ball, dog"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can find nouns in a sentence.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Is the word park a noun or not a noun?",
+        "options": [
+          "noun",
+          "not a noun"
+        ],
+        "answer": "noun",
+        "accept": [
+          "a noun"
+        ],
+        "level": 1,
+        "if_right": "Yes, noun! You are right. Remember this trick: A noun is a person, a place or a thing.",
+        "if_wrong": "Nice try! The answer is noun. Remember this trick: A noun is a person, a place or a thing. Let us try again."
+      },
+      {
+        "type": "say",
+        "prompt": "Find the noun in this sentence: The dog ran. Which word is the noun?",
+        "answer": "dog",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! dog! Great job. Remember this trick: A noun is a person, a place or a thing.",
+        "if_wrong": "Good try! The answer is dog. Remember this trick: A noun is a person, a place or a thing. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Tell me a noun that is a place.",
+        "answer": "park",
+        "accept": [
+          "school",
+          "home",
+          "house",
+          "beach",
+          "zoo",
+          "store",
+          "library",
+          "city",
+          "town",
+          "farm"
+        ],
+        "level": 2,
+        "if_right": "You got it! park! Great job. Remember this trick: A noun is a person, a place or a thing.",
+        "if_wrong": "Good try! The answer is park. Remember this trick: A noun is a person, a place or a thing. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Find two nouns in this sentence: The boy kicked the ball. What are they?",
+        "answer": "boy ball",
+        "accept": [
+          "boy and ball",
+          "boy, ball",
+          "ball and boy"
+        ],
+        "level": 3,
+        "if_right": "You got it! boy ball! Great job. Remember this trick: A noun is a person, a place or a thing.",
+        "if_wrong": "Good try! The answer is boy ball. Remember this trick: A noun is a person, a place or a thing. Let us try another one."
+      }
+    ]
+  },
+  {
+    "id": "cg-verbs",
+    "grade": 1,
+    "category": "comprehension_grammar",
+    "title": "Verbs",
+    "trick": "A verb is an action word. You can act it out!",
+    "explain": "Run, jump and eat are verbs. They tell what someone does. If you can act it out, it is a verb.",
+    "examples": [
+      "run, jump, eat",
+      "sing, read, swim"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "cg-nouns"
+    ],
+    "i_can": "I can find verbs in a sentence.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Is jump a noun or a verb?",
+        "options": [
+          "noun",
+          "verb"
+        ],
+        "answer": "verb",
+        "accept": [
+          "a verb"
+        ],
+        "level": 1,
+        "if_right": "Yes, verb! You are right. Remember this trick: A verb is an action word. You can act it out!",
+        "if_wrong": "Nice try! The answer is verb. Remember this trick: A verb is an action word. You can act it out! Let us try again."
+      },
+      {
+        "type": "say",
+        "prompt": "Find the verb in this sentence: The bird flies. Which word?",
+        "answer": "flies",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! flies! Great job. Remember this trick: A verb is an action word. You can act it out!",
+        "if_wrong": "Good try! The answer is flies. Remember this trick: A verb is an action word. You can act it out! Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Tell me a verb that you do with your legs.",
+        "answer": "run",
+        "accept": [
+          "walk",
+          "jump",
+          "hop",
+          "kick",
+          "skip",
+          "dance",
+          "swim",
+          "climb",
+          "march",
+          "stomp"
+        ],
+        "level": 2,
+        "if_right": "You got it! run! Great job. Remember this trick: A verb is an action word. You can act it out!",
+        "if_wrong": "Good try! The answer is run. Remember this trick: A verb is an action word. You can act it out! Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Find the verb in this sentence: My sister reads a book. Which word?",
+        "answer": "reads",
+        "accept": [],
+        "level": 2,
+        "if_right": "You got it! reads! Great job. Remember this trick: A verb is an action word. You can act it out!",
+        "if_wrong": "Good try! The answer is reads. Remember this trick: A verb is an action word. You can act it out! Let us try another one."
+      }
+    ]
+  },
+  {
+    "id": "cg-adjectives",
+    "grade": 1,
+    "category": "comprehension_grammar",
+    "title": "Adjectives",
+    "trick": "An adjective tells more about a thing. It can be a color, a size or a feeling.",
+    "explain": "In the big red ball, big and red tell about the ball. They tell what it looks like, feels like or tastes like.",
+    "examples": [
+      "big, small, tall",
+      "red, blue, green",
+      "soft, loud, sweet"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "cg-nouns"
+    ],
+    "i_can": "I can find and use words that tell more.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "Find the describing word in this sentence: The fluffy cat sat. Which word?",
+        "answer": "fluffy",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! fluffy! Great job. Remember this trick: An adjective tells more about a thing. It can be a color, a size or a feeling.",
+        "if_wrong": "Good try! The answer is fluffy. Remember this trick: An adjective tells more about a thing. It can be a color, a size or a feeling. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Tell me a word that describes how a lemon tastes.",
+        "answer": "sour",
+        "accept": [
+          "tart",
+          "yellow",
+          "sharp"
+        ],
+        "level": 2,
+        "if_right": "You got it! sour! Great job. Remember this trick: An adjective tells more about a thing. It can be a color, a size or a feeling.",
+        "if_wrong": "Good try! The answer is sour. Remember this trick: An adjective tells more about a thing. It can be a color, a size or a feeling. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Find two describing words: The big brown dog barked. Which two?",
+        "answer": "big brown",
+        "accept": [
+          "big and brown",
+          "big, brown"
+        ],
+        "level": 2,
+        "if_right": "You got it! big brown! Great job. Remember this trick: An adjective tells more about a thing. It can be a color, a size or a feeling.",
+        "if_wrong": "Good try! The answer is big brown. Remember this trick: An adjective tells more about a thing. It can be a color, a size or a feeling. Let us try another one."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which sentence tells more about the bird?",
+        "options": [
+          "I see a bird",
+          "I see a tiny blue bird"
+        ],
+        "answer": "I see a tiny blue bird",
+        "accept": [
+          "2"
+        ],
+        "level": 3,
+        "if_right": "Yes, I see a tiny blue bird! You are right. Remember this trick: An adjective tells more about a thing. It can be a color, a size or a feeling.",
+        "if_wrong": "Nice try! The answer is I see a tiny blue bird. Remember this trick: An adjective tells more about a thing. It can be a color, a size or a feeling. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-predicting",
+    "grade": 1,
+    "category": "comprehension_grammar",
+    "title": "Predicting",
+    "trick": "Make a smart guess about what comes next.",
+    "explain": "Look at the clues. Think about what you know. Then guess what will happen. Dark clouds mean rain might come.",
+    "examples": [
+      "The sky is dark and the wind is blowing. I predict it will rain."
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can make a smart guess about what will happen next.",
+    "passage": "Sam looked at the dark clouds. The wind blew hard. Sam had no umbrella.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Sam looked at the dark clouds. The wind blew hard. Sam had no umbrella. What will happen next?",
+        "options": [
+          "Sam gets wet",
+          "Sam flies to the moon"
+        ],
+        "answer": "Sam gets wet",
+        "accept": [
+          "1"
+        ],
+        "level": 1,
+        "if_right": "Yes, Sam gets wet! You are right. Remember this trick: Make a smart guess about what comes next.",
+        "if_wrong": "Nice try! The answer is Sam gets wet. Remember this trick: Make a smart guess about what comes next. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Sam looked at the dark clouds. The wind blew hard. Which clue tells us it will rain?",
+        "options": [
+          "Sam likes pizza",
+          "Dark clouds in the sky"
+        ],
+        "answer": "Dark clouds in the sky",
+        "accept": [
+          "2"
+        ],
+        "level": 2,
+        "if_right": "Yes, Dark clouds in the sky! You are right. Remember this trick: Make a smart guess about what comes next.",
+        "if_wrong": "Nice try! The answer is Dark clouds in the sky. Remember this trick: Make a smart guess about what comes next. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "A book is called The Lost Puppy. What is it about?",
+        "options": [
+          "A big green frog",
+          "A puppy that gets lost"
+        ],
+        "answer": "A puppy that gets lost",
+        "accept": [
+          "2"
+        ],
+        "level": 1,
+        "if_right": "Yes, A puppy that gets lost! You are right. Remember this trick: Make a smart guess about what comes next.",
+        "if_wrong": "Nice try! The answer is A puppy that gets lost. Remember this trick: Make a smart guess about what comes next. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-sequence",
+    "grade": 1,
+    "category": "comprehension_grammar",
+    "title": "First, next, then, last",
+    "trick": "Stories happen in order. First, next, then, last.",
+    "explain": "First I wake up. Next I brush my teeth. Then I eat. Last I go to school. Words like first and last help us keep the order.",
+    "examples": [
+      "First I wake up. Next I brush my teeth. Then I eat breakfast. Last I go to school."
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can tell what happened in order.",
+    "passage": "Mom put dough in a pan. Then she added cheese. Last, she put the pan in the oven. We ate the pizza.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Mom put dough in a pan. Then she added cheese. Last, she put it in the oven. What did she do first?",
+        "options": [
+          "Put dough in a pan",
+          "Put it in the oven"
+        ],
+        "answer": "Put dough in a pan",
+        "accept": [
+          "1"
+        ],
+        "level": 1,
+        "if_right": "Yes, Put dough in a pan! You are right. Remember this trick: Stories happen in order. First, next, then, last.",
+        "if_wrong": "Nice try! The answer is Put dough in a pan. Remember this trick: Stories happen in order. First, next, then, last. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Mom put dough in a pan. Then she added cheese. Last, she put it in the oven. What did she do last?",
+        "options": [
+          "Add the cheese",
+          "Put it in the oven"
+        ],
+        "answer": "Put it in the oven",
+        "accept": [
+          "2"
+        ],
+        "level": 1,
+        "if_right": "Yes, Put it in the oven! You are right. Remember this trick: Stories happen in order. First, next, then, last.",
+        "if_wrong": "Nice try! The answer is Put it in the oven. Remember this trick: Stories happen in order. First, next, then, last. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "What do you do first to brush your teeth?",
+        "options": [
+          "Put toothpaste on the brush",
+          "Rinse your mouth"
+        ],
+        "answer": "Put toothpaste on the brush",
+        "accept": [
+          "1"
+        ],
+        "level": 2,
+        "if_right": "Yes, Put toothpaste on the brush! You are right. Remember this trick: Stories happen in order. First, next, then, last.",
+        "if_wrong": "Nice try! The answer is Put toothpaste on the brush. Remember this trick: Stories happen in order. First, next, then, last. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-main-idea",
+    "grade": 2,
+    "category": "comprehension_grammar",
+    "title": "Main idea and details",
+    "trick": "The main idea is what the story is mostly about.",
+    "explain": "Ask yourself, what is this mostly about? That is the main idea. The little facts that tell more are called details.",
+    "examples": [
+      "Main idea: Dogs make great pets. Details: they play, they are loyal, they keep you company."
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "cg-sequence"
+    ],
+    "i_can": "I can tell the main idea and the details.",
+    "passage": "Bees are helpful. They make honey. They help flowers grow by moving pollen. Many foods need bees.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Bees are helpful. They make honey. They help flowers grow. Many foods need bees. What is this mostly about?",
+        "options": [
+          "Bees are big",
+          "Bees are helpful"
+        ],
+        "answer": "Bees are helpful",
+        "accept": [
+          "2"
+        ],
+        "level": 1,
+        "if_right": "Yes, Bees are helpful! You are right. Remember this trick: The main idea is what the story is mostly about.",
+        "if_wrong": "Nice try! The answer is Bees are helpful. Remember this trick: The main idea is what the story is mostly about. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Bees are helpful. They make honey. They help flowers grow. Which one is a detail from the story?",
+        "options": [
+          "Bees make honey",
+          "Bees live in the ocean"
+        ],
+        "answer": "Bees make honey",
+        "accept": [
+          "1"
+        ],
+        "level": 1,
+        "if_right": "Yes, Bees make honey! You are right. Remember this trick: The main idea is what the story is mostly about.",
+        "if_wrong": "Nice try! The answer is Bees make honey. Remember this trick: The main idea is what the story is mostly about. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Cats nap a lot. They sleep on beds. They sleep in the sun. They sleep all day. What is the main idea?",
+        "options": [
+          "Cats like to swim",
+          "Cats sleep a lot"
+        ],
+        "answer": "Cats sleep a lot",
+        "accept": [
+          "2"
+        ],
+        "level": 2,
+        "if_right": "Yes, Cats sleep a lot! You are right. Remember this trick: The main idea is what the story is mostly about.",
+        "if_wrong": "Nice try! The answer is Cats sleep a lot. Remember this trick: The main idea is what the story is mostly about. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-cause-effect",
+    "grade": 2,
+    "category": "comprehension_grammar",
+    "title": "Cause and effect",
+    "trick": "Cause is why. Effect is what happened.",
+    "explain": "If you drop a cup, it breaks. Dropping is why. Breaking is what happened. The word because is a clue.",
+    "examples": [
+      "It rained, so the grass got wet.",
+      "I was tired because I stayed up late."
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "cg-sequence"
+    ],
+    "i_can": "I can tell what happened and why.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "The grass got wet because it rained. What is the cause? The cause is why it happened.",
+        "options": [
+          "It rained",
+          "The grass got wet"
+        ],
+        "answer": "It rained",
+        "accept": [
+          "1"
+        ],
+        "level": 1,
+        "if_right": "Yes, It rained! You are right. Remember this trick: Cause is why. Effect is what happened.",
+        "if_wrong": "Nice try! The answer is It rained. Remember this trick: Cause is why. Effect is what happened. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Tim forgot his coat, so he felt cold. What is the effect? The effect is what happened.",
+        "options": [
+          "Tim forgot his coat",
+          "Tim felt cold"
+        ],
+        "answer": "Tim felt cold",
+        "accept": [
+          "2"
+        ],
+        "level": 2,
+        "if_right": "Yes, Tim felt cold! You are right. Remember this trick: Cause is why. Effect is what happened.",
+        "if_wrong": "Nice try! The answer is Tim felt cold. Remember this trick: Cause is why. Effect is what happened. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Finish this sentence: The ice cream melted because...",
+        "options": [
+          "it sat in the hot sun",
+          "it sat in the freezer"
+        ],
+        "answer": "it sat in the hot sun",
+        "accept": [
+          "1"
+        ],
+        "level": 2,
+        "if_right": "Yes, it sat in the hot sun! You are right. Remember this trick: Cause is why. Effect is what happened.",
+        "if_wrong": "Nice try! The answer is it sat in the hot sun. Remember this trick: Cause is why. Effect is what happened. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-inference",
+    "grade": 2,
+    "category": "comprehension_grammar",
+    "title": "Making inferences",
+    "trick": "Be a detective! Use clues to figure out what the story does not say.",
+    "explain": "Mia grabbed her boots and an umbrella. The story does not say it is raining. But you can figure it out from the clues.",
+    "examples": [
+      "Mia put on her boots and grabbed an umbrella. It is probably raining."
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "cg-predicting"
+    ],
+    "i_can": "I can use clues to figure out what is not said.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "Mia put on her boots and grabbed an umbrella. What is the weather like?",
+        "answer": "rainy",
+        "accept": [
+          "raining",
+          "rain",
+          "it is raining",
+          "wet"
+        ],
+        "level": 1,
+        "if_right": "You got it! rainy! Great job. Remember this trick: Be a detective! Use clues to figure out what the story does not say.",
+        "if_wrong": "Good try! The answer is rainy. Remember this trick: Be a detective! Use clues to figure out what the story does not say. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Ben was shivering and rubbing his hands. How is he feeling?",
+        "answer": "cold",
+        "accept": [
+          "he is cold",
+          "freezing"
+        ],
+        "level": 1,
+        "if_right": "You got it! cold! Great job. Remember this trick: Be a detective! Use clues to figure out what the story does not say.",
+        "if_wrong": "Good try! The answer is cold. Remember this trick: Be a detective! Use clues to figure out what the story does not say. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Lily had a big smile and jumped up and down. How does she feel?",
+        "answer": "happy",
+        "accept": [
+          "excited",
+          "joyful",
+          "glad",
+          "very happy"
+        ],
+        "level": 2,
+        "if_right": "You got it! happy! Great job. Remember this trick: Be a detective! Use clues to figure out what the story does not say.",
+        "if_wrong": "Good try! The answer is happy. Remember this trick: Be a detective! Use clues to figure out what the story does not say. Let us try another one."
+      }
+    ]
+  },
+  {
+    "id": "cg-story-elements",
+    "grade": 1,
+    "category": "comprehension_grammar",
+    "title": "Characters, setting, problem and solution",
+    "trick": "Stories have who, where, a problem and a fix.",
+    "explain": "Who is in the story? Those are the characters. Where does it happen? That is the setting. What goes wrong? That is the problem. How does it get fixed? That is the solution.",
+    "examples": [
+      "Characters: Max and Dad. Setting: the park. Problem: kite is stuck. Solution: Dad gets it down."
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can tell who, where, the problem and the fix.",
+    "passage": "Max went to the park with his kite. The kite got stuck in a tree. Dad used a long stick to get it down.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Max went to the park with his kite. It got stuck in a tree. Dad used a long stick to get it down. Who are the characters?",
+        "options": [
+          "Max and Dad",
+          "A cat and a fish"
+        ],
+        "answer": "Max and Dad",
+        "accept": [
+          "1"
+        ],
+        "level": 1,
+        "if_right": "Yes, Max and Dad! You are right. Remember this trick: Stories have who, where, a problem and a fix.",
+        "if_wrong": "Nice try! The answer is Max and Dad. Remember this trick: Stories have who, where, a problem and a fix. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Max went to the park with his kite. It got stuck in a tree. Dad used a long stick to get it down. Where does the story happen?",
+        "options": [
+          "In the sea",
+          "At the park"
+        ],
+        "answer": "At the park",
+        "accept": [
+          "2"
+        ],
+        "level": 1,
+        "if_right": "Yes, At the park! You are right. Remember this trick: Stories have who, where, a problem and a fix.",
+        "if_wrong": "Nice try! The answer is At the park. Remember this trick: Stories have who, where, a problem and a fix. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Max went to the park with his kite. It got stuck in a tree. Dad used a long stick to get it down. What is the problem?",
+        "options": [
+          "Max ate lunch",
+          "The kite got stuck"
+        ],
+        "answer": "The kite got stuck",
+        "accept": [
+          "2"
+        ],
+        "level": 2,
+        "if_right": "Yes, The kite got stuck! You are right. Remember this trick: Stories have who, where, a problem and a fix.",
+        "if_wrong": "Nice try! The answer is The kite got stuck. Remember this trick: Stories have who, where, a problem and a fix. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Max went to the park with his kite. It got stuck in a tree. Dad used a long stick to get it down. How did they solve it?",
+        "options": [
+          "Dad used a stick",
+          "Max went home"
+        ],
+        "answer": "Dad used a stick",
+        "accept": [
+          "1"
+        ],
+        "level": 2,
+        "if_right": "Yes, Dad used a stick! You are right. Remember this trick: Stories have who, where, a problem and a fix.",
+        "if_wrong": "Nice try! The answer is Dad used a stick. Remember this trick: Stories have who, where, a problem and a fix. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-text-features",
+    "grade": 2,
+    "category": "comprehension_grammar",
+    "title": "Text features",
+    "trick": "Titles, pictures and captions are clues before you read.",
+    "explain": "The title tells what the book is about. A caption is words under a picture. A glossary tells what hard words mean. The table of contents tells where to look.",
+    "examples": [
+      "title",
+      "heading",
+      "caption",
+      "glossary",
+      "table of contents"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "cg-main-idea"
+    ],
+    "i_can": "I can use text features to find information.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "What explains a picture: a caption or a title?",
+        "options": [
+          "caption",
+          "title"
+        ],
+        "answer": "caption",
+        "accept": [
+          "a caption"
+        ],
+        "level": 1,
+        "if_right": "Yes, caption! You are right. Remember this trick: Titles, pictures and captions are clues before you read.",
+        "if_wrong": "Nice try! The answer is caption. Remember this trick: Titles, pictures and captions are clues before you read. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "What tells the meaning of hard words at the back of a book: glossary or heading?",
+        "options": [
+          "glossary",
+          "heading"
+        ],
+        "answer": "glossary",
+        "accept": [
+          "a glossary"
+        ],
+        "level": 2,
+        "if_right": "Yes, glossary! You are right. Remember this trick: Titles, pictures and captions are clues before you read.",
+        "if_wrong": "Nice try! The answer is glossary. Remember this trick: Titles, pictures and captions are clues before you read. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Where would you look to find which page a chapter starts on: table of contents or caption?",
+        "options": [
+          "table of contents",
+          "caption"
+        ],
+        "answer": "table of contents",
+        "accept": [
+          "the table of contents"
+        ],
+        "level": 2,
+        "if_right": "Yes, table of contents! You are right. Remember this trick: Titles, pictures and captions are clues before you read.",
+        "if_wrong": "Nice try! The answer is table of contents. Remember this trick: Titles, pictures and captions are clues before you read. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-synonyms-antonyms",
+    "grade": 2,
+    "category": "comprehension_grammar",
+    "title": "Synonyms and antonyms",
+    "trick": "Synonyms mean the same. Antonyms mean the opposite.",
+    "explain": "Big and large mean the same. Those are synonyms. Hot and cold are opposites. Those are antonyms. Same or opposite?",
+    "examples": [
+      "big, large",
+      "happy, glad",
+      "hot, cold",
+      "up, down"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can find words that mean the same or the opposite.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "Tell me a word that means the opposite of hot.",
+        "answer": "cold",
+        "accept": [
+          "cool",
+          "chilly",
+          "freezing"
+        ],
+        "level": 1,
+        "if_right": "You got it! cold! Great job. Remember this trick: Synonyms mean the same. Antonyms mean the opposite.",
+        "if_wrong": "Good try! The answer is cold. Remember this trick: Synonyms mean the same. Antonyms mean the opposite. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "Tell me a word that means almost the same as big.",
+        "answer": "large",
+        "accept": [
+          "huge",
+          "giant",
+          "enormous",
+          "great"
+        ],
+        "level": 1,
+        "if_right": "You got it! large! Great job. Remember this trick: Synonyms mean the same. Antonyms mean the opposite.",
+        "if_wrong": "Good try! The answer is large. Remember this trick: Synonyms mean the same. Antonyms mean the opposite. Let us try another one."
+      },
+      {
+        "type": "choose",
+        "prompt": "Are happy and sad synonyms or antonyms?",
+        "options": [
+          "synonyms",
+          "antonyms"
+        ],
+        "answer": "antonyms",
+        "accept": [
+          "antonym"
+        ],
+        "level": 2,
+        "if_right": "Yes, antonyms! You are right. Remember this trick: Synonyms mean the same. Antonyms mean the opposite.",
+        "if_wrong": "Nice try! The answer is antonyms. Remember this trick: Synonyms mean the same. Antonyms mean the opposite. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Are quick and fast synonyms or antonyms?",
+        "options": [
+          "synonyms",
+          "antonyms"
+        ],
+        "answer": "synonyms",
+        "accept": [
+          "synonym"
+        ],
+        "level": 2,
+        "if_right": "Yes, synonyms! You are right. Remember this trick: Synonyms mean the same. Antonyms mean the opposite.",
+        "if_wrong": "Nice try! The answer is synonyms. Remember this trick: Synonyms mean the same. Antonyms mean the opposite. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-question-words",
+    "grade": 1,
+    "category": "comprehension_grammar",
+    "title": "Who, what, where, when, why",
+    "trick": "Each question word asks for something different.",
+    "explain": "Who asks about a person. What asks about a thing. Where asks about a place. When asks about time. Why asks for a reason.",
+    "examples": [
+      "Who is that?",
+      "What is this?",
+      "Where is it?",
+      "When is lunch?",
+      "Why is it wet?"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can use who, what, where, when and why.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Which word asks about a place: who or where?",
+        "options": [
+          "who",
+          "where"
+        ],
+        "answer": "where",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, where! You are right. Remember this trick: Each question word asks for something different.",
+        "if_wrong": "Nice try! The answer is where. Remember this trick: Each question word asks for something different. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word asks about a person: who or when?",
+        "options": [
+          "who",
+          "when"
+        ],
+        "answer": "who",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, who! You are right. Remember this trick: Each question word asks for something different.",
+        "if_wrong": "Nice try! The answer is who. Remember this trick: Each question word asks for something different. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word asks about time: when or what?",
+        "options": [
+          "when",
+          "what"
+        ],
+        "answer": "when",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, when! You are right. Remember this trick: Each question word asks for something different.",
+        "if_wrong": "Nice try! The answer is when. Remember this trick: Each question word asks for something different. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word asks for a reason: why or where?",
+        "options": [
+          "why",
+          "where"
+        ],
+        "answer": "why",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, why! You are right. Remember this trick: Each question word asks for something different.",
+        "if_wrong": "Nice try! The answer is why. Remember this trick: Each question word asks for something different. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word asks about a thing: what or who?",
+        "options": [
+          "what",
+          "who"
+        ],
+        "answer": "what",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, what! You are right. Remember this trick: Each question word asks for something different.",
+        "if_wrong": "Nice try! The answer is what. Remember this trick: Each question word asks for something different. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-names-capitals",
+    "grade": 1,
+    "category": "comprehension_grammar",
+    "title": "Big letters for names",
+    "trick": "Names of people, places and days start with a big letter.",
+    "explain": "Sam is a name. It starts with a big letter. Monday is a day. It starts with a big letter. The word I is always big.",
+    "examples": [
+      "Sam",
+      "Florida",
+      "Monday",
+      "I"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "cg-sentences"
+    ],
+    "i_can": "I can use big letters for names.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Which word needs a big letter: dog or sam?",
+        "options": [
+          "dog",
+          "sam"
+        ],
+        "answer": "sam",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, sam! You are right. Remember this trick: Names of people, places and days start with a big letter.",
+        "if_wrong": "Nice try! The answer is sam. Remember this trick: Names of people, places and days start with a big letter. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word needs a big letter: table or tuesday?",
+        "options": [
+          "table",
+          "tuesday"
+        ],
+        "answer": "tuesday",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, tuesday! You are right. Remember this trick: Names of people, places and days start with a big letter.",
+        "if_wrong": "Nice try! The answer is tuesday. Remember this trick: Names of people, places and days start with a big letter. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word needs a big letter: apple or florida?",
+        "options": [
+          "apple",
+          "florida"
+        ],
+        "answer": "florida",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, florida! You are right. Remember this trick: Names of people, places and days start with a big letter.",
+        "if_wrong": "Nice try! The answer is florida. Remember this trick: Names of people, places and days start with a big letter. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does the word I always need a big letter? Yes or no?",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer": "yes",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, yes! You are right. Remember this trick: Names of people, places and days start with a big letter.",
+        "if_wrong": "Nice try! The answer is yes. Remember this trick: Names of people, places and days start with a big letter. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word needs a big letter: ball or lucy?",
+        "options": [
+          "ball",
+          "lucy"
+        ],
+        "answer": "lucy",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, lucy! You are right. Remember this trick: Names of people, places and days start with a big letter.",
+        "if_wrong": "Nice try! The answer is lucy. Remember this trick: Names of people, places and days start with a big letter. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-visualizing",
+    "grade": 1,
+    "category": "comprehension_grammar",
+    "title": "Make a picture in your mind",
+    "trick": "Close your eyes. Make a picture in your mind.",
+    "explain": "Listen to the words. Make a movie in your head. What do you see? What do you hear? What colors are there?",
+    "examples": [
+      "a red balloon floating up"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can see a story in my mind.",
+    "questions": [
+      {
+        "type": "say",
+        "prompt": "The red balloon floated up over the town. What color is the balloon?",
+        "answer": "red",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! red! Great job. Remember this trick: Close your eyes. Make a picture in your mind.",
+        "if_wrong": "Good try! The answer is red. Remember this trick: Close your eyes. Make a picture in your mind. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "A tiny green frog sat on a big wet leaf. What color is the frog?",
+        "answer": "green",
+        "accept": [],
+        "level": 1,
+        "if_right": "You got it! green! Great job. Remember this trick: Close your eyes. Make a picture in your mind.",
+        "if_wrong": "Good try! The answer is green. Remember this trick: Close your eyes. Make a picture in your mind. Let us try another one."
+      },
+      {
+        "type": "say",
+        "prompt": "A tiny green frog sat on a big wet leaf. What is the frog sitting on?",
+        "answer": "a leaf",
+        "accept": [
+          "leaf",
+          "a big wet leaf",
+          "on a leaf",
+          "a wet leaf"
+        ],
+        "level": 2,
+        "if_right": "You got it! a leaf! Great job. Remember this trick: Close your eyes. Make a picture in your mind.",
+        "if_wrong": "Good try! The answer is a leaf. Remember this trick: Close your eyes. Make a picture in your mind. Let us try another one."
+      },
+      {
+        "type": "choose",
+        "prompt": "Close your eyes and picture a rainy day. Which do you see: puddles or a hot sunny beach?",
+        "options": [
+          "puddles",
+          "hot sunny beach"
+        ],
+        "answer": "puddles",
+        "accept": [
+          "puddle"
+        ],
+        "level": 2,
+        "if_right": "Yes, puddles! You are right. Remember this trick: Close your eyes. Make a picture in your mind.",
+        "if_wrong": "Nice try! The answer is puddles. Remember this trick: Close your eyes. Make a picture in your mind. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-retell",
+    "grade": 2,
+    "category": "comprehension_grammar",
+    "title": "Tell the story again",
+    "trick": "Tell the story in a few short sentences.",
+    "explain": "Say who the story is about. Say what happened. Say how it ended. Do not tell every little thing.",
+    "examples": [
+      "Ana lost her ball. A boy found it."
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "cg-sequence",
+      "cg-story-elements"
+    ],
+    "i_can": "I can tell a story in my own words.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Ana lost her ball in the park. She looked all over. A boy found it and gave it back. Which tells the story best?",
+        "options": [
+          "Ana lost her ball and a boy gave it back",
+          "Ana ate lunch at the park"
+        ],
+        "answer": "Ana lost her ball and a boy gave it back",
+        "accept": [
+          "1"
+        ],
+        "level": 1,
+        "if_right": "Yes, Ana lost her ball and a boy gave it back! You are right. Remember this trick: Tell the story in a few short sentences.",
+        "if_wrong": "Nice try! The answer is Ana lost her ball and a boy gave it back. Remember this trick: Tell the story in a few short sentences. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Ana lost her ball. A boy found it and gave it back. How did the story end?",
+        "options": [
+          "Ana lost the ball again",
+          "A boy gave the ball back"
+        ],
+        "answer": "A boy gave the ball back",
+        "accept": [
+          "2"
+        ],
+        "level": 2,
+        "if_right": "Yes, A boy gave the ball back! You are right. Remember this trick: Tell the story in a few short sentences.",
+        "if_wrong": "Nice try! The answer is A boy gave the ball back. Remember this trick: Tell the story in a few short sentences. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "A pup was hungry. He dug in the yard and found a bone. He ate it all. Which tells the story best?",
+        "options": [
+          "A pup took a nap",
+          "A hungry pup found a bone and ate it"
+        ],
+        "answer": "A hungry pup found a bone and ate it",
+        "accept": [
+          "2"
+        ],
+        "level": 2,
+        "if_right": "Yes, A hungry pup found a bone and ate it! You are right. Remember this trick: Tell the story in a few short sentences.",
+        "if_wrong": "Nice try! The answer is A hungry pup found a bone and ate it. Remember this trick: Tell the story in a few short sentences. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-fact-opinion",
+    "grade": 2,
+    "category": "comprehension_grammar",
+    "title": "Fact or opinion",
+    "trick": "A fact is true. An opinion is what you think.",
+    "explain": "Dogs have four legs. That is a fact. It is true. Dogs are the best pets. That is an opinion. Some people may not agree.",
+    "examples": [
+      "Fish live in water.",
+      "Pizza is yummy."
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "cg-main-idea"
+    ],
+    "i_can": "I can tell a fact from an opinion.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "The sky is blue in the day. Fact or opinion?",
+        "options": [
+          "fact",
+          "opinion"
+        ],
+        "answer": "fact",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, fact! You are right. Remember this trick: A fact is true. An opinion is what you think.",
+        "if_wrong": "Nice try! The answer is fact. Remember this trick: A fact is true. An opinion is what you think. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Pizza is the yummiest food. Fact or opinion?",
+        "options": [
+          "fact",
+          "opinion"
+        ],
+        "answer": "opinion",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, opinion! You are right. Remember this trick: A fact is true. An opinion is what you think.",
+        "if_wrong": "Nice try! The answer is opinion. Remember this trick: A fact is true. An opinion is what you think. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "A cat has a tail. Fact or opinion?",
+        "options": [
+          "fact",
+          "opinion"
+        ],
+        "answer": "fact",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, fact! You are right. Remember this trick: A fact is true. An opinion is what you think.",
+        "if_wrong": "Nice try! The answer is fact. Remember this trick: A fact is true. An opinion is what you think. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Summer is the best season. Fact or opinion?",
+        "options": [
+          "fact",
+          "opinion"
+        ],
+        "answer": "opinion",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, opinion! You are right. Remember this trick: A fact is true. An opinion is what you think.",
+        "if_wrong": "Nice try! The answer is opinion. Remember this trick: A fact is true. An opinion is what you think. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Fish live in water. Fact or opinion?",
+        "options": [
+          "fact",
+          "opinion"
+        ],
+        "answer": "fact",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, fact! You are right. Remember this trick: A fact is true. An opinion is what you think.",
+        "if_wrong": "Nice try! The answer is fact. Remember this trick: A fact is true. An opinion is what you think. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-verb-tense",
+    "grade": 2,
+    "category": "comprehension_grammar",
+    "title": "Now and before",
+    "trick": "Walk is now. Walked is before.",
+    "explain": "Today I walk. Yesterday I walked. Some words change a lot. Run becomes ran. Eat becomes ate. Go becomes went.",
+    "examples": [
+      "walk, walked",
+      "run, ran",
+      "eat, ate",
+      "go, went"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "cg-verbs",
+      "wp-suffix-ing-ed"
+    ],
+    "i_can": "I can tell now words from before words.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Yesterday I ___ to the park. Walk or walked?",
+        "options": [
+          "Walk",
+          "walked"
+        ],
+        "answer": "walked",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, walked! You are right. Remember this trick: Walk is now. Walked is before.",
+        "if_wrong": "Nice try! The answer is walked. Remember this trick: Walk is now. Walked is before. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Yesterday I ___ pizza. Eat or ate?",
+        "options": [
+          "Eat",
+          "ate"
+        ],
+        "answer": "ate",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, ate! You are right. Remember this trick: Walk is now. Walked is before.",
+        "if_wrong": "Nice try! The answer is ate. Remember this trick: Walk is now. Walked is before. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Yesterday I ___ to school. Go or went?",
+        "options": [
+          "Go",
+          "went"
+        ],
+        "answer": "went",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, went! You are right. Remember this trick: Walk is now. Walked is before.",
+        "if_wrong": "Nice try! The answer is went. Remember this trick: Walk is now. Walked is before. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Today I ___ fast. Run or ran?",
+        "options": [
+          "run",
+          "ran"
+        ],
+        "answer": "run",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, run! You are right. Remember this trick: Walk is now. Walked is before.",
+        "if_wrong": "Nice try! The answer is run. Remember this trick: Walk is now. Walked is before. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Last week we ___ a movie. See or saw?",
+        "options": [
+          "See",
+          "saw"
+        ],
+        "answer": "saw",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, saw! You are right. Remember this trick: Walk is now. Walked is before.",
+        "if_wrong": "Nice try! The answer is saw. Remember this trick: Walk is now. Walked is before. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-commas-list",
+    "grade": 2,
+    "category": "comprehension_grammar",
+    "title": "Commas in a list",
+    "trick": "Use a comma between things in a list.",
+    "explain": "I like apples, grapes and pears. The commas keep the things apart. A comma is a little curvy mark.",
+    "examples": [
+      "apples, grapes and pears"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "cg-sentences"
+    ],
+    "i_can": "I can use commas in a list.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "I see a cat a dog and a bird. Which word needs a comma after it: cat or dog?",
+        "options": [
+          "cat",
+          "dog"
+        ],
+        "answer": "cat",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, cat! You are right. Remember this trick: Use a comma between things in a list.",
+        "if_wrong": "Nice try! The answer is cat. Remember this trick: Use a comma between things in a list. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "I eat eggs toast and fruit. Which word needs a comma after it: eggs or fruit?",
+        "options": [
+          "eggs",
+          "fruit"
+        ],
+        "answer": "eggs",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, eggs! You are right. Remember this trick: Use a comma between things in a list.",
+        "if_wrong": "Nice try! The answer is eggs. Remember this trick: Use a comma between things in a list. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "What mark goes between things in a list: comma or period?",
+        "options": [
+          "comma",
+          "period"
+        ],
+        "answer": "comma",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, comma! You are right. Remember this trick: Use a comma between things in a list.",
+        "if_wrong": "Nice try! The answer is comma. Remember this trick: Use a comma between things in a list. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "I have a pen a pencil and a ruler. Which word needs a comma after it: pen or ruler?",
+        "options": [
+          "pen",
+          "ruler"
+        ],
+        "answer": "pen",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, pen! You are right. Remember this trick: Use a comma between things in a list.",
+        "if_wrong": "Nice try! The answer is pen. Remember this trick: Use a comma between things in a list. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Does a comma go at the end of a sentence? Yes or no?",
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer": "no",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, no! You are right. Remember this trick: Use a comma between things in a list.",
+        "if_wrong": "Nice try! The answer is no. Remember this trick: Use a comma between things in a list. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-subject-verb",
+    "grade": 2,
+    "category": "comprehension_grammar",
+    "title": "One or more than one",
+    "trick": "One person runs. Two people run.",
+    "explain": "One boy runs. Two boys run. When it is one person, the action word often ends in s. When it is more than one, no s.",
+    "examples": [
+      "The dog barks.",
+      "The dogs bark."
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "cg-verbs"
+    ],
+    "i_can": "I can match the action word to the person.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Which is right: the dog bark or the dog barks?",
+        "options": [
+          "bark",
+          "barks"
+        ],
+        "answer": "barks",
+        "accept": [
+          "the dog barks"
+        ],
+        "level": 1,
+        "if_right": "Yes, barks! You are right. Remember this trick: One person runs. Two people run.",
+        "if_wrong": "Nice try! The answer is barks. Remember this trick: One person runs. Two people run. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which is right: two girls jump or two girls jumps?",
+        "options": [
+          "two girls jump",
+          "two girls jumps"
+        ],
+        "answer": "two girls jump",
+        "accept": [
+          "jump"
+        ],
+        "level": 2,
+        "if_right": "Yes, two girls jump! You are right. Remember this trick: One person runs. Two people run.",
+        "if_wrong": "Nice try! The answer is two girls jump. Remember this trick: One person runs. Two people run. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which is right: my mom cook or my mom cooks?",
+        "options": [
+          "my mom cook",
+          "my mom cooks"
+        ],
+        "answer": "my mom cooks",
+        "accept": [
+          "cooks"
+        ],
+        "level": 2,
+        "if_right": "Yes, my mom cooks! You are right. Remember this trick: One person runs. Two people run.",
+        "if_wrong": "Nice try! The answer is my mom cooks. Remember this trick: One person runs. Two people run. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which is right: the birds sing or the birds sings?",
+        "options": [
+          "the birds sing",
+          "the birds sings"
+        ],
+        "answer": "the birds sing",
+        "accept": [
+          "sing"
+        ],
+        "level": 2,
+        "if_right": "Yes, the birds sing! You are right. Remember this trick: One person runs. Two people run.",
+        "if_wrong": "Nice try! The answer is the birds sing. Remember this trick: One person runs. Two people run. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which is right: he run fast or he runs fast?",
+        "options": [
+          "he run fast",
+          "he runs fast"
+        ],
+        "answer": "he runs fast",
+        "accept": [
+          "runs"
+        ],
+        "level": 3,
+        "if_right": "Yes, he runs fast! You are right. Remember this trick: One person runs. Two people run.",
+        "if_wrong": "Nice try! The answer is he runs fast. Remember this trick: One person runs. Two people run. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-a-an",
+    "grade": 1,
+    "category": "comprehension_grammar",
+    "title": "A or an",
+    "trick": "Use an before a vowel sound. Use a before other sounds. An apple, a dog.",
+    "explain": "Say an when a word starts with a vowel sound. Say a before the rest. An egg. A cat.",
+    "examples": [
+      "an apple",
+      "an egg",
+      "a cat",
+      "an hour"
+    ],
+    "exceptions": [
+      "Hour starts with a vowel sound, so we say an hour."
+    ],
+    "prereqs": [
+      "sa-vowels-consonants"
+    ],
+    "i_can": "I can use a and an.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Which is right: a apple or an apple?",
+        "options": [
+          "a apple",
+          "an apple"
+        ],
+        "answer": "an apple",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, an apple! You are right. Remember this trick: Use an before a vowel sound. Use a before other sounds. An apple, a dog.",
+        "if_wrong": "Nice try! The answer is an apple. Remember this trick: Use an before a vowel sound. Use a before other sounds. An apple, a dog. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which is right: a egg or an egg?",
+        "options": [
+          "a egg",
+          "an egg"
+        ],
+        "answer": "an egg",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, an egg! You are right. Remember this trick: Use an before a vowel sound. Use a before other sounds. An apple, a dog.",
+        "if_wrong": "Nice try! The answer is an egg. Remember this trick: Use an before a vowel sound. Use a before other sounds. An apple, a dog. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which is right: a cat or an cat?",
+        "options": [
+          "a cat",
+          "an cat"
+        ],
+        "answer": "a cat",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, a cat! You are right. Remember this trick: Use an before a vowel sound. Use a before other sounds. An apple, a dog.",
+        "if_wrong": "Nice try! The answer is a cat. Remember this trick: Use an before a vowel sound. Use a before other sounds. An apple, a dog. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which is right: a hour or an hour?",
+        "options": [
+          "a hour",
+          "an hour"
+        ],
+        "answer": "an hour",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, an hour! You are right. Remember this trick: Use an before a vowel sound. Use a before other sounds. An apple, a dog.",
+        "if_wrong": "Nice try! The answer is an hour. Remember this trick: Use an before a vowel sound. Use a before other sounds. An apple, a dog. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-pronouns",
+    "grade": 1,
+    "category": "comprehension_grammar",
+    "title": "Pronouns: he, she, it, they",
+    "trick": "A pronoun takes the place of a name. He, she, it and they are pronouns.",
+    "explain": "Sam is a boy, so we can say he. Mom is a girl, so we can say she. A ball is a thing, so we can say it. Many people are they.",
+    "examples": [
+      "he",
+      "she",
+      "it",
+      "they",
+      "we"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "cg-nouns"
+    ],
+    "i_can": "I can use he, she, it and they.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Which word can take the place of Sam: he or it?",
+        "options": [
+          "he",
+          "it"
+        ],
+        "answer": "he",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, he! You are right. Remember this trick: A pronoun takes the place of a name. He, she, it and they are pronouns.",
+        "if_wrong": "Nice try! The answer is he. Remember this trick: A pronoun takes the place of a name. He, she, it and they are pronouns. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word can take the place of Mom: she or he?",
+        "options": [
+          "she",
+          "he"
+        ],
+        "answer": "she",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, she! You are right. Remember this trick: A pronoun takes the place of a name. He, she, it and they are pronouns.",
+        "if_wrong": "Nice try! The answer is she. Remember this trick: A pronoun takes the place of a name. He, she, it and they are pronouns. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word can take the place of the ball: it or he?",
+        "options": [
+          "it",
+          "he"
+        ],
+        "answer": "it",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, it! You are right. Remember this trick: A pronoun takes the place of a name. He, she, it and they are pronouns.",
+        "if_wrong": "Nice try! The answer is it. Remember this trick: A pronoun takes the place of a name. He, she, it and they are pronouns. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which word can take the place of the dogs: they or she?",
+        "options": [
+          "they",
+          "she"
+        ],
+        "answer": "they",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, they! You are right. Remember this trick: A pronoun takes the place of a name. He, she, it and they are pronouns.",
+        "if_wrong": "Nice try! The answer is they. Remember this trick: A pronoun takes the place of a name. He, she, it and they are pronouns. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-adverbs",
+    "grade": 2,
+    "category": "comprehension_grammar",
+    "title": "Words that tell how: adverbs",
+    "trick": "Some words tell how something is done. Slowly, quickly, quietly. Many end in ly.",
+    "explain": "In She walks slowly, the word slowly tells how she walks. Adverbs tell how.",
+    "examples": [
+      "slowly",
+      "quickly",
+      "quietly",
+      "happily"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "cg-verbs"
+    ],
+    "i_can": "I can find words that tell how.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "In She walks slowly, which word tells how she walks?",
+        "options": [
+          "slowly",
+          "walks",
+          "she"
+        ],
+        "answer": "slowly",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, slowly! You are right. Remember this trick: Some words tell how something is done. Slowly, quickly, quietly. Many end in ly.",
+        "if_wrong": "Nice try! The answer is slowly. Remember this trick: Some words tell how something is done. Slowly, quickly, quietly. Many end in ly. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "In He ate quietly, which word tells how he ate?",
+        "options": [
+          "quietly",
+          "ate",
+          "he"
+        ],
+        "answer": "quietly",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, quietly! You are right. Remember this trick: Some words tell how something is done. Slowly, quickly, quietly. Many end in ly.",
+        "if_wrong": "Nice try! The answer is quietly. Remember this trick: Some words tell how something is done. Slowly, quickly, quietly. Many end in ly. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Add ly to quick. What is the new word?",
+        "answer": "quickly",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled quickly right! It is q, u, i, c, k, l, y. Remember this trick: Some words tell how something is done. Slowly, quickly, quietly. Many end in ly.",
+        "if_wrong": "Good try! quickly is spelled q, u, i, c, k, l, y. Remember this trick: Some words tell how something is done. Slowly, quickly, quietly. Many end in ly. Let us try one more."
+      },
+      {
+        "type": "choose",
+        "prompt": "Which one tells how: happily or happy?",
+        "options": [
+          "happily",
+          "happy"
+        ],
+        "answer": "happily",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes, happily! You are right. Remember this trick: Some words tell how something is done. Slowly, quickly, quietly. Many end in ly.",
+        "if_wrong": "Nice try! The answer is happily. Remember this trick: Some words tell how something is done. Slowly, quickly, quietly. Many end in ly. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-irregular-verbs",
+    "grade": 2,
+    "category": "comprehension_grammar",
+    "title": "Verbs that change a lot",
+    "trick": "Some verbs change a lot for yesterday. Go becomes went. Run becomes ran.",
+    "explain": "Most verbs add ed for yesterday. But some change a lot. Go becomes went. Eat becomes ate. See becomes saw.",
+    "examples": [
+      "go - went",
+      "run - ran",
+      "eat - ate",
+      "see - saw"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "cg-verb-tense"
+    ],
+    "i_can": "I can use verbs for yesterday.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "Yesterday I ___ to school. Is it go or went?",
+        "options": [
+          "go",
+          "went"
+        ],
+        "answer": "went",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, went! You are right. Remember this trick: Some verbs change a lot for yesterday. Go becomes went. Run becomes ran.",
+        "if_wrong": "Nice try! The answer is went. Remember this trick: Some verbs change a lot for yesterday. Go becomes went. Run becomes ran. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "Yesterday she ___ an apple. Is it eat or ate?",
+        "options": [
+          "eat",
+          "ate"
+        ],
+        "answer": "ate",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, ate! You are right. Remember this trick: Some verbs change a lot for yesterday. Go becomes went. Run becomes ran.",
+        "if_wrong": "Nice try! The answer is ate. Remember this trick: Some verbs change a lot for yesterday. Go becomes went. Run becomes ran. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Today I run. Yesterday I ___. Spell the word.",
+        "answer": "ran",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled ran right! It is r, a, n. Remember this trick: Some verbs change a lot for yesterday. Go becomes went. Run becomes ran.",
+        "if_wrong": "Good try! ran is spelled r, a, n. Remember this trick: Some verbs change a lot for yesterday. Go becomes went. Run becomes ran. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Today I see. Yesterday I ___. Spell the word.",
+        "answer": "saw",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled saw right! It is s, a, w. Remember this trick: Some verbs change a lot for yesterday. Go becomes went. Run becomes ran.",
+        "if_wrong": "Good try! saw is spelled s, a, w. Remember this trick: Some verbs change a lot for yesterday. Go becomes went. Run becomes ran. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "cg-sentence-types",
+    "grade": 1,
+    "category": "comprehension_grammar",
+    "title": "Period, question mark, exclamation point",
+    "trick": "A period ends a telling sentence. A question mark ends a question. An exclamation point shows a big feeling.",
+    "explain": "A telling sentence ends with a period. A question ends with a question mark. A big feeling ends with an exclamation point.",
+    "examples": [
+      "I like pie.",
+      "Do you like pie?",
+      "Wow, I love pie!"
+    ],
+    "exceptions": [],
+    "prereqs": [
+      "cg-sentences"
+    ],
+    "i_can": "I can pick the right end mark.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "What goes at the end of: Where is my hat? Say period, question mark or exclamation point.",
+        "options": [
+          "question mark",
+          "exclamation point"
+        ],
+        "answer": "question mark",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, question mark! You are right. Remember this trick: A period ends a telling sentence. A question mark ends a question. An exclamation point shows a big feeling.",
+        "if_wrong": "Nice try! The answer is question mark. Remember this trick: A period ends a telling sentence. A question mark ends a question. An exclamation point shows a big feeling. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "What goes at the end of: I like pie. Say period, question mark or exclamation point.",
+        "options": [
+          "period",
+          "question mark",
+          "exclamation point"
+        ],
+        "answer": "period",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, period! You are right. Remember this trick: A period ends a telling sentence. A question mark ends a question. An exclamation point shows a big feeling.",
+        "if_wrong": "Nice try! The answer is period. Remember this trick: A period ends a telling sentence. A question mark ends a question. An exclamation point shows a big feeling. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "What goes at the end of: Wow, that is great! Say period, question mark or exclamation point.",
+        "options": [
+          "period",
+          "question mark",
+          "exclamation point"
+        ],
+        "answer": "exclamation point",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes, exclamation point! You are right. Remember this trick: A period ends a telling sentence. A question mark ends a question. An exclamation point shows a big feeling.",
+        "if_wrong": "Nice try! The answer is exclamation point. Remember this trick: A period ends a telling sentence. A question mark ends a question. An exclamation point shows a big feeling. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-multiple-meaning",
+    "grade": 2,
+    "category": "comprehension_grammar",
+    "title": "Words with two meanings",
+    "trick": "Some words have two meanings. Look at the other words to find out which one.",
+    "explain": "Bat can be an animal. Bat can also be a stick for baseball. The other words in the sentence tell you which one.",
+    "examples": [
+      "bat",
+      "duck",
+      "ring",
+      "bark"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can figure out which meaning a word has.",
+    "questions": [
+      {
+        "type": "choose",
+        "prompt": "In The bat flew at night, does bat mean an animal or a stick?",
+        "options": [
+          "animal",
+          "stick"
+        ],
+        "answer": "animal",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, animal! You are right. Remember this trick: Some words have two meanings. Look at the other words to find out which one.",
+        "if_wrong": "Nice try! The answer is animal. Remember this trick: Some words have two meanings. Look at the other words to find out which one. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "In He hit the ball with a bat, does bat mean an animal or a stick?",
+        "options": [
+          "animal",
+          "stick"
+        ],
+        "answer": "stick",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes, stick! You are right. Remember this trick: Some words have two meanings. Look at the other words to find out which one.",
+        "if_wrong": "Nice try! The answer is stick. Remember this trick: Some words have two meanings. Look at the other words to find out which one. Let us try again."
+      },
+      {
+        "type": "choose",
+        "prompt": "In Duck under the branch, does duck mean a bird or bend down?",
+        "options": [
+          "bird",
+          "bend down"
+        ],
+        "answer": "bend down",
+        "accept": [
+          "bend"
+        ],
+        "level": 2,
+        "if_right": "Yes, bend down! You are right. Remember this trick: Some words have two meanings. Look at the other words to find out which one.",
+        "if_wrong": "Nice try! The answer is bend down. Remember this trick: Some words have two meanings. Look at the other words to find out which one. Let us try again."
+      }
+    ]
+  },
+  {
+    "id": "cg-days-months",
+    "grade": 1,
+    "category": "comprehension_grammar",
+    "title": "Days and months",
+    "trick": "There are seven days in a week. There are twelve months in a year. Days and months start with a big letter.",
+    "explain": "The days are Monday to Sunday. The months are January to December. Always start them with a big letter.",
+    "examples": [
+      "Monday",
+      "Tuesday",
+      "January",
+      "February"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can spell days and months.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the day that comes after Monday.",
+        "answer": "tuesday",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled tuesday right! It is t, u, e, s, d, a, y. Remember this trick: There are seven days in a week. There are twelve months in a year. Days and months start with a big letter.",
+        "if_wrong": "Good try! tuesday is spelled t, u, e, s, d, a, y. Remember this trick: There are seven days in a week. There are twelve months in a year. Days and months start with a big letter. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the month that comes after January.",
+        "answer": "february",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled february right! It is f, e, b, r, u, a, r, y. Remember this trick: There are seven days in a week. There are twelve months in a year. Days and months start with a big letter.",
+        "if_wrong": "Good try! february is spelled f, e, b, r, u, a, r, y. Remember this trick: There are seven days in a week. There are twelve months in a year. Days and months start with a big letter. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the day that comes after Friday.",
+        "answer": "saturday",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled saturday right! It is s, a, t, u, r, d, a, y. Remember this trick: There are seven days in a week. There are twelve months in a year. Days and months start with a big letter.",
+        "if_wrong": "Good try! saturday is spelled s, a, t, u, r, d, a, y. Remember this trick: There are seven days in a week. There are twelve months in a year. Days and months start with a big letter. Let us try one more."
+      },
+      {
+        "type": "count",
+        "prompt": "How many days are in a week?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "accept": [
+          "seven"
+        ],
+        "level": 1,
+        "if_right": "Yes, 7! You are right. Remember this trick: There are seven days in a week. There are twelve months in a year. Days and months start with a big letter.",
+        "if_wrong": "Nice try! The answer is 7. Remember this trick: There are seven days in a week. There are twelve months in a year. Days and months start with a big letter. Let us try again."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the month that comes after June.",
+        "answer": "july",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled july right! It is j, u, l, y. Remember this trick: There are seven days in a week. There are twelve months in a year. Days and months start with a big letter.",
+        "if_wrong": "Good try! july is spelled j, u, l, y. Remember this trick: There are seven days in a week. There are twelve months in a year. Days and months start with a big letter. Let us try one more."
+      }
+    ]
+  },
+  {
+    "id": "cg-number-words",
+    "grade": 1,
+    "category": "comprehension_grammar",
+    "title": "Number words",
+    "trick": "Numbers have letter names too. Five is spelled f, i, v, e.",
+    "explain": "You can write numbers with letters. 5 is five. 8 is eight. 12 is twelve. 20 is twenty.",
+    "examples": [
+      "five",
+      "eight",
+      "twelve",
+      "twenty"
+    ],
+    "exceptions": [],
+    "prereqs": [],
+    "i_can": "I can spell number words.",
+    "questions": [
+      {
+        "type": "spell",
+        "prompt": "Spell the number 5 with letters.",
+        "answer": "five",
+        "accept": [],
+        "level": 1,
+        "if_right": "Yes! You spelled five right! It is f, i, v, e. Remember this trick: Numbers have letter names too. Five is spelled f, i, v, e.",
+        "if_wrong": "Good try! five is spelled f, i, v, e. Remember this trick: Numbers have letter names too. Five is spelled f, i, v, e. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the number 8 with letters.",
+        "answer": "eight",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled eight right! It is e, i, g, h, t. Remember this trick: Numbers have letter names too. Five is spelled f, i, v, e.",
+        "if_wrong": "Good try! eight is spelled e, i, g, h, t. Remember this trick: Numbers have letter names too. Five is spelled f, i, v, e. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the number 12 with letters.",
+        "answer": "twelve",
+        "accept": [],
+        "level": 2,
+        "if_right": "Yes! You spelled twelve right! It is t, w, e, l, v, e. Remember this trick: Numbers have letter names too. Five is spelled f, i, v, e.",
+        "if_wrong": "Good try! twelve is spelled t, w, e, l, v, e. Remember this trick: Numbers have letter names too. Five is spelled f, i, v, e. Let us try one more."
+      },
+      {
+        "type": "spell",
+        "prompt": "Spell the number 20 with letters.",
+        "answer": "twenty",
+        "accept": [],
+        "level": 3,
+        "if_right": "Yes! You spelled twenty right! It is t, w, e, n, t, y. Remember this trick: Numbers have letter names too. Five is spelled f, i, v, e.",
+        "if_wrong": "Good try! twenty is spelled t, w, e, n, t, y. Remember this trick: Numbers have letter names too. Five is spelled f, i, v, e. Let us try one more."
+      }
+    ]
+  }
+]
